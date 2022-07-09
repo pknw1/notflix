@@ -1,0 +1,37 @@
+version: '3'
+
+services:
+  rclone_rclone:
+    image: rclone/rclone:latest
+    container_name: rclone_rclone
+    hostname: rclone
+    restart: always
+    command: rcd --rc-web-gui --rc-addr :5572 --rc-user pknw1 --rc-pass !C0nduit77
+    networks:
+      - proxy
+    devices:
+      - /dev/fuse:/dev/fuse
+    security_opt:
+      - apparmor:unconfined
+    cap_add:
+      - SYS_ADMIN
+      - SETPCAP
+    volumes:
+      - /home/docker/.config/rclone:/config/rclone
+      - /var/log/rclone:/logs
+      - /content/remote:/shared:shared
+      - /mnt/rclone:/mnt/rclone:shared
+    environment:
+      - PHP_TZ=Europe/London
+      - RCLONE_REMOTE_MOUNT=remote:/
+      - PUID=666
+      - PGID=666
+      - VIRTUAL_HOST=rclone.pknw1.co.uk
+      - VIRTUAL_PORT=5572
+
+
+
+networks:
+  proxy:
+    external:
+      name: proxy

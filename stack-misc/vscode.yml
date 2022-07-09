@@ -1,0 +1,26 @@
+---
+version: "2.1"
+services:
+  code-server:
+    image: lscr.io/linuxserver/code-server:latest
+    container_name: code-server
+    networks:
+      - proxy
+    environment:
+      - PUID=666
+      - PGID=666
+      - TZ=Europe/London
+      - DEFAULT_WORKSPACE=/config/workspace #optional
+      - VIRTUAL_HOST=vscode.pknw1.co.uk
+      - VIRTUAL_PORT=8443
+      - VIRTUAL_PROTO=http
+    ports:
+      - 8443:8443
+    volumes:
+      - ./config/code-server/:/config
+    restart: unless-stopped
+
+networks:
+  proxy:
+    external:
+      name: proxy

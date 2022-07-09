@@ -1,0 +1,17 @@
+version: "3"
+
+services:
+  endlessh:
+    container_name: endlessh
+    image: lscr.io/linuxserver/endlessh:latest
+    dns:
+      - 8.8.8.8
+    restart: unless-stopped
+    volumes:
+      - ./config/endlessh:/config
+    environment:
+      - TZ=Europe/London
+    ports:
+      - 192.99.13.66:22:22
+
+

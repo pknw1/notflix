@@ -1,0 +1,32 @@
+
+version: '3'
+
+services:
+  cadvisor:
+    image: gcr.io/cadvisor/cadvisor:latest
+    container_name: cadvisor
+    hostname: cadvisor
+    restart: always
+    networks:
+      - proxy
+    privileged: true
+    volumes:
+      - ./config/cadvisor:/config
+      - /:/rootfs:ro
+      - /var/run:/var/run:ro
+      - /sys:/sys:ro
+      - /var/lib/docker:/var/lib/docker:ro
+      - /dev/disk:/dev/disk:ro
+    devices:
+      - /dev/kmesg:/dev/kmesg
+    environment:
+      - PHP_TZ=Europe/London
+      - PUID=666
+      - PGID=666
+      - VIRTUAL_HOST=cadvisor.pknw1.co.uk
+      - VIRTUAL_PORT=8080
+
+networks:
+  proxy:
+    external:
+      name: proxy

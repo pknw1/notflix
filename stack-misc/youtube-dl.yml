@@ -1,0 +1,28 @@
+
+version: '3'
+
+services:
+  youtube-dl:
+    image: mybrc91/youtube-dl-webui:latest
+    container_name: youtube-dl
+    hostname: youtube-dl
+    restart: always
+    networks:
+      - proxy
+    volumes:
+      - ./config/youtube-dl:/config
+      - /:/host
+      - /download:/download
+      - /tmp/youtube-dl:/tmp
+    environment:
+      - TZ=Europe/London
+      - PUID=0
+      - PGID=0
+      - CONF_FILE=/config/config.json
+      - VIRTUAL_HOST=youtube-dl.pknw1.co.uk
+      - VIRTUAL_PORT=5000
+
+networks:
+  proxy:
+    external:
+      name: proxy

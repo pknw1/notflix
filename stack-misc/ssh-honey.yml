@@ -1,0 +1,25 @@
+version: "3"
+
+services:
+  sshesame:
+    container_name: sshesame
+    image: ghcr.io/jaksi/sshesame:latest
+    dns:
+      - 8.8.8.8
+    restart: unless-stopped
+    volumes:
+      - ./config/sshesame:/data
+      - ./config/sshesame/config.yml:/config.yaml
+    networks:
+      - proxy
+    environment:
+      - TZ=Europe/London
+    ports:
+      - 192.99.13.66:22:22
+
+networks:
+  proxy:
+    external:
+      name: proxy
+
+

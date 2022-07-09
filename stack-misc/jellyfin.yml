@@ -1,0 +1,28 @@
+
+version: '3'
+
+services:
+  jellyfin:
+    image: ghcr.io/linuxserver/jellyfin:latest
+    container_name: jellyfin
+    hostname: jellyfin
+    restart: always
+    ports:
+      - 8096:8096
+    networks:
+      - proxy
+    volumes:
+      - ./config/jellyfin:/config
+      - /:/host
+    environment:
+      - PHP_TZ=Europe/London
+      - PUID=666
+      - PGID=666
+      - VIRTUAL_HOST=jellyfin.pknw1.co.uk
+      - VIRTUAL_PORT=8096
+
+networks:
+  proxy:
+    external:
+      name: proxy
+

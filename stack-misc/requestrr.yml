@@ -1,0 +1,26 @@
+
+version: '3'
+
+services:
+  requestrr:
+    image: ghcr.io/linuxserver/requestrr
+    container_name: requestrr
+    hostname: requestrr
+    restart: always
+    networks:
+      - proxy
+    volumes:
+      - ./config/requestrr:/config
+      - /tmp/requestrr-newsletters:/config/newsletters:shared
+      - /:/host
+    environment:
+      - TZ=Europe/London
+      - PUID=666
+      - PGID=666
+      - VIRTUAL_HOST=requestrr.pknw1.co.uk
+      - VIRTUAL_PORT=4545
+
+networks:
+  proxy:
+    external:
+      name: proxy

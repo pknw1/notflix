@@ -1,0 +1,37 @@
+version: '3'
+
+services:
+  siab:
+    image: sspreitzer/shellinabox:latest
+    container_name: siab
+    restart: always
+    hostname: siab
+    privileged: false #optional
+    dns:
+      - 8.8.8.8
+    networks:
+      - proxy
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - /var/run/dbus:/var/run/dbus
+      - /dev/shm:/dev/dev/shm
+      - ./config/siab:/config
+      - /tmp:/tmp
+    environment:
+      - TZ=Europe/London
+      - VIRTUAL_HOST=ssh.pknw1.co.uk
+      - VIRTUAL_PORT=4200
+      - VIRTUAL_PROTO=https
+      - SIAB_USER=pknw1
+      - SIAB_PASSWORD=${PASS}
+      - SIAB_HOME=/config/home/pknw1
+      - SIAB_SUDO=false
+      - SIAB_USERID=666
+      - PUID=666
+      - PGID=666
+
+
+networks:
+  proxy:
+    external:
+      name: proxy

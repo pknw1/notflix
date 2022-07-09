@@ -1,0 +1,28 @@
+
+version: '3'
+
+services:
+  lidarr:
+    image: ghcr.io/linuxserver/lidarr:latest
+    container_name: lidarr
+    hostname: lidarr
+    restart: always
+    ports:
+      - 8686:8686
+    networks:
+      - proxy
+    volumes:
+      - ./config/lidarr:/config
+      - /:/host
+    environment:
+      - PHP_TZ=Europe/London
+      - PUID=666
+      - PGID=666
+      - VIRTUAL_HOST=lidarr.pknw1.co.uk
+      - VIRTUAL_PORT=8686
+
+networks:
+  proxy:
+    external:
+      name: proxy
+

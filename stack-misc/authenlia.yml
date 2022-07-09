@@ -1,0 +1,45 @@
+version: '3'
+
+services:
+  authelia:
+    image: authelia/authelia:latest #pknw1/authelia:latest #drkno/plexsso:latest
+    container_name: authelia
+    restart: always
+    hostname: authelia
+    dns:
+      - 8.8.8.8
+    networks:
+      - proxy
+    ports:
+      - 9091:9091
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - /tmp:/tmp
+      - ./config/authelia:/config
+    environment:
+      - TZ=Europe/London
+      - VIRTUAL_HOST=authelia.pknw1.co.uk
+      - VIRTUAL_PORT=9091
+      - PUID=666
+      - PGID=666
+
+  redis:
+    image: redis:alpine
+    container_name: redis
+    volumes:
+      - ./config/redis:/data
+    networks:
+      - proxy
+    ports:
+      - 6379:6379
+    expose:
+      - 6379
+    restart: unless-stopped
+    environment:
+      - TZ=Europe/London
+
+networks:
+  proxy:
+    external:
+      name: proxy
+

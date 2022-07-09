@@ -1,0 +1,24 @@
+version: "3"
+
+services:
+  honeypot:
+    container_name: honeypot
+    image: ssh-honeypot:latest
+    dns:
+      - 8.8.8.8
+    restart: unless-stopped
+    volumes:
+      - ./config/honeypot:/ssh-honeypot
+    networks:
+      - proxy
+    environment:
+      - TZ=Europe/London
+    ports:
+      - 2222:22
+
+networks:
+  proxy:
+    external:
+      name: proxy
+
+

@@ -1,0 +1,25 @@
+
+version: '3'
+
+services:
+  yt-dlp:
+    image: jeeaaasustest/youtube-dl
+    container_name: yt-dlp
+    hostname: yt-dlp
+    restart: always
+    networks:
+      - proxy
+    volumes:
+      - ./config/yt-dlp:/config
+      - /:/host
+      - /download/youtube:/downloads
+      - /tmp/yt-dlp:/tmp
+    environment:
+      - TZ=Europe/London
+      - PUID=0
+      - PGID=0
+
+networks:
+  proxy:
+    external:
+      name: proxy

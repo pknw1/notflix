@@ -1,0 +1,9 @@
+*
+!stack-core/
+!stack-core/docker-compose.yml
+!stack-notflix/
+!stack-notflix/docker-compose.yml
+!stack-misc/
+!stack-misc/*.yml
+!stack-plex/
+!stack-plex/docker-compose.yml

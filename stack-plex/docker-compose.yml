@@ -1,0 +1,38 @@
+#version: '3'
+
+services:
+
+  plex:
+    image: linuxserver/plex:latest
+    container_name: plex
+    restart: always
+    hostname: plex
+    ports:
+      - 0.0.0.0:32400:32400/tcp
+    dns:
+      - 8.8.8.8
+    networks:
+      - proxy
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - /etc/ssl:/etc/ssl:ro
+      - /etc/localtime:/etc/localtime:ro
+      - /tmp:/tmp
+      - ./config/plex:/config
+      - /shared:/shared
+      - /download:/download
+      - /content:/content
+      - /:/host
+    environment:
+      - TZ=Europe/London
+      - VIRTUAL_HOST=plex.pknw1.co.uk
+      - VIRTUAL_PORT=32400
+      - VIRTUAL_PROTO=https
+      - PUID=666
+      - PGID=666
+      - PLEX_CLAIM=claim-zWsraPzn6zp8-t9J8Byx
+
+networks:
+  proxy:
+    external:
+      name: proxy

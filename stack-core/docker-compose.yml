@@ -1,0 +1,89 @@
+version: '3'
+
+services:
+  proxy:
+    image: jwilder/nginx-proxy:latest
+    container_name: proxy
+    restart: always
+    hostname: proxy
+    dns:
+      - 8.8.8.8
+    networks:
+      - proxy
+    ports:
+      - 172.18.0.1:8088:80
+    volumes:
+      - /var/run/docker.sock:/tmp/docker.sock:ro
+      - /var/run/php-fpm.sock:/var/run/php-fpm.sock
+      - /etc/ssl:/etc/ssl
+      - /etc/localtime:/etc/localtime
+      - /tmp:/tmp
+      - ./config/proxy-ks5/etc/nginx:/etc/nginx
+      - ./config/proxy-ks5/var/www:/var/www
+      - /download:/incoming:ro
+      - /content:/media:ro
+      - /shared:/shared
+      - /:/host
+    environment:
+      - TZ=Europe/London
+      - VIRTUAL_HOST=proxy.pknw1.co.uk
+      - VIRTUAL_PORT=80
+      - PUID=666
+      - PGID=666
+
+
+  portainer:
+    image: portainer/portainer:latest
+    container_name: portainer
+    restart: always
+    hostname: portainer
+    dns:
+      - 8.8.8.8
+    networks:
+      - proxy
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - /etc/ssl:/etc/ssl:ro
+      - /etc/localtime:/etc/localtime:ro
+      - /tmp:/tmp
+      - ./config/portainer:/data
+      - /shared:/shared
+      - /download:/download
+      - /content:/content
+      - /:/host:ro
+    environment:
+      - TZ=Europe/London
+      - VIRTUAL_HOST=portainer.pknw1.co.uk
+      - VIRTUAL_PORT=9000
+      - PUID=666
+      - PGID=666
+
+  auth:
+    image: pknw1/plexssov2:latest #pknw1/auth:latest #drkno/plexsso:latest
+    container_name: auth
+    restart: always
+    hostname: auth
+    dns:
+      - 8.8.8.8
+    networks:
+      - proxy
+    volumes:
+      - /etc/ssl:/etc/ssl:ro
+      - /etc/localtime:/etc/localtime:ro
+      - /tmp:/tmp
+      - ./config/auth:/config
+      - /:/host:ro
+    environment:
+      - TZ=Europe/London
+      - VIRTUAL_HOST=sso.pknw1.co.uk
+      - VIRTUAL_PORT=4200
+      - PUID=666
+      - PGID=666
+
+
+
+networks:
+  proxy:
+    external:
+      name: proxy
+

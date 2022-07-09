@@ -1,0 +1,29 @@
+
+version: '3'
+
+services:
+  tvheadend:
+    image: ghcr.io/linuxserver/tvheadend:latest
+    container_name: tvheadend
+    hostname: tvheadend
+    restart: always
+    ports:
+      - 9981:9981
+      - 9982:9982
+    networks:
+      - proxy
+    volumes:
+      - ./config/tvheadend:/config
+      - /:/host
+    environment:
+      - PHP_TZ=Europe/London
+      - PUID=666
+      - PGID=666
+      - VIRTUAL_HOST=tvheadend.pknw1.co.uk
+      - VIRTUAL_PORT=9981
+
+networks:
+  proxy:
+    external:
+      name: proxy
+

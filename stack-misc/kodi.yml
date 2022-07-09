@@ -1,0 +1,31 @@
+
+version: '3'
+
+services:
+  kodi:
+    image: linuxserver/kodi-headless
+    container_name: kodi
+    hostname: kodi
+    restart: always
+    ports:
+      - 0.0.0.0:9090:9090
+      - 0.0.0.0:9999:9999
+      - 0.0.0.0:9777:9777/udp
+    networks:
+      - proxy
+    volumes:
+      - /content:/content
+      - /content/movies:/movies
+      - ./config/kodi:/config/.kodi
+      - /:/host
+    environment:
+      - TZ=Europe/London
+      - PUID=666
+      - PGID=666
+      - VIRTUAL_HOST=kodi.pknw1.co.uk
+      - VIRTUAL_PORT=8080
+
+networks:
+  proxy:
+    external:
+      name: proxy

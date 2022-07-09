@@ -1,0 +1,24 @@
+version: "3"
+
+services:
+  fakessh:
+    container_name: fakessh
+    image: fffaraz/fakessh:latest
+    dns:
+      - 8.8.8.8
+    restart: unless-stopped
+    volumes:
+      - ./config/fakessh:/config
+    networks:
+      - proxy
+    environment:
+      - TZ=Europe/London
+    ports:
+      - 149.202.72.112:22:22
+
+networks:
+  proxy:
+    external:
+      name: proxy
+
+

@@ -1,0 +1,25 @@
+version: "3"
+
+services:
+  cowrie:
+    container_name: cowrie
+    image: cowrie/cowrie:latest
+    dns:
+      - 8.8.8.8
+    restart: unless-stopped
+    volumes:
+      - ./config/cowrie:/config
+      - ./config/cowrie/cowrie.cfg:/etc/cowrie.cfg
+    networks:
+      - proxy
+    environment:
+      - TZ=Europe/London
+    ports:
+      - 22:2222
+
+networks:
+  proxy:
+    external:
+      name: proxy
+
+

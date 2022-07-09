@@ -1,0 +1,40 @@
+version: '3'
+
+services:
+  webtopx:
+    image: pknw1/webtop-xrdp:alpine
+    container_name: webtopxrdp
+    restart: always
+    hostname: webtoprdp
+    privileged: true #optional
+    dns:
+      - 8.8.8.8
+    networks:
+      - proxy
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - /etc/localtime:/etc/localtime:ro
+      - /var/run/dbus:/var/run/dbus
+      - /dev/shm:/dev/dev/shm
+      - ./config/webtop:/config
+      - ./config/webtop/etc:/etc
+      - /home:/home
+      - /tmp:/tmp
+      - /shared:/shared
+      - /download:/download
+      - /content:/content
+      - /:/host:ro
+    ports:
+      - 0.0.0.0:3489:3389
+    environment:
+      - TZ=Europe/London
+      - VIRTUAL_HOST=xfce4.pknw1.co.uk
+      - VIRTUAL_PORT=3000
+      - PUID=666
+      - PGID=666
+
+
+networks:
+  proxy:
+    external:
+      name: proxy

@@ -1,0 +1,28 @@
+
+version: '3'
+
+services:
+  maintainerr:
+    image:  jorenn92/maintainerr:latest
+    container_name: maintainerr
+    hostname: maintainerr
+    restart: always
+    ports:
+      - 8154:80
+    networks:
+      - proxy
+    volumes:
+      - ./config/maintainerr:/opt/data
+      - /tmp/maintainerr-newsletters:/config/newsletters:shared
+      - /:/host
+    environment:
+      - PHP_TZ=Europe/London
+      - PUID=666
+      - PGID=666
+      - VIRTUAL_HOST=maintainerr.pknw1.co.uk
+      - VIRTUAL_PORT=8154
+
+networks:
+  proxy:
+    external:
+      name: proxy

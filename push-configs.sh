@@ -1,6 +1,7 @@
 #!/bin/bash
 
-git checkout -b config || git checkout config
+cp gitignore-configs .gitignore
+git checkout -b configs || git checkout configs
 git add stack-core/config stack-notflix/config stack-misc/config
 git commit -m "$(date)"
-git push -u origin config
+git push -u origin configs

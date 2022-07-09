@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html  >
+<head>
+  <!-- Site made with Mobirise Website Builder v5.6.0, https://mobirise.com -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Mobirise v5.6.0, mobirise.com">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  <link rel="shortcut icon" href="assets/images/nota-2-1076x498.png" type="image/x-icon">
+  <meta name="description" content="">
+  
+  
+  <title>Home</title>
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="assets/animatecss/animate.css">
+  <link rel="stylesheet" href="assets/dropdown/css/style.css">
+  <link rel="stylesheet" href="assets/socicon/css/styles.css">
+  <link rel="stylesheet" href="assets/theme/css/style.css">
+  <link rel="preload" href="https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap"></noscript>
+  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+  
+  
+  
+  
+</head>
+<body>
+  
+  <section class="mbr-section" id="witsec-modal-window-block-1" data-rv-view="32">
+
+	<style>
+	/* Let's not animate the contents of modal windows */
+	.no-anim {
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+	</style>
+
+	
+	
+	<div><div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="loginLabel" aria-hidden="true">  <div class="modal-dialog  modal-dialog-centered" style="height:auto" role="document">    <div class="modal-content"><div class="modal-body" id="login_body"><p> to access Plex, Requests or Downloads use the following login <br>
+
+</p><ul>
+<li><strong>username</strong>:pkmovies2 </li>
+<li><strong>password</strong>:pknw1plex </li>
+</ul>
+
+<p>
+if you get an error, use the username <strong>pknw1plex@pknw1.co.uk</strong> with the same password
+</p></div>    </div>  </div></div><script> 
+document.addEventListener("DOMContentLoaded", function() { 
+  if(typeof jQuery === "function") {
+    $("#login").on("hidden.bs.modal", function () { 
+      var html = $( "#login_body" ).html(); 
+      $( "#login_body" ).empty(); 
+      $( "#login_body" ).append(html); 
+    }) 
+  } else { 
+      var mdw = document.getElementById("#login") 
+      mdw.addEventListener("hidden.bs.modal", function(event) { 
+        mdw.innerHTML = mdw.innerHTML; 
+      }); 
+  } 
+}); 
+</script></div>
+
+	<script>
+	if (typeof OpenModal === 'undefined') {
+		OpenModal = function(modalName) {
+			if(typeof jQuery === "function") {
+				if ($('#' + modalName).length)
+					$('#' + modalName).modal('show');
+				else
+					alert("Sorry, but there is no modal for " + modalName);
+			} else {
+				let mdw = new bootstrap.Modal(document.getElementById(modalName), {});
+				mdw.show();
+			}
+		}
+	}
+
+	function modalSetCookie(cname, cvalue, exdays) {
+		var d = new Date();
+		d.setTime(d.getTime() + (exdays*24*60*60*1000));
+		var expires = "expires="+ d.toUTCString();
+		document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+	}
+
+	function modalGetCookie(cname) {
+		var name = cname + "=";
+		var decodedCookie = decodeURIComponent(document.cookie);
+		var ca = decodedCookie.split(';');
+		for(var i = 0; i <ca.length; i++) {
+			var c = ca[i];
+			while (c.charAt(0) == ' ') {
+				c = c.substring(1);
+			}
+			if (c.indexOf(name) == 0) {
+				return c.substring(name.length, c.length);
+			}
+		}
+		return "";
+	}
+	</script>
+
+</section>
+
+<section class="mbr-section" id="witsec-modal-window-block-9" data-rv-view="33">
+
+	<style>
+	/* Let's not animate the contents of modal windows */
+	.no-anim {
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+	</style>
+
+	
+	
+	<div><div class="modal fade" id="search" tabindex="-1" role="dialog" aria-labelledby="searchLabel" aria-hidden="true">  <div class="modal-dialog modal-lg modal-dialog-centered" style="height:auto" role="document">    <div class="modal-content"><div class="modal-body" id="search_body">
+<p> to search the web for new and requested releases, a combination of the following software is used <br>
+
+</p><ul>
+<li><a href="https://hub.docker.com/r/linuxserver/overseerr" target="_new">Overseer</a></li>
+<li><a href="https://hub.docker.com/r/linuxserver/sonarr" target="_new">Sonarr</a></li>
+<li><a href="https://hub.docker.com/r/linuxserver/radarr" target="_new">Radarr</a></li>
+<li><a href="https://hub.docker.com/r/linuxserver/jackett" target="_new">Jackett</a></li>
+<li><a href="https://www.docker.com" target="_new">Docker</a></li>
+<li><a href="https://www.haproxy.org" target="_new">HAProxy</a></li>
+<li><a href="https://github.com/nginx-proxy/nginx-proxy" target="_new">jwilder/nginx-proxy</a></li>
+<li><a href="https://github.com/pknw1/PlexSSOv2" target="_new">PlexSSO</a></li>
+<li><a href="https://github.com/linuxserver/docker-plex" target="_new">Plex</a></li>
+<li>and many more helper services</li>
+with thanks  to 
+<li><a href="https://linuxserver.io" target="_new">LinuxServer</a></li>
+<li><a href="https://kimsufi.com" target="_new">KimSufi</a></li>
+
+
+
+</ul>
+
+<p>
+if you'd like to know more or setup your own logins/versions, drop me a message
+</p></div>    </div>  </div></div><script> 
+document.addEventListener("DOMContentLoaded", function() { 
+  if(typeof jQuery === "function") {
+    $("#search").on("hidden.bs.modal", function () { 
+      var html = $( "#search_body" ).html(); 
+      $( "#search_body" ).empty(); 
+      $( "#search_body" ).append(html); 
+    }) 
+  } else { 
+      var mdw = document.getElementById("#search") 
+      mdw.addEventListener("hidden.bs.modal", function(event) { 
+        mdw.innerHTML = mdw.innerHTML; 
+      }); 
+  } 
+}); 
+</script></div>
+
+	<script>
+	if (typeof OpenModal === 'undefined') {
+		OpenModal = function(modalName) {
+			if(typeof jQuery === "function") {
+				if ($('#' + modalName).length)
+					$('#' + modalName).modal('show');
+				else
+					alert("Sorry, but there is no modal for " + modalName);
+			} else {
+				let mdw = new bootstrap.Modal(document.getElementById(modalName), {});
+				mdw.show();
+			}
+		}
+	}
+
+	function modalSetCookie(cname, cvalue, exdays) {
+		var d = new Date();
+		d.setTime(d.getTime() + (exdays*24*60*60*1000));
+		var expires = "expires="+ d.toUTCString();
+		document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+	}
+
+	function modalGetCookie(cname) {
+		var name = cname + "=";
+		var decodedCookie = decodeURIComponent(document.cookie);
+		var ca = decodedCookie.split(';');
+		for(var i = 0; i <ca.length; i++) {
+			var c = ca[i];
+			while (c.charAt(0) == ' ') {
+				c = c.substring(1);
+			}
+			if (c.indexOf(name) == 0) {
+				return c.substring(name.length, c.length);
+			}
+		}
+		return "";
+	}
+	</script>
+
+</section>
+
+<section data-bs-version="5.1" class="menu menu2 cid-sRiUpFUDgG" once="menu" id="menu2-0">
+    
+    <nav class="navbar navbar-dropdown navbar-fixed-top collapsed">
+        <div class="container">
+            <div class="navbar-brand">
+                <span class="navbar-logo">
+                    <a href="https://notflix.pknw1.co.uk">
+                        <img src="assets/images/nota-2-1076x498.png" alt="Notflix" style="height: 3rem;">
+                    </a>
+                </span>
+                
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbarSupportedContent" data-bs-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                
+                <div class="icons-menu">
+                    <a class="iconfont-wrapper" href="https://notflix.pknw1.co.uk" target="_blank">
+                        <span class="p-2 mbr-iconfont socicon-nextdoor socicon"></span>
+                    </a>
+                    <a class="iconfont-wrapper" href="javascript:OpenModal('login')">
+                        <span class="p-2 mbr-iconfont socicon-persona socicon"></span>
+                    </a>
+                    <a class="iconfont-wrapper" href="https://telegram.pknw1.co.uk" target="_blank">
+                        <span class="p-2 mbr-iconfont socicon-telegram socicon"></span>
+                    </a>
+                    <a class="iconfont-wrapper" href="https://github.com/pknw1" target="_blank">
+                        <span class="p-2 mbr-iconfont socicon-github socicon"></span>
+                    </a>
+                </div>
+                
+            </div>
+        </div>
+    </nav>
+</section>
+
+<section class="mbr-section" id="witsec-modal-window-block-b" data-rv-view="36">
+
+	<style>
+	/* Let's not animate the contents of modal windows */
+	.no-anim {
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+	</style>
+
+	
+	
+	<div><div class="modal fade" id="tg" tabindex="-1" role="dialog" aria-labelledby="tgLabel" aria-hidden="true">  <div class="modal-dialog  " style="height:auto" role="document">    <div class="modal-content"><div class="modal-body" id="tg_body"><p> to get notified of new releases on Plex, you can <br>
+
+</p><ul>
+<li>setup your own Plex account and send your username over to be added</li>
+<li><a href="https://telegram.pknw1.co.uk" target="_new">Join PlexUpdates</a> group on <a href="https://web.telegram.org/k/" target="_new">Telegram</a> </li>
+</ul>
+
+<p>
+</p></div>    </div>  </div></div><script> 
+document.addEventListener("DOMContentLoaded", function() { 
+  if(typeof jQuery === "function") {
+    $("#tg").on("hidden.bs.modal", function () { 
+      var html = $( "#tg_body" ).html(); 
+      $( "#tg_body" ).empty(); 
+      $( "#tg_body" ).append(html); 
+    }) 
+  } else { 
+      var mdw = document.getElementById("#tg") 
+      mdw.addEventListener("hidden.bs.modal", function(event) { 
+        mdw.innerHTML = mdw.innerHTML; 
+      }); 
+  } 
+}); 
+</script></div>
+
+	<script>
+	if (typeof OpenModal === 'undefined') {
+		OpenModal = function(modalName) {
+			if(typeof jQuery === "function") {
+				if ($('#' + modalName).length)
+					$('#' + modalName).modal('show');
+				else
+					alert("Sorry, but there is no modal for " + modalName);
+			} else {
+				let mdw = new bootstrap.Modal(document.getElementById(modalName), {});
+				mdw.show();
+			}
+		}
+	}
+
+	function modalSetCookie(cname, cvalue, exdays) {
+		var d = new Date();
+		d.setTime(d.getTime() + (exdays*24*60*60*1000));
+		var expires = "expires="+ d.toUTCString();
+		document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+	}
+
+	function modalGetCookie(cname) {
+		var name = cname + "=";
+		var decodedCookie = decodeURIComponent(document.cookie);
+		var ca = decodedCookie.split(';');
+		for(var i = 0; i <ca.length; i++) {
+			var c = ca[i];
+			while (c.charAt(0) == ' ') {
+				c = c.substring(1);
+			}
+			if (c.indexOf(name) == 0) {
+				return c.substring(name.length, c.length);
+			}
+		}
+		return "";
+	}
+	</script>
+
+</section>
+
+<section data-bs-version="5.1" class="gallery3 cid-sWwjmDvKSh" id="gallery3-6">
+    
+    <div class="mbr-overlay"></div>
+    <div class="container">
+        
+        <div class="row mt-4">
+            
+            <div class="item features-image сol-12 col-md-6 col-lg-3 active">
+                <div class="item-wrapper">
+                    <div class="item-img">
+                        <a href="https://notflix.pknw1.co.uk" target="_blank"><img src="assets/images/searchmf-1.png" alt="Notflix" data-slide-to="0" data-bs-slide-to="0"></a>
+                    </div>
+                    <div class="item-content">
+                        <h5 class="item-title mbr-fonts-style display-7"><p><strong>Mobile or Desktop</strong></p></h5>
+                        
+                        <p class="mbr-text mbr-fonts-style mt-3 display-7">Browse to <a href="https://notflix.pknw1.co.uk" class="text-primary" target="_blank">notfllix.pknw1.co.uk</a> to start<br><br></p>
+                    </div>
+                    
+                </div>
+            </div><div class="item features-image сol-12 col-md-6 col-lg-3">
+                <div class="item-wrapper">
+                    <div class="item-img">
+                        <a href="javascript:OpenModal('login')"><img src="assets/images/signin.png" alt="Notflix" data-slide-to="1" data-bs-slide-to="2"></a>
+                    </div>
+                    <div class="item-content">
+                        <h5 class="item-title mbr-fonts-style display-7">
+                            <strong>Login with Plex</strong></h5>
+                        
+                        <p class="mbr-text mbr-fonts-style mt-3 display-7">Login with the shared <a href="javascript:OpenModal('login')" class="text-primary">username </a>and password - or request your own login so you can track requests and what you've seen</p>
+                    </div>
+                    
+                </div>
+            </div><div class="item features-image сol-12 col-md-6 col-lg-3">
+                <div class="item-wrapper">
+                    <div class="item-img">
+                        <a href="https://app.plex.tv/desktop" target="_blank"><img src="assets/images/bwatch-1.png" alt="Launch Plex" data-slide-to="2" data-bs-slide-to="2"></a>
+                    </div>
+                    <div class="item-content">
+                        <h5 class="item-title mbr-fonts-style display-7">
+                            <strong>What to watch?</strong></h5>
+                        
+                        <p class="mbr-text mbr-fonts-style mt-3 display-7">Browse the movies &amp; tv sections to see what is available to stream - you can also see recommendations and new additions&nbsp;</p>
+                    </div>
+                    
+                </div>
+            </div><div class="item features-image сol-12 col-md-6 col-lg-3">
+                <div class="item-wrapper">
+                    <div class="item-img">
+                        <a href="https://notflix.pknw1.co.uk" target="_blank"><img src="assets/images/add2.png" alt="" data-slide-to="3" data-bs-slide-to="3"></a>
+                    </div>
+                    <div class="item-content">
+                        <h5 class="item-title mbr-fonts-style display-7">
+                            <strong>Missing?</strong></h5>
+                        
+                        <p class="mbr-text mbr-fonts-style mt-3 display-7">If a movie or show isn't available, hit Request and if it's on the web it will automatically get added to plex - and get notified&nbsp; by <a href="https://telegram.pknw1.co.uk" class="text-primary" target="_blank">Telegram</a> Chat<br></p>
+                    </div>
+                    
+                </div>
+            </div>
+            
+            
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="content11 cid-sX56UWWdCQ" id="content11-a">
+    
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-12 col-lg-9">
+                <div class="mbr-section-btn align-center"><a class="btn btn-secondary display-4" href="javascript:OpenModal('tg')">Get Notifications</a> <a class="btn btn-secondary display-4" href="javascript:OpenModal('search')">Learn more</a></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section" id="witsec-modal-window-block-7" data-rv-view="42">
+
+	<style>
+	/* Let's not animate the contents of modal windows */
+	.no-anim {
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+	</style>
+
+	
+	
+	<div><div class="modal fade" id="sso" tabindex="-1" role="dialog" aria-labelledby="ssoLabel" aria-hidden="true">  <div class="modal-dialog  modal-dialog-centered" style="height:auto" role="document">    <div class="modal-content"><div class="modal-body" id="sso_body"><p> to access Plex, Requests or Downloads use the following login <br>
+
+</p><ul>
+<li><strong>username</strong>:pkmovies2 </li>
+<li><strong>password</strong>:pknw1plex </li>
+</ul>
+
+<p>
+if you get an error, use the username <strong>pknw1plex@pknw1.co.uk</strong> with the same password
+</p></div>    </div>  </div></div><script> 
+document.addEventListener("DOMContentLoaded", function() { 
+  if(typeof jQuery === "function") {
+    $("#sso").on("hidden.bs.modal", function () { 
+      var html = $( "#sso_body" ).html(); 
+      $( "#sso_body" ).empty(); 
+      $( "#sso_body" ).append(html); 
+    }) 
+  } else { 
+      var mdw = document.getElementById("#sso") 
+      mdw.addEventListener("hidden.bs.modal", function(event) { 
+        mdw.innerHTML = mdw.innerHTML; 
+      }); 
+  } 
+}); 
+</script></div>
+
+	<script>
+	if (typeof OpenModal === 'undefined') {
+		OpenModal = function(modalName) {
+			if(typeof jQuery === "function") {
+				if ($('#' + modalName).length)
+					$('#' + modalName).modal('show');
+				else
+					alert("Sorry, but there is no modal for " + modalName);
+			} else {
+				let mdw = new bootstrap.Modal(document.getElementById(modalName), {});
+				mdw.show();
+			}
+		}
+	}
+
+	function modalSetCookie(cname, cvalue, exdays) {
+		var d = new Date();
+		d.setTime(d.getTime() + (exdays*24*60*60*1000));
+		var expires = "expires="+ d.toUTCString();
+		document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+	}
+
+	function modalGetCookie(cname) {
+		var name = cname + "=";
+		var decodedCookie = decodeURIComponent(document.cookie);
+		var ca = decodedCookie.split(';');
+		for(var i = 0; i <ca.length; i++) {
+			var c = ca[i];
+			while (c.charAt(0) == ' ') {
+				c = c.substring(1);
+			}
+			if (c.indexOf(name) == 0) {
+				return c.substring(name.length, c.length);
+			}
+		}
+		return "";
+	}
+	</script>
+
+</section><section style="background-color: #fff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif; color:#aaa; font-size:12px; padding: 0; align-items: center; display: flex;"><a href="https://mobirise.site/s" style="flex: 1 1; height: 3rem; padding-left: 1rem;"></a><p style="flex: 0 0 auto; margin:0; padding-right:1rem;">Built with Mobirise <a href="https://mobirise.site/u" style="color:#aaa;">site</a> themes</p></section><script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/ytplayer/index.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/theme/js/script.js"></script>  
+  
+  
+  <input name="animation" type="hidden">
+  </body>
+</html>

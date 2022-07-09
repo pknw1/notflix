@@ -1,0 +1,15 @@
+<Config>
+  <LogLevel>Info</LogLevel>
+  <Port>8989</Port>
+  <UrlBase></UrlBase>
+  <BindAddress>*</BindAddress>
+  <SslPort>9898</SslPort>
+  <EnableSsl>False</EnableSsl>
+  <ApiKey>b86dec35ca8b469eab75e908d67f03a6</ApiKey>
+  <AuthenticationMethod>None</AuthenticationMethod>
+  <Branch>main</Branch>
+  <LaunchBrowser>False</LaunchBrowser>
+  <SslCertHash></SslCertHash>
+  <UpdateMechanism>Docker</UpdateMechanism>
+  <AnalyticsEnabled>False</AnalyticsEnabled>
+</Config>

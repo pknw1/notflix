@@ -1,0 +1,22 @@
+﻿{
+  "configFile": "/config/",
+  "pluginDirectory": "/app",
+  "serverIdentifier": null,
+  "plexPreferencesFile": "/config/prefs.xml",
+  "cookieDomain": ".pknw1.co.uk",
+  "defaultAccessDeniedMessage": "Access Denied",
+  "accessControls": {
+    "example-service": [
+      {
+        "path": "/",
+        "minimumAccessTier": "NormalUser",
+        "controlType": "Block",
+        "exempt": [
+          "some-exempt-user"
+        ],
+        "blockMessage": "Access Denied"
+      }
+    ]
+  },
+  "plugins": {}
+}

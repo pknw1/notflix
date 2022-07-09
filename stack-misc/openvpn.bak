@@ -1,0 +1,39 @@
+version: "3"
+
+services:
+  openvpn:
+    container_name: openvpn
+    image: pknw1/openvpn:latest
+    dns:
+      - 8.8.8.8
+    volumes:
+      - ./config/openvpn/userlocal:/usr/local/openvpn_as
+      - ./config/openvpn/abc:/config
+      - ./config/openvpn/openvpn_as:/home/openvpn_as
+      - ./config/openvpn/openvpn:/home/openvpn
+      - ./config/openvpn:/tmp
+
+    cap_add:
+      - NET_ADMIN
+    restart: unless-stopped
+    networks:
+      - proxy
+    environment:
+      - TZ=Europe/London
+      - PUID=666
+      - PGID=666
+      - VIRTUAL_HOST=vpn.pknw1.co.uk
+      - VIRTUAL_PORT=943
+      - VIRTUAL_PROTO=https
+      - INTERFACE=eth0
+    ports:
+      - 943:943
+      - 9443:9443
+      - 1194:1194
+
+networks:
+  proxy:
+    external:
+      name: proxy
+
+

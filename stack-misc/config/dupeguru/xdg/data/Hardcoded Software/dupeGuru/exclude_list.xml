@@ -1,0 +1,1 @@
+<exclude_list><exclude regex="^thumbs\.db$" marked="y" /><exclude regex="^desktop\.ini$" marked="y" /><exclude regex="^\.DS_Store$" marked="y" /><exclude regex="^\.Trash\-.*" marked="y" /><exclude regex="^\$Recycle\.Bin$" marked="y" /><exclude regex="^\..*" marked="y" /></exclude_list>

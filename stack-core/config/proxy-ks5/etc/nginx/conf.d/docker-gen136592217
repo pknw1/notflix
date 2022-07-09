@@ -1,0 +1,734 @@
+# If we receive X-Forwarded-Proto, pass it through; otherwise, pass along the
+# scheme used to connect to this server
+map $http_x_forwarded_proto $proxy_x_forwarded_proto {
+  default $http_x_forwarded_proto;
+  ''      $scheme;
+}
+# If we receive X-Forwarded-Port, pass it through; otherwise, pass along the
+# server port the client connected to
+map $http_x_forwarded_port $proxy_x_forwarded_port {
+  default $http_x_forwarded_port;
+  ''      $server_port;
+}
+# If we receive Upgrade, set Connection to "upgrade"; otherwise, delete any
+# Connection header that may have been passed to this server
+map $http_upgrade $proxy_connection {
+  default upgrade;
+  '' close;
+}
+# Apply fix for very long server names
+server_names_hash_bucket_size 128;
+# Default dhparam
+ssl_dhparam /etc/nginx/dhparam/dhparam.pem;
+# Set appropriate X-Forwarded-Ssl header
+map $scheme $proxy_x_forwarded_ssl {
+  default off;
+  https on;
+}
+gzip_types text/plain text/css application/javascript application/json application/x-javascript text/xml application/xml application/xml+rss text/javascript;
+log_format vhost '$host $remote_addr - $remote_user [$time_local] '
+                 '"$request" $status $body_bytes_sent '
+                 '"$http_referer" "$http_user_agent"';
+access_log off;
+		ssl_protocols TLSv1.2 TLSv1.3;
+		ssl_ciphers 'ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-RSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-ECDSA-CHACHA20-POLY1305:ECDHE-RSA-CHACHA20-POLY1305:DHE-RSA-AES128-GCM-SHA256:DHE-RSA-AES256-GCM-SHA384';
+		ssl_prefer_server_ciphers off;
+resolver 127.0.0.11;
+# HTTP 1.1 support
+proxy_http_version 1.1;
+proxy_buffering off;
+proxy_set_header Host $http_host;
+proxy_set_header Upgrade $http_upgrade;
+proxy_set_header Connection $proxy_connection;
+proxy_set_header X-Real-IP $remote_addr;
+proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+proxy_set_header X-Forwarded-Proto $proxy_x_forwarded_proto;
+proxy_set_header X-Forwarded-Ssl $proxy_x_forwarded_ssl;
+proxy_set_header X-Forwarded-Port $proxy_x_forwarded_port;
+# Mitigate httpoxy attack (see README for details)
+proxy_set_header Proxy "";
+server {
+	server_name _; # This is just an invalid value which will never trigger on a real hostname.
+	listen 80;
+	access_log /var/log/nginx/access.log vhost;
+	return 503;
+}
+# cmsms.pknw1.co.uk
+upstream cmsms.pknw1.co.uk {
+				## Can be connected with "proxy" network
+			# cmsmadesimple_cmsms_1
+			server 172.18.0.17:80;
+}
+server {
+	server_name cmsms.pknw1.co.uk;
+	listen 80 ;
+	access_log /var/log/nginx/access.log vhost;
+	location / {
+		proxy_pass http://cmsms.pknw1.co.uk;
+	}
+}
+# docker.pknw1.co.uk
+upstream docker.pknw1.co.uk {
+				## Can be connected with "proxy" network
+			# services-portainer
+			server 172.18.0.10:9000;
+}
+server {
+	server_name docker.pknw1.co.uk;
+	listen 80 ;
+	access_log /var/log/nginx/access.log vhost;
+	location / {
+		proxy_pass http://docker.pknw1.co.uk;
+	}
+}
+# docker.pknw1.com
+upstream docker.pknw1.com {
+				## Can be connected with "proxy" network
+			# services-portainer
+			server 172.18.0.10:9000;
+}
+server {
+	server_name docker.pknw1.com;
+	listen 80 ;
+	access_log /var/log/nginx/access.log vhost;
+	location / {
+		proxy_pass http://docker.pknw1.com;
+	}
+}
+# downloads.pknw1.com
+upstream downloads.pknw1.com {
+				## Can be connected with "proxy" network
+			# portal-utorrent
+			server 172.18.0.3:8080;
+				## Can be connected with "proxy" network
+			# portal-utorrent
+			server 172.18.0.3:8080;
+}
+server {
+	server_name downloads.pknw1.com;
+	listen 80 ;
+	access_log /var/log/nginx/access.log vhost;
+	location / {
+		proxy_pass http://downloads.pknw1.com;
+	}
+}
+# jackett.pknw1.co.uk
+upstream jackett.pknw1.co.uk {
+				## Can be connected with "proxy" network
+			# docker-jackett
+			server 172.18.0.2:9117;
+}
+server {
+	server_name jackett.pknw1.co.uk;
+	listen 80 ;
+	access_log /var/log/nginx/access.log vhost;
+	location / {
+		proxy_pass http://jackett.pknw1.co.uk;
+	}
+}
+# jackett.pknw1.com
+upstream jackett.pknw1.com {
+				## Can be connected with "proxy" network
+			# docker-jackett
+			server 172.18.0.2:9117;
+}
+server {
+	server_name jackett.pknw1.com;
+	listen 80 ;
+	access_log /var/log/nginx/access.log vhost;
+	location / {
+		proxy_pass http://jackett.pknw1.com;
+	}
+}
+# jellyfin-movies.pknw1.co.uk
+upstream jellyfin-movies.pknw1.co.uk {
+				## Can be connected with "proxy" network
+			# watch
+			server 172.18.0.11:8096;
+}
+server {
+	server_name jellyfin-movies.pknw1.co.uk;
+	listen 80 ;
+	access_log /var/log/nginx/access.log vhost;
+	location / {
+		proxy_pass http://jellyfin-movies.pknw1.co.uk;
+	}
+}
+# jellyfin-movies.pknw1.com
+upstream jellyfin-movies.pknw1.com {
+				## Can be connected with "proxy" network
+			# watch
+			server 172.18.0.11:8096;
+}
+server {
+	server_name jellyfin-movies.pknw1.com;
+	listen 80 ;
+	access_log /var/log/nginx/access.log vhost;
+	location / {
+		proxy_pass http://jellyfin-movies.pknw1.com;
+	}
+}
+# jellyfin.pknw1.co.uk
+upstream jellyfin.pknw1.co.uk {
+				## Can be connected with "proxy" network
+			# watch
+			server 172.18.0.11:8096;
+}
+server {
+	server_name jellyfin.pknw1.co.uk;
+	listen 80 ;
+	access_log /var/log/nginx/access.log vhost;
+	location / {
+		proxy_pass http://jellyfin.pknw1.co.uk;
+	}
+}
+# jellyfin.pknw1.com
+upstream jellyfin.pknw1.com {
+				## Can be connected with "proxy" network
+			# watch
+			server 172.18.0.11:8096;
+}
+server {
+	server_name jellyfin.pknw1.com;
+	listen 80 ;
+	access_log /var/log/nginx/access.log vhost;
+	location / {
+		proxy_pass http://jellyfin.pknw1.com;
+	}
+}
+# monitor.pknw1.co.uk
+upstream monitor.pknw1.co.uk {
+				## Can be connected with "proxy" network
+			# netdata
+			server 172.18.0.12:19999;
+}
+server {
+	server_name monitor.pknw1.co.uk;
+	listen 80 ;
+	access_log /var/log/nginx/access.log vhost;
+	location / {
+		proxy_pass http://monitor.pknw1.co.uk;
+	}
+}
+# monitor.pknw1.com
+upstream monitor.pknw1.com {
+				## Can be connected with "proxy" network
+			# netdata
+			server 172.18.0.12:19999;
+}
+server {
+	server_name monitor.pknw1.com;
+	listen 80 ;
+	access_log /var/log/nginx/access.log vhost;
+	location / {
+		proxy_pass http://monitor.pknw1.com;
+	}
+}
+# movie-search.pknw1.co.uk
+upstream movie-search.pknw1.co.uk {
+				## Can be connected with "proxy" network
+			# portal-radarr
+			server 172.18.0.6:7878;
+}
+server {
+	server_name movie-search.pknw1.co.uk;
+	listen 80 ;
+	access_log /var/log/nginx/access.log vhost;
+	location / {
+		proxy_pass http://movie-search.pknw1.co.uk;
+	}
+}
+# movie-search.pknw1.com
+upstream movie-search.pknw1.com {
+				## Can be connected with "proxy" network
+			# portal-radarr
+			server 172.18.0.6:7878;
+}
+server {
+	server_name movie-search.pknw1.com;
+	listen 80 ;
+	access_log /var/log/nginx/access.log vhost;
+	location / {
+		proxy_pass http://movie-search.pknw1.com;
+	}
+}
+# music.pknw1.co.uk
+upstream music.pknw1.co.uk {
+				## Can be connected with "proxy" network
+			# plex-music
+			server 172.18.0.14:32400;
+}
+server {
+	server_name music.pknw1.co.uk;
+	listen 80 ;
+	access_log /var/log/nginx/access.log vhost;
+	location / {
+		proxy_pass http://music.pknw1.co.uk;
+	}
+}
+# music.pknw1.com
+upstream music.pknw1.com {
+				## Can be connected with "proxy" network
+			# plex-music
+			server 172.18.0.14:32400;
+}
+server {
+	server_name music.pknw1.com;
+	listen 80 ;
+	access_log /var/log/nginx/access.log vhost;
+	location / {
+		proxy_pass http://music.pknw1.com;
+	}
+}
+# netdata.pknw1.co.uk
+upstream netdata.pknw1.co.uk {
+				## Can be connected with "proxy" network
+			# netdata
+			server 172.18.0.12:19999;
+				## Can be connected with "proxy" network
+			# netdata
+			server 172.18.0.12:19999;
+}
+server {
+	server_name netdata.pknw1.co.uk;
+	listen 80 ;
+	access_log /var/log/nginx/access.log vhost;
+	location / {
+		proxy_pass http://netdata.pknw1.co.uk;
+	}
+}
+# notflix.pknw1.co.uk
+upstream notflix.pknw1.co.uk {
+				## Can be connected with "proxy" network
+			# portal-ombi
+			server 172.18.0.7:3579;
+}
+server {
+	server_name notflix.pknw1.co.uk;
+	listen 80 ;
+	access_log /var/log/nginx/access.log vhost;
+	location / {
+		proxy_pass http://notflix.pknw1.co.uk;
+	}
+}
+# notflix.pknw1.com
+upstream notflix.pknw1.com {
+				## Can be connected with "proxy" network
+			# portal-ombi
+			server 172.18.0.7:3579;
+}
+server {
+	server_name notflix.pknw1.com;
+	listen 80 ;
+	access_log /var/log/nginx/access.log vhost;
+	location / {
+		proxy_pass http://notflix.pknw1.com;
+	}
+}
+# ombi.pknw1.co.uk
+upstream ombi.pknw1.co.uk {
+				## Can be connected with "proxy" network
+			# portal-ombi
+			server 172.18.0.7:3579;
+}
+server {
+	server_name ombi.pknw1.co.uk;
+	listen 80 ;
+	access_log /var/log/nginx/access.log vhost;
+	location / {
+		proxy_pass http://ombi.pknw1.co.uk;
+	}
+}
+# ombi.pknw1.com
+upstream ombi.pknw1.com {
+				## Can be connected with "proxy" network
+			# portal-ombi
+			server 172.18.0.7:3579;
+}
+server {
+	server_name ombi.pknw1.com;
+	listen 80 ;
+	access_log /var/log/nginx/access.log vhost;
+	location / {
+		proxy_pass http://ombi.pknw1.com;
+	}
+}
+# php.pknw1.co.uk
+upstream php.pknw1.co.uk {
+				# Cannot connect to network of this container
+				server 127.0.0.1 down;
+}
+server {
+	server_name php.pknw1.co.uk;
+	listen 80 ;
+	access_log /var/log/nginx/access.log vhost;
+	location / {
+		root   /var/www/html;
+		include fastcgi_params;
+		fastcgi_pass php.pknw1.co.uk;
+	}
+}
+# pihole.pknw1.co.uk
+upstream pihole.pknw1.co.uk {
+				## Can be connected with "proxy" network
+			# pihole
+			server 172.18.0.16:80;
+}
+server {
+	server_name pihole.pknw1.co.uk;
+	listen 80 ;
+	access_log /var/log/nginx/access.log vhost;
+	location / {
+		proxy_pass http://pihole.pknw1.co.uk;
+	}
+}
+# plex-movies.pknw1.co.uk
+upstream plex-movies.pknw1.co.uk {
+				## Can be connected with "proxy" network
+			# plex-movies
+			server 172.18.0.13:32400;
+}
+server {
+	server_name plex-movies.pknw1.co.uk;
+	listen 80 ;
+	access_log /var/log/nginx/access.log vhost;
+	location / {
+		proxy_pass http://plex-movies.pknw1.co.uk;
+	}
+}
+# plex-movies.pknw1.com
+upstream plex-movies.pknw1.com {
+				## Can be connected with "proxy" network
+			# plex-movies
+			server 172.18.0.13:32400;
+}
+server {
+	server_name plex-movies.pknw1.com;
+	listen 80 ;
+	access_log /var/log/nginx/access.log vhost;
+	location / {
+		proxy_pass http://plex-movies.pknw1.com;
+	}
+}
+# plex-music.pknw1.co.uk
+upstream plex-music.pknw1.co.uk {
+				## Can be connected with "proxy" network
+			# plex-music
+			server 172.18.0.14:32400;
+}
+server {
+	server_name plex-music.pknw1.co.uk;
+	listen 80 ;
+	access_log /var/log/nginx/access.log vhost;
+	location / {
+		proxy_pass http://plex-music.pknw1.co.uk;
+	}
+}
+# plex-music.pknw1.com
+upstream plex-music.pknw1.com {
+				## Can be connected with "proxy" network
+			# plex-music
+			server 172.18.0.14:32400;
+}
+server {
+	server_name plex-music.pknw1.com;
+	listen 80 ;
+	access_log /var/log/nginx/access.log vhost;
+	location / {
+		proxy_pass http://plex-music.pknw1.com;
+	}
+}
+# plex2.pknw1.co.uk
+upstream plex2.pknw1.co.uk {
+				## Can be connected with "proxy" network
+			# plex-music
+			server 172.18.0.14:32400;
+}
+server {
+	server_name plex2.pknw1.co.uk;
+	listen 80 ;
+	access_log /var/log/nginx/access.log vhost;
+	location / {
+		proxy_pass http://plex2.pknw1.co.uk;
+	}
+}
+# portainer.pknw1.co.uk
+upstream portainer.pknw1.co.uk {
+				## Can be connected with "proxy" network
+			# services-portainer
+			server 172.18.0.10:9000;
+}
+server {
+	server_name portainer.pknw1.co.uk;
+	listen 80 ;
+	access_log /var/log/nginx/access.log vhost;
+	location / {
+		proxy_pass http://portainer.pknw1.co.uk;
+	}
+}
+# portainer.pknw1.com
+upstream portainer.pknw1.com {
+				## Can be connected with "proxy" network
+			# services-portainer
+			server 172.18.0.10:9000;
+}
+server {
+	server_name portainer.pknw1.com;
+	listen 80 ;
+	access_log /var/log/nginx/access.log vhost;
+	location / {
+		proxy_pass http://portainer.pknw1.com;
+	}
+}
+# portal.pknw1.co.uk
+upstream portal.pknw1.co.uk {
+				## Can be connected with "proxy" network
+			# portal-ombi
+			server 172.18.0.7:3579;
+}
+server {
+	server_name portal.pknw1.co.uk;
+	listen 80 ;
+	access_log /var/log/nginx/access.log vhost;
+	location / {
+		proxy_pass http://portal.pknw1.co.uk;
+	}
+}
+# radarr.pknw1.co.uk
+upstream radarr.pknw1.co.uk {
+				## Can be connected with "proxy" network
+			# portal-radarr
+			server 172.18.0.6:7878;
+}
+server {
+	server_name radarr.pknw1.co.uk;
+	listen 80 ;
+	access_log /var/log/nginx/access.log vhost;
+	location / {
+		proxy_pass http://radarr.pknw1.co.uk;
+	}
+}
+# radarr.pknw1.com
+upstream radarr.pknw1.com {
+				## Can be connected with "proxy" network
+			# portal-radarr
+			server 172.18.0.6:7878;
+}
+server {
+	server_name radarr.pknw1.com;
+	listen 80 ;
+	access_log /var/log/nginx/access.log vhost;
+	location / {
+		proxy_pass http://radarr.pknw1.com;
+	}
+}
+# requests.pknw1.co.uk
+upstream requests.pknw1.co.uk {
+				## Can be connected with "proxy" network
+			# portal-ombi
+			server 172.18.0.7:3579;
+}
+server {
+	server_name requests.pknw1.co.uk;
+	listen 80 ;
+	access_log /var/log/nginx/access.log vhost;
+	location / {
+		proxy_pass http://requests.pknw1.co.uk;
+	}
+}
+# requests.pknw1.com
+upstream requests.pknw1.com {
+				## Can be connected with "proxy" network
+			# portal-ombi
+			server 172.18.0.7:3579;
+}
+server {
+	server_name requests.pknw1.com;
+	listen 80 ;
+	access_log /var/log/nginx/access.log vhost;
+	location / {
+		proxy_pass http://requests.pknw1.com;
+	}
+}
+# search.pknw1.co.uk
+upstream search.pknw1.co.uk {
+				## Can be connected with "proxy" network
+			# docker-jackett
+			server 172.18.0.2:9117;
+}
+server {
+	server_name search.pknw1.co.uk;
+	listen 80 ;
+	access_log /var/log/nginx/access.log vhost;
+	location / {
+		proxy_pass http://search.pknw1.co.uk;
+	}
+}
+# search.pknw1.com
+upstream search.pknw1.com {
+				## Can be connected with "proxy" network
+			# docker-jackett
+			server 172.18.0.2:9117;
+}
+server {
+	server_name search.pknw1.com;
+	listen 80 ;
+	access_log /var/log/nginx/access.log vhost;
+	location / {
+		proxy_pass http://search.pknw1.com;
+	}
+}
+# sonar.pknw1.com
+upstream sonar.pknw1.com {
+				## Can be connected with "proxy" network
+			# portal-sonarr
+			server 172.18.0.4:8989;
+}
+server {
+	server_name sonar.pknw1.com;
+	listen 80 ;
+	access_log /var/log/nginx/access.log vhost;
+	location / {
+		proxy_pass http://sonar.pknw1.com;
+	}
+}
+# sonarr.pknw1.co.uk
+upstream sonarr.pknw1.co.uk {
+				## Can be connected with "proxy" network
+			# portal-sonarr
+			server 172.18.0.4:8989;
+}
+server {
+	server_name sonarr.pknw1.co.uk;
+	listen 80 ;
+	access_log /var/log/nginx/access.log vhost;
+	location / {
+		proxy_pass http://sonarr.pknw1.co.uk;
+	}
+}
+# tv-search.pknw1.co.uk
+upstream tv-search.pknw1.co.uk {
+				## Can be connected with "proxy" network
+			# portal-sonarr
+			server 172.18.0.4:8989;
+}
+server {
+	server_name tv-search.pknw1.co.uk;
+	listen 80 ;
+	access_log /var/log/nginx/access.log vhost;
+	location / {
+		proxy_pass http://tv-search.pknw1.co.uk;
+	}
+}
+# tv-search.pknw1.com
+upstream tv-search.pknw1.com {
+				## Can be connected with "proxy" network
+			# portal-sonarr
+			server 172.18.0.4:8989;
+}
+server {
+	server_name tv-search.pknw1.com;
+	listen 80 ;
+	access_log /var/log/nginx/access.log vhost;
+	location / {
+		proxy_pass http://tv-search.pknw1.com;
+	}
+}
+# utorrent.pknw1.co.uk
+upstream utorrent.pknw1.co.uk {
+				## Can be connected with "proxy" network
+			# portal-utorrent
+			server 172.18.0.3:8080;
+}
+server {
+	server_name utorrent.pknw1.co.uk;
+	listen 80 ;
+	access_log /var/log/nginx/access.log vhost;
+	location / {
+		proxy_pass http://utorrent.pknw1.co.uk;
+	}
+}
+# utorrent.pknw1.com
+upstream utorrent.pknw1.com {
+				## Can be connected with "proxy" network
+			# portal-utorrent
+			server 172.18.0.3:8080;
+}
+server {
+	server_name utorrent.pknw1.com;
+	listen 80 ;
+	access_log /var/log/nginx/access.log vhost;
+	location / {
+		proxy_pass http://utorrent.pknw1.com;
+	}
+}
+# utorrent2.pknw1.co.uk
+upstream utorrent2.pknw1.co.uk {
+				## Can be connected with "proxy" network
+			# portal-utorrent
+			server 172.18.0.3:8080;
+}
+server {
+	server_name utorrent2.pknw1.co.uk;
+	listen 80 ;
+	access_log /var/log/nginx/access.log vhost;
+	location / {
+		proxy_pass http://utorrent2.pknw1.co.uk;
+	}
+}
+# vpn.pknw1.co.uk
+upstream vpn.pknw1.co.uk {
+				## Can be connected with "proxy" network
+			# services-openvpn
+			server 172.18.0.5:943;
+}
+server {
+	server_name vpn.pknw1.co.uk;
+	listen 80 ;
+	access_log /var/log/nginx/access.log vhost;
+	location / {
+		proxy_pass https://vpn.pknw1.co.uk;
+	}
+}
+# vpn.pknw1.com
+upstream vpn.pknw1.com {
+				## Can be connected with "proxy" network
+			# services-openvpn
+			server 172.18.0.5:943;
+}
+server {
+	server_name vpn.pknw1.com;
+	listen 80 ;
+	access_log /var/log/nginx/access.log vhost;
+	location / {
+		proxy_pass https://vpn.pknw1.com;
+	}
+}
+# watch.pknw1.com
+upstream watch.pknw1.com {
+				## Can be connected with "proxy" network
+			# watch
+			server 172.18.0.11:8096;
+}
+server {
+	server_name watch.pknw1.com;
+	listen 80 ;
+	access_log /var/log/nginx/access.log vhost;
+	location / {
+		proxy_pass http://watch.pknw1.com;
+	}
+}
+# xteve.pknw1.co.uk
+upstream xteve.pknw1.co.uk {
+				## Can be connected with "proxy" network
+			# docker-xteve_xteve_1
+			server 172.18.0.8:34400;
+}
+server {
+	server_name xteve.pknw1.co.uk;
+	listen 80 ;
+	access_log /var/log/nginx/access.log vhost;
+	location / {
+		proxy_pass http://xteve.pknw1.co.uk;
+	}
+}

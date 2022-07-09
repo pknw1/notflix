@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Scramble';
+  src: url('Scramble.eot');
+  src: url('Scramble.eot?#iefix') format('embedded-opentype'),
+       url('Scramble.svg#Scramble') format('svg'),
+       url('Scramble.ttf') format('truetype'),
+       url('Scramble.woff') format('woff'),
+       url('Scramble.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+

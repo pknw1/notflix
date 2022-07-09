@@ -1,0 +1,47 @@
+[
+  {
+    "id": "sitelink",
+    "type": "inputstring",
+    "name": "Site Link",
+    "value": "https://ibit.to/"
+  },
+  {
+    "id": "cookieheader",
+    "type": "hiddendata",
+    "name": "CookieHeader",
+    "value": "__cfduid=ddfb6d95ae04b8d58857db25ed2c45eb51599169552; _ssn=e7aa3990fb3ce606fc075e8d27803e43; _xsrf=eDgyYWd1NFFhUmg4UGxZYm5sY0ZiTDVTaUdOak54ek0=|1599169552901684915|1da7d4affd1078d85262c5181a2e6837f12a7e6c0549cd2cc989e3afabb1f3f9"
+  },
+  {
+    "id": "lasterror",
+    "type": "hiddendata",
+    "name": "LastError",
+    "value": null
+  },
+  {
+    "id": "sortrequestedfromsite(appliesonlytokeywordsearches)",
+    "type": "inputselect",
+    "name": "Sort requested from site (applies only to Keyword searches)",
+    "value": "uploaded_at",
+    "options": {
+      "uploaded_at": "created",
+      "seeders": "seeders",
+      "size": "size"
+    }
+  },
+  {
+    "id": "orderrequestedfromsite",
+    "type": "inputselect",
+    "name": "Order requested from site",
+    "value": "desc",
+    "options": {
+      "desc": "desc",
+      "asc": "asc"
+    }
+  },
+  {
+    "id": "tags",
+    "type": "inputtags",
+    "name": "Tags",
+    "value": ""
+  }
+]

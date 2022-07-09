@@ -1,0 +1,21 @@
+{
+    "pk7": {
+        "addPaused": null,
+        "affectedFeeds": [
+            "https://ipt.beelyrics.net/t.rss?u=315718;tp=891c6c1dac9c65004e3005868d319ab2;bookmarks;download"
+        ],
+        "assignedCategory": "education",
+        "enabled": true,
+        "episodeFilter": "",
+        "ignoreDays": 0,
+        "lastMatch": "22 Sep 2019 04:56:09 +0000",
+        "mustContain": "",
+        "mustNotContain": "",
+        "previouslyMatchedEpisodes": [
+        ],
+        "savePath": "",
+        "smartFilter": false,
+        "torrentContentLayout": null,
+        "useRegex": false
+    }
+}

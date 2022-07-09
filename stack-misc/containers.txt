@@ -1,0 +1,16 @@
+SELECT-CONTAINER
+cadvisor
+dupeguru
+filebrowser
+jellyfin
+jellyfin-247
+jellyfin-ondemand
+jellyfin-uktv
+pihole-ext
+pihole-int
+rclone
+tautulli
+tvheadend
+watchtower
+webtop
+youtube-dl

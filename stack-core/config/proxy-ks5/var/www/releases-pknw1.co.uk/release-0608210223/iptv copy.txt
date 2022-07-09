@@ -1,0 +1,1361 @@
+#EXTM3U
+#EXTINF:-1 tvg-name="UK: BT SPORT EXTRA 2 | UHD" tvg-id="btsportx2.uk" group-title="UK SPORTS",UK: BT SPORT EXTRA 2 | UHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/39894
+#EXTINF:-1 tvg-name="UK: BT SPORT EXTRA 2 | SD" tvg-id="btsportx2.uk" group-title="UK SPORTS",UK: BT SPORT EXTRA 2 | SD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6595
+#EXTINF:-1 tvg-name="UK: EIR SPORT 2 | UHD" tvg-id="UK: EIR SPORT 2" group-title="UK SPORTS",UK: EIR SPORT 2 | UHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/97503
+#EXTINF:-1 tvg-name="UK: BT SPORT EXTRA 3 | SD" tvg-id="btsportx3.uk" group-title="UK SPORTS",UK: BT SPORT EXTRA 3 | SD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6596
+#EXTINF:-1 tvg-name="UK: BT SPORT EXTRA 5 | SD" tvg-id="btsportx5.uk" group-title="UK SPORTS",UK: BT SPORT EXTRA 5 | SD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6598
+#EXTINF:-1 tvg-name="UK: BOX NATION | SD*" tvg-id="boxnation.uk" group-title="UK SPORTS",UK: BOX NATION | SD*
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/2535
+#EXTINF:-1 tvg-name="UK: BT SPORTS 1 | UHD" tvg-id="btsport1.uk" group-title="UK SPORTS",UK: BT SPORTS 1 | UHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/11647
+#EXTINF:-1 tvg-name="UK: BT SPORTS 2 | UHD" tvg-id="btsport2.uk" group-title="UK SPORTS",UK: BT SPORTS 2 | UHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/2544
+#EXTINF:-1 tvg-name="UK: BT SPORTS ESPN | SD" tvg-id="btsportespn.uk" group-title="UK SPORTS",UK: BT SPORTS ESPN | SD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/2548
+#EXTINF:-1 tvg-name="UK: BT Sport ESPN | SD" tvg-id="UK: BT SPORT ESPN" group-title="UK SPORTS",UK: BT Sport ESPN | SD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/117914
+#EXTINF:-1 tvg-name="UK: EUROSPORT 2 | SD" tvg-id="eurosport2.uk" group-title="UK SPORTS",UK: EUROSPORT 2 | SD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/2554
+#EXTINF:-1 tvg-name="UK: EIR SPORTS 2 | HD" tvg-id="" group-title="UK SPORTS",UK: EIR SPORTS 2 | HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/138348
+#EXTINF:-1 tvg-name="UK: EUROSPORT 1 | HD" tvg-id="eurosport1.uk" group-title="UK SPORTS",UK: EUROSPORT 1 | HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/2551
+#EXTINF:-1 tvg-name="UK: EUROSPORT 1 | UHD" tvg-id="eurosport1.uk" group-title="UK SPORTS",UK: EUROSPORT 1 | UHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/2555
+#EXTINF:-1 tvg-name="UK: EUROSPORT 1 | SD" tvg-id="eurosport1.uk" group-title="UK SPORTS",UK: EUROSPORT 1 | SD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/2552
+#EXTINF:-1 tvg-name="UK: EUROSPORT 2 | HD" tvg-id="eurosport2.uk" group-title="UK SPORTS",UK: EUROSPORT 2 | HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/2553
+#EXTINF:-1 tvg-name="UK: Racing TV | UHD" tvg-id="racinguk.uk" group-title="UK SPORTS",UK: Racing TV | UHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/117918
+#EXTINF:-1 tvg-name="UK: Premier Sports 1 | HD" tvg-id="premiersports.uk" group-title="UK SPORTS",UK: Premier Sports 1 | HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/117919
+#EXTINF:-1 tvg-name="UK: MUTV | HD" tvg-id="mutv.uk" group-title="UK SPORTS",UK: MUTV | HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/1192
+#EXTINF:-1 tvg-name="UK: EuroSports 1 | SD" tvg-id="" group-title="UK SPORTS",UK: EuroSports 1 | SD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/144630
+#EXTINF:-1 tvg-name="UK: BT Sport 1 | SD" tvg-id="btsport1.uk" group-title="UK SPORTS",UK: BT Sport 1 | SD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/117910
+#EXTINF:-1 tvg-name="UK: BT Sport 2 | SD" tvg-id="btsport2.uk" group-title="UK SPORTS",UK: BT Sport 2 | SD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/117911
+#EXTINF:-1 tvg-name="UK: EuroSports 2 | SD" tvg-id="" group-title="UK SPORTS",UK: EuroSports 2 | SD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/144631
+#EXTINF:-1 tvg-name="UK: BT Sport 3 | SD" tvg-id="btsport3.uk" group-title="UK SPORTS",UK: BT Sport 3 | SD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/117912
+#EXTINF:-1 tvg-name="UK: Premier Sports 2 | HD" tvg-id="premiersports2.uk" group-title="UK SPORTS",UK: Premier Sports 2 | HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/118882
+#EXTINF:-1 tvg-name="UK: MUTV | SD" tvg-id="" group-title="UK SPORTS",UK: MUTV | SD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/149682
+#EXTINF:-1 tvg-name="UK: FREESPORTS | HD" tvg-id="freesports.uk" group-title="UK SPORTS",UK: FREESPORTS | HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/118884
+#EXTINF:-1 tvg-name="UK: EIR SPORT 1 | HD" tvg-id="" group-title="UK SPORTS",UK: EIR SPORT 1 | HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/149695
+#EXTINF:-1 tvg-name="UK: EIR SPORTS 1 | HD" tvg-id="UK: EIR SPORT 1" group-title="UK SPORTS",UK: EIR SPORTS 1 | HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/118886
+#EXTINF:-1 tvg-name="UK: EIR SPORTS 2 | UHD" tvg-id="UK: EIR SPORT 2" group-title="UK SPORTS",UK: EIR SPORTS 2 | UHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/118887
+#EXTINF:-1 tvg-name="UK: BOX NATION | UHD" tvg-id="boxnation.uk" group-title="UK SPORTS",UK: BOX NATION | UHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/2540
+#EXTINF:-1 tvg-name="UK: BT SPORTS 1 | HD" tvg-id="btsport1.uk" group-title="UK SPORTS",UK: BT SPORTS 1 | HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/2543
+#EXTINF:-1 tvg-name="UK: Premier Sports 2 | SD" tvg-id="premiersports2.uk" group-title="UK SPORTS",UK: Premier Sports 2 | SD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/118883
+#EXTINF:-1 tvg-name="UK: BT SPORTS 2 | HD" tvg-id="btsport2.uk" group-title="UK SPORTS",UK: BT SPORTS 2 | HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/2545
+#EXTINF:-1 tvg-name="UK: FREESPORTS | SD" tvg-id="freesports.uk" group-title="UK SPORTS",UK: FREESPORTS | SD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/118885
+#EXTINF:-1 tvg-name="UK: PREMIER  SPORTS 1 | HD" tvg-id="premiersports.uk" group-title="UK SPORTS",UK: PREMIER  SPORTS 1 | HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/5682
+#EXTINF:-1 tvg-name="UK: BT SPORT EXTRA 1 | SD" tvg-id="btsportx1.uk" group-title="UK SPORTS",UK: BT SPORT EXTRA 1 | SD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6594
+#EXTINF:-1 tvg-name="UK: SKY SPORTS ARENA | HD" tvg-id="skysportsarena.uk" group-title="UK SKY SPORTS",UK: SKY SPORTS ARENA | HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/1596
+#EXTINF:-1 tvg-name="UK: SKY SPORTS CRICKET | HD" tvg-id="skysportscricket.uk" group-title="UK SKY SPORTS",UK: SKY SPORTS CRICKET | HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/1592
+#EXTINF:-1 tvg-name="UK: SKY SPORTS MAIN EVENT | UHD*" tvg-id="UK: SKY SPORTS MAIN EVENT" group-title="UK SKY SPORTS",UK: SKY SPORTS MAIN EVENT | UHD*
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/1589
+#EXTINF:-1 tvg-name="UK: SKY SPORTS MIX | HD" tvg-id="skysportsmix.uk" group-title="UK SKY SPORTS",UK: SKY SPORTS MIX | HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/1598
+#EXTINF:-1 tvg-name="UK: SKY SPORTS NEWS | HD" tvg-id="skysportsnews.uk" group-title="UK SKY SPORTS",UK: SKY SPORTS NEWS | HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/1597
+#EXTINF:-1 tvg-name="UK: SKY SPORTS PREMIER LEAGUE | SD" tvg-id="skysportspremiereleague.uk" group-title="UK SKY SPORTS",UK: SKY SPORTS PREMIER LEAGUE | SD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/1599
+#EXTINF:-1 tvg-name="UK: SKY SPORTS NEWS | UHD*" tvg-id="skysportsnews.uk" group-title="UK SKY SPORTS",UK: SKY SPORTS NEWS | UHD*
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/11653
+#EXTINF:-1 tvg-name="UK: SKY SPORTS PREMIER LEAGUE | HD" tvg-id="skysportspremiereleague.uk" group-title="UK SKY SPORTS",UK: SKY SPORTS PREMIER LEAGUE | HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/1612
+#EXTINF:-1 tvg-name="UK: Sky Sports Golf | UHD" tvg-id="skysportsgolf.uk" group-title="UK SKY SPORTS",UK: Sky Sports Golf | UHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/117904
+#EXTINF:-1 tvg-name="UK: Sky Sports Action | SD" tvg-id="UK: SKY SPORTS ACTION" group-title="UK SKY SPORTS",UK: Sky Sports Action | SD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/117899
+#EXTINF:-1 tvg-name="UK: Sky Sports F1 | UHD" tvg-id="skysportsf1.uk" group-title="UK SKY SPORTS",UK: Sky Sports F1 | UHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/117906
+#EXTINF:-1 tvg-name="UK: SKY SPORTS CRICKET | UHD" tvg-id="skysportscricket.uk" group-title="UK SKY SPORTS",UK: SKY SPORTS CRICKET | UHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/1609
+#EXTINF:-1 tvg-name="UK: SKY SPORTS FOOTBALL | SD" tvg-id="skysportsfootball.uk" group-title="UK SKY SPORTS",UK: SKY SPORTS FOOTBALL | SD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/11648
+#EXTINF:-1 tvg-name="UK: Sky Sports Racing | UHD" tvg-id="UK: SKY SPORTS RACING" group-title="UK SKY SPORTS",UK: Sky Sports Racing | UHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/117909
+#EXTINF:-1 tvg-name="UK: Sky Sports F1 | SD" tvg-id="UK: SKY SPORTS F1" group-title="UK SKY SPORTS",UK: Sky Sports F1 | SD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/117905
+#EXTINF:-1 tvg-name="UK: BT Sport 3 | UHD" tvg-id="btsport3.uk" group-title="UK SKY SPORTS",UK: BT Sport 3 | UHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/117913
+#EXTINF:-1 tvg-name="UK: Sky Sports Arena | SD" tvg-id="UK: SKY SPORTS ARENA" group-title="UK SKY SPORTS",UK: Sky Sports Arena | SD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/117907
+#EXTINF:-1 tvg-name="UK: Sky Sports Cricket | SD" tvg-id="UK: SKY SPORTS CRICKET" group-title="UK SKY SPORTS",UK: Sky Sports Cricket | SD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/117908
+#EXTINF:-1 tvg-name="UK: SKY SPORTS F1 | HD" tvg-id="skysportsf1.uk" group-title="UK SKY SPORTS",UK: SKY SPORTS F1 | HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/1608
+#EXTINF:-1 tvg-name="UK: SKY SPORTS FOOTBALL | HD" tvg-id="UK: SKY SPORTS FOOTBALL" group-title="UK SKY SPORTS",UK: SKY SPORTS FOOTBALL | HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/1591
+#EXTINF:-1 tvg-name="UK: SKY BUNDESLIGA 1 | SD" tvg-id="" group-title="UK SKY SPORTS",UK: SKY BUNDESLIGA 1 | SD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/149802
+#EXTINF:-1 tvg-name="UK: SKY SPORTS GOLF | HD" tvg-id="skysportsgolf.uk" group-title="UK SKY SPORTS",UK: SKY SPORTS GOLF | HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/1606
+#EXTINF:-1 tvg-name="UK: SKY SPORTS CRICKET| SD" tvg-id="" group-title="UK SKY SPORTS",UK: SKY SPORTS CRICKET| SD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/149803
+#EXTINF:-1 tvg-name="UK: SKY SPORTS FOOTBALL| SD" tvg-id="" group-title="UK SKY SPORTS",UK: SKY SPORTS FOOTBALL| SD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/149804
+#EXTINF:-1 tvg-name="UK: SKY SPORTS MAIN EVENT | HD" tvg-id="skysportsmainevent.uk" group-title="UK SKY SPORTS",UK: SKY SPORTS MAIN EVENT | HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/139037
+#EXTINF:-1 tvg-name="UK: SKY SPORTS GOLF| SD" tvg-id="" group-title="UK SKY SPORTS",UK: SKY SPORTS GOLF| SD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/149805
+#EXTINF:-1 tvg-name="UK: SKY SPORTS MIX | SD" tvg-id="" group-title="UK SKY SPORTS",UK: SKY SPORTS MIX | SD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/149806
+#EXTINF:-1 tvg-name="UK: SKY SPORTS RACING | SD" tvg-id="" group-title="UK SKY SPORTS",UK: SKY SPORTS RACING | SD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/149807
+#EXTINF:-1 tvg-name="UK: SKY SPORTS RACING | HD" tvg-id="skysportsracing.uk" group-title="UK SKY SPORTS",UK: SKY SPORTS RACING | HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/1603
+#EXTINF:-1 tvg-name="UK: SKY SUPERCALCIO | SD" tvg-id="" group-title="UK SKY SPORTS",UK: SKY SUPERCALCIO | SD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/149808
+#EXTINF:-1 tvg-name="UK: SKY CINEMA THRILLER | UHD" tvg-id="skythriller.uk" group-title="UK SKY MOVIES",UK: SKY CINEMA THRILLER | UHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/1384
+#EXTINF:-1 tvg-name="UK: Sky Family | SD" tvg-id="skyfamily.uk" group-title="UK SKY MOVIES",UK: Sky Family | SD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/117837
+#EXTINF:-1 tvg-name="UK: SKY Comedy | SD" tvg-id="" group-title="UK SKY MOVIES",UK: SKY Comedy | SD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/144624
+#EXTINF:-1 tvg-name="UK: Sky Premiere | SD" tvg-id="skypremiere.uk" group-title="UK SKY MOVIES",UK: Sky Premiere | SD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/117841
+#EXTINF:-1 tvg-name="UK: SKY CINEMA SCIFI | SD" tvg-id="" group-title="UK SKY MOVIES",UK: SKY CINEMA SCIFI | SD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/144625
+#EXTINF:-1 tvg-name="UK : Sky Superhero | SD" tvg-id="Sky Superhero" group-title="UK SKY MOVIES",UK : Sky Superhero | SD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/117843
+#EXTINF:-1 tvg-name="UK: Sky Cinema Disney | SD" tvg-id="" group-title="UK SKY MOVIES",UK: Sky Cinema Disney | SD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/144626
+#EXTINF:-1 tvg-name="UK: SKY CINEMA FAMILY | UHD" tvg-id="skyfamily.uk" group-title="UK SKY MOVIES",UK: SKY CINEMA FAMILY | UHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/1381
+#EXTINF:-1 tvg-name="UK: Sky Cinema Drama & Romance | HD" tvg-id="" group-title="UK SKY MOVIES",UK: Sky Cinema Drama & Romance | HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/1401
+#EXTINF:-1 tvg-name="UK: SKY CINEMA DISNEY | SD" tvg-id="skydisney.uk" group-title="UK SKY MOVIES",UK: SKY CINEMA DISNEY | SD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/117851
+#EXTINF:-1 tvg-name="UK: Sky Action | SD" tvg-id="skyaction.uk" group-title="UK SKY MOVIES",UK: Sky Action | SD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/117852
+#EXTINF:-1 tvg-name="UK: Sky Thriller | SD" tvg-id="skythriller.uk" group-title="UK SKY MOVIES",UK: Sky Thriller | SD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/117853
+#EXTINF:-1 tvg-name="UK: Sky Family | UHD" tvg-id="skyfamily.uk" group-title="UK SKY MOVIES",UK: Sky Family | UHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/117839
+#EXTINF:-1 tvg-name="UK: SKY CINEMA THRILLER | SD" tvg-id="skythriller.uk" group-title="UK SKY MOVIES",UK: SKY CINEMA THRILLER | SD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/139017
+#EXTINF:-1 tvg-name="UK: Sky Premiere | UHD" tvg-id="skypremiere.uk" group-title="UK SKY MOVIES",UK: Sky Premiere | UHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/117840
+#EXTINF:-1 tvg-name="UK: Sky Thriller | UHD" tvg-id="skythriller.uk" group-title="UK SKY MOVIES",UK: Sky Thriller | UHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/117844
+#EXTINF:-1 tvg-name="UK: SKY CINEMA ACTION | UHD" tvg-id="UK: SKY CINEMA ACTION" group-title="UK SKY MOVIES",UK: SKY CINEMA ACTION | UHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/1382
+#EXTINF:-1 tvg-name="UK: Sky Cinema Select | UHD" tvg-id="UK: SKY CINEMA SELECT" group-title="UK SKY MOVIES",UK: Sky Cinema Select | UHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/117845
+#EXTINF:-1 tvg-name="UK: SKY CINEMA COMEDY | HD" tvg-id="UK: SKY CINEMA COMEDY" group-title="UK SKY MOVIES",UK: SKY CINEMA COMEDY | HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/1383
+#EXTINF:-1 tvg-name="UK: SKY CINEMA DRAMA | HD" tvg-id="UK: SKY CINEMA DRAMA" group-title="UK SKY MOVIES",UK: SKY CINEMA DRAMA | HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/1385
+#EXTINF:-1 tvg-name="UK: SKY CINEMA SCIFI | UHD" tvg-id="skyscifihorror.uk" group-title="UK SKY MOVIES",UK: SKY CINEMA SCIFI | UHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/117847
+#EXTINF:-1 tvg-name="UK: SKY CINEMA DRAMA | SD" tvg-id="UK: SKY CINEMA DRAMA" group-title="UK SKY MOVIES",UK: SKY CINEMA DRAMA | SD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/11724
+#EXTINF:-1 tvg-name="UK: Sky Drama | UHD" tvg-id="skydrama.uk" group-title="UK SKY MOVIES",UK: Sky Drama | UHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/117849
+#EXTINF:-1 tvg-name="UK: SKY CINEMA FAMILY | SD" tvg-id="UK: SKY CINEMA FAMILY" group-title="UK SKY MOVIES",UK: SKY CINEMA FAMILY | SD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/11725
+#EXTINF:-1 tvg-name="UK: SKY CINEMA PREMIERE | SD" tvg-id="UK: SKY CINEMA PREMIERE" group-title="UK SKY MOVIES",UK: SKY CINEMA PREMIERE | SD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/118952
+#EXTINF:-1 tvg-name="UK: SKY CINEMA DISNEY | UHD" tvg-id="skydisney.uk" group-title="UK SKY MOVIES",UK: SKY CINEMA DISNEY | UHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/117850
+#EXTINF:-1 tvg-name="UK: SKY CINEMA HITS | UHD" tvg-id="skyhits.uk" group-title="UK SKY MOVIES",UK: SKY CINEMA HITS | UHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/1378
+#EXTINF:-1 tvg-name="UK: SKY CINEMA HITS | UHD*" tvg-id="UK: SKY CINEMA HITS" group-title="UK SKY MOVIES",UK: SKY CINEMA HITS | UHD*
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/118953
+#EXTINF:-1 tvg-name="UK: SKY CINEMA SCI FI | HD" tvg-id="skyscifihorror.uk" group-title="UK SKY MOVIES",UK: SKY CINEMA SCI FI | HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/1400
+#EXTINF:-1 tvg-name="UK: SKY CINEMA PREMIERE | UHD" tvg-id="UK: SKY CINEMA PREMIERE" group-title="UK SKY MOVIES",UK: SKY CINEMA PREMIERE | UHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/1377
+#EXTINF:-1 tvg-name="UK: SKY CINEMA SELECT | HD" tvg-id="UK: SKY CINEMA SELECT" group-title="UK SKY MOVIES",UK: SKY CINEMA SELECT | HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/1387
+#EXTINF:-1 tvg-name="PPV:" tvg-id="" group-title="PPV - MMA/BOXING/WWE",PPV:
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/1642
+#EXTINF:-1 tvg-name="PPV:" tvg-id="" group-title="PPV - MMA/BOXING/WWE",PPV:
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/1646
+#EXTINF:-1 tvg-name="PPV:" tvg-id="" group-title="PPV - MMA/BOXING/WWE",PPV:
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/1643
+#EXTINF:-1 tvg-name="PPV:" tvg-id="" group-title="PPV - MMA/BOXING/WWE",PPV:
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/1644
+#EXTINF:-1 tvg-name="PPV:" tvg-id="" group-title="PPV - MMA/BOXING/WWE",PPV:
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/1647
+#EXTINF:-1 tvg-name="PPV:" tvg-id="" group-title="PPV - MMA/BOXING/WWE",PPV:
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/1645
+#EXTINF:-1 tvg-name="PPV: Stand Up Comedy: Headlined by Eliot Chang (10.24-7:30PM ET)" tvg-id="" group-title="PPV - MMA/BOXING/WWE",PPV: Stand Up Comedy: Headlined by Eliot Chang (10.24-7:30PM ET)
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/9833
+#EXTINF:-1 tvg-name="PPV:" tvg-id="" group-title="PPV - MMA/BOXING/WWE",PPV:
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/1648
+#EXTINF:-1 tvg-name="PPV:" tvg-id="" group-title="PPV - MMA/BOXING/WWE",PPV:
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/1649
+#EXTINF:-1 tvg-name="PPV:* UFC 00 | EARLY PRELIMS | UFC 254: KHABIB VS GAETHJE (10.24.20 | 11AM ET)" tvg-id="" group-title="PPV - MMA/BOXING/WWE",PPV:* UFC 00 | EARLY PRELIMS | UFC 254: KHABIB VS GAETHJE (10.24.20 | 11AM ET)
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/1624
+#EXTINF:-1 tvg-name="PPV:" tvg-id="" group-title="PPV - MMA/BOXING/WWE",PPV:
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/138373
+#EXTINF:-1 tvg-name="PPV:" tvg-id="" group-title="PPV - MMA/BOXING/WWE",PPV:
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/1650
+#EXTINF:-1 tvg-name="PPV:* UFC 01 | PRELIMS | UFC 254: KHABIB VS GAETHJE (10.24.20 | 12PM ET)" tvg-id="" group-title="PPV - MMA/BOXING/WWE",PPV:* UFC 01 | PRELIMS | UFC 254: KHABIB VS GAETHJE (10.24.20 | 12PM ET)
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/1617
+#EXTINF:-1 tvg-name="PPV: WRESTLING 06 |" tvg-id="" group-title="PPV - MMA/BOXING/WWE",PPV: WRESTLING 06 |
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/152209
+#EXTINF:-1 tvg-name="PPV: BELLATOR |" tvg-id="" group-title="PPV - MMA/BOXING/WWE",PPV: BELLATOR |
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/157136
+#EXTINF:-1 tvg-name="PPV:" tvg-id="" group-title="PPV - MMA/BOXING/WWE",PPV:
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/1651
+#EXTINF:-1 tvg-name="PPV:* UFC 02 | MAIN CARD | UFC 254: KHABIB VS GAETHJE (10.24.20 | 2PM ET)" tvg-id="" group-title="PPV - MMA/BOXING/WWE",PPV:* UFC 02 | MAIN CARD | UFC 254: KHABIB VS GAETHJE (10.24.20 | 2PM ET)
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/1618
+#EXTINF:-1 tvg-name="PPV:" tvg-id="" group-title="PPV - MMA/BOXING/WWE",PPV:
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/157362
+#EXTINF:-1 tvg-name="PPV: BELLATOR |" tvg-id="" group-title="PPV - MMA/BOXING/WWE",PPV: BELLATOR |
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/1613
+#EXTINF:-1 tvg-name="PPV:* UFC 03 |" tvg-id="" group-title="PPV - MMA/BOXING/WWE",PPV:* UFC 03 |
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/1616
+#EXTINF:-1 tvg-name="PPV: BELLATOR |" tvg-id="" group-title="PPV - MMA/BOXING/WWE",PPV: BELLATOR |
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/1614
+#EXTINF:-1 tvg-name="PPV:* UFC 04 |" tvg-id="" group-title="PPV - MMA/BOXING/WWE",PPV:* UFC 04 |
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/1634
+#EXTINF:-1 tvg-name="PPV: MMA 01 | Rage in the Cage OKC 76: Brandon Bailey vs Richie Bowen (10.24-8:30PM ET)" tvg-id="joytv.ca" group-title="PPV - MMA/BOXING/WWE",PPV: MMA 01 | Rage in the Cage OKC 76: Brandon Bailey vs Richie Bowen (10.24-8:30PM ET)
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/1621
+#EXTINF:-1 tvg-name="PPV:* UFC 05 | UFC 254: POST-FIGHT PRESS CONFERENCE (10.24.20 | 5:15PM ET)" tvg-id="" group-title="PPV - MMA/BOXING/WWE",PPV:* UFC 05 | UFC 254: POST-FIGHT PRESS CONFERENCE (10.24.20 | 5:15PM ET)
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/72541
+#EXTINF:-1 tvg-name="PPV: MMA 02 | iKON 2 (10.22-10PM ET)" tvg-id="" group-title="PPV - MMA/BOXING/WWE",PPV: MMA 02 | iKON 2 (10.22-10PM ET)
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/1622
+#EXTINF:-1 tvg-name="PPV:* UFC 06 |" tvg-id="" group-title="PPV - MMA/BOXING/WWE",PPV:* UFC 06 |
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/72543
+#EXTINF:-1 tvg-name="PPV: MMA 03 |" tvg-id="" group-title="PPV - MMA/BOXING/WWE",PPV: MMA 03 |
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/1623
+#EXTINF:-1 tvg-name="PPV:* UFC 00 | SD: EARLY PRELIMS | UFC 254: KHABIB VS GAETHJE (10.24.20 | 11AM ET)" tvg-id="" group-title="PPV - MMA/BOXING/WWE",PPV:* UFC 00 | SD: EARLY PRELIMS | UFC 254: KHABIB VS GAETHJE (10.24.20 | 11AM ET)
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/137043
+#EXTINF:-1 tvg-name="PPV: MMA 04 | KSW 55: Scott Askham vs Mamed Khalidov 2 (10.10-2PM ET)" tvg-id="" group-title="PPV - MMA/BOXING/WWE",PPV: MMA 04 | KSW 55: Scott Askham vs Mamed Khalidov 2 (10.10-2PM ET)
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/1631
+#EXTINF:-1 tvg-name="PPV:* UFC 01 | SD: PRELIMS | UFC 254: KHABIB VS GAETHJE (10.24.20 | 12PM ET)" tvg-id="" group-title="PPV - MMA/BOXING/WWE",PPV:* UFC 01 | SD: PRELIMS | UFC 254: KHABIB VS GAETHJE (10.24.20 | 12PM ET)
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/137044
+#EXTINF:-1 tvg-name="PPV:* UFC 02 | SD: MAIN CARD | UFC 254: KHABIB VS GAETHJE (10.24.20 | 2PM ET)" tvg-id="" group-title="PPV - MMA/BOXING/WWE",PPV:* UFC 02 | SD: MAIN CARD | UFC 254: KHABIB VS GAETHJE (10.24.20 | 2PM ET)
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/137045
+#EXTINF:-1 tvg-name="PPV: MMA 05 |" tvg-id="" group-title="PPV - MMA/BOXING/WWE",PPV: MMA 05 |
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/1632
+#EXTINF:-1 tvg-name="PPV:* UFC 03 | SD:" tvg-id="" group-title="PPV - MMA/BOXING/WWE",PPV:* UFC 03 | SD:
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/137046
+#EXTINF:-1 tvg-name="PPV: MMA 06 |" tvg-id="" group-title="PPV - MMA/BOXING/WWE",PPV: MMA 06 |
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/1633
+#EXTINF:-1 tvg-name="PPV:* UFC 04 | SD" tvg-id="" group-title="PPV - MMA/BOXING/WWE",PPV:* UFC 04 | SD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/137047
+#EXTINF:-1 tvg-name="PPV: MMA 07 |" tvg-id="" group-title="PPV - MMA/BOXING/WWE",PPV: MMA 07 |
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/1636
+#EXTINF:-1 tvg-name="PPV:* UFC 05 | SD: UFC 254: POST-FIGHT PRESS CONFERENCE (10.24.20 | 5:15PM ET)" tvg-id="" group-title="PPV - MMA/BOXING/WWE",PPV:* UFC 05 | SD: UFC 254: POST-FIGHT PRESS CONFERENCE (10.24.20 | 5:15PM ET)
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/137048
+#EXTINF:-1 tvg-name="PPV: MMA 08 |" tvg-id="" group-title="PPV - MMA/BOXING/WWE",PPV: MMA 08 |
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/1637
+#EXTINF:-1 tvg-name="PPV:* UFC 06 | SD:" tvg-id="" group-title="PPV - MMA/BOXING/WWE",PPV:* UFC 06 | SD:
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/137049
+#EXTINF:-1 tvg-name="PPV: MMA 09 |" tvg-id="" group-title="PPV - MMA/BOXING/WWE",PPV: MMA 09 |
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/1638
+#EXTINF:-1 tvg-name="PPV: MMA 10 |" tvg-id="" group-title="PPV - MMA/BOXING/WWE",PPV: MMA 10 |
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/1639
+#EXTINF:-1 tvg-name="PPV: BOXING 00 | WBC Latino Championship: Brandon Douglas vs Juan Jimenez (10.24-8PM ET)" tvg-id="" group-title="PPV - MMA/BOXING/WWE",PPV: BOXING 00 | WBC Latino Championship: Brandon Douglas vs Juan Jimenez (10.24-8PM ET)
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/1615
+#EXTINF:-1 tvg-name="PPV: MMA 11 |" tvg-id="" group-title="PPV - MMA/BOXING/WWE",PPV: MMA 11 |
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/1640
+#EXTINF:-1 tvg-name="PPV: BOXING 01 | Sergey Lipinets vs. Custio Clayton (10.24-9PM ET)" tvg-id="" group-title="PPV - MMA/BOXING/WWE",PPV: BOXING 01 | Sergey Lipinets vs. Custio Clayton (10.24-9PM ET)
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/5544
+#EXTINF:-1 tvg-name="PPV: MMA 12 |" tvg-id="" group-title="PPV - MMA/BOXING/WWE",PPV: MMA 12 |
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/1641
+#EXTINF:-1 tvg-name="PPV: BOXING 02 |" tvg-id="" group-title="PPV - MMA/BOXING/WWE",PPV: BOXING 02 |
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/5549
+#EXTINF:-1 tvg-name="PPV: MMA 13 |" tvg-id="" group-title="PPV - MMA/BOXING/WWE",PPV: MMA 13 |
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/11145
+#EXTINF:-1 tvg-name="PPV: BOXING 03 |" tvg-id="" group-title="PPV - MMA/BOXING/WWE",PPV: BOXING 03 |
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/1619
+#EXTINF:-1 tvg-name="PPV: MMA 14 |" tvg-id="" group-title="PPV - MMA/BOXING/WWE",PPV: MMA 14 |
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/11146
+#EXTINF:-1 tvg-name="PPV: BOXING 04 |" tvg-id="skysportsaction.uk" group-title="PPV - MMA/BOXING/WWE",PPV: BOXING 04 |
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/1635
+#EXTINF:-1 tvg-name="PPV: MMA 15 |" tvg-id="" group-title="PPV - MMA/BOXING/WWE",PPV: MMA 15 |
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/11147
+#EXTINF:-1 tvg-name="PPV: BOXING 05 |" tvg-id="foxsports2.us" group-title="PPV - MMA/BOXING/WWE",PPV: BOXING 05 |
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/1625
+#EXTINF:-1 tvg-name="PPV: WRESTLING 05 | Impact Wrestling: Bound for Glory 2020 (10.24-8PM ET)" tvg-id="" group-title="PPV - MMA/BOXING/WWE",PPV: WRESTLING 05 | Impact Wrestling: Bound for Glory 2020 (10.24-8PM ET)
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/1620
+#EXTINF:-1 tvg-name="PPV: BOXING 06 |" tvg-id="" group-title="PPV - MMA/BOXING/WWE",PPV: BOXING 06 |
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/10557
+#EXTINF:-1 tvg-name="PPV: WRESTLING 01 | UK Wrestling Show Down, Episode 20 (10.24-11AM ET)" tvg-id="" group-title="PPV - MMA/BOXING/WWE",PPV: WRESTLING 01 | UK Wrestling Show Down, Episode 20 (10.24-11AM ET)
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/1627
+#EXTINF:-1 tvg-name="PPV: WRESTLING 02 | Synergy Pro Wrestling: Shadows (10.24-7PM ET)" tvg-id="" group-title="PPV - MMA/BOXING/WWE",PPV: WRESTLING 02 | Synergy Pro Wrestling: Shadows (10.24-7PM ET)
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/1628
+#EXTINF:-1 tvg-name="PPV: WRESTLING 03 | Impact Wrestling: Countdown to Glory 2020 (10.24-7PM ET)" tvg-id="" group-title="PPV - MMA/BOXING/WWE",PPV: WRESTLING 03 | Impact Wrestling: Countdown to Glory 2020 (10.24-7PM ET)
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/1629
+#EXTINF:-1 tvg-name="PPV: WRESTLING 04 | NJPW: Best Bout Collection Vol. 3 (10.24-8PM ET)" tvg-id="" group-title="PPV - MMA/BOXING/WWE",PPV: WRESTLING 04 | NJPW: Best Bout Collection Vol. 3 (10.24-8PM ET)
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/1630
+#EXTINF:-1 tvg-name="PPV: BOXING 07 |" tvg-id="" group-title="PPV - MMA/BOXING/WWE",PPV: BOXING 07 |
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/10912
+#EXTINF:-1 tvg-name="PPV: BOXING 08 |" tvg-id="" group-title="PPV - MMA/BOXING/WWE",PPV: BOXING 08 |
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/136995
+#EXTINF:-1 tvg-name="PPV: BOXING 09 |" tvg-id="" group-title="PPV - MMA/BOXING/WWE",PPV: BOXING 09 |
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/136996
+#EXTINF:-1 tvg-name="UK: Sky Sports News HD" tvg-id="skysportsnews.uk" group-title="United Kingdom",UK: Sky Sports News HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666260
+#EXTINF:-1 tvg-name="UK: Sky Sports Mix HD" tvg-id="skysportsmix.uk" group-title="United Kingdom",UK: Sky Sports Mix HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666261
+#EXTINF:-1 tvg-name="UK: Sky Sports Premier Langue HD" tvg-id="" group-title="United Kingdom",UK: Sky Sports Premier Langue HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666263
+#EXTINF:-1 tvg-name="UK: Sky Sports Golf HD" tvg-id="skysportsgolf.uk" group-title="United Kingdom",UK: Sky Sports Golf HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666264
+#EXTINF:-1 tvg-name="UK: Sky Sports F1 HD" tvg-id="skysportsf1.uk" group-title="United Kingdom",UK: Sky Sports F1 HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666265
+#EXTINF:-1 tvg-name="UK: Sky Sports Football HD" tvg-id="skysportsfootball.uk" group-title="United Kingdom",UK: Sky Sports Football HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666266
+#EXTINF:-1 tvg-name="UK: Sky Sports Arena FHD" tvg-id="skysportsarena.uk" group-title="United Kingdom",UK: Sky Sports Arena FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666267
+#EXTINF:-1 tvg-name="UK: Sky Sports Action FHD" tvg-id="skysportsaction.uk" group-title="United Kingdom",UK: Sky Sports Action FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666268
+#EXTINF:-1 tvg-name="UK: Sky Sports Cricket HD" tvg-id="skysportscricket.uk" group-title="United Kingdom",UK: Sky Sports Cricket HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666269
+#EXTINF:-1 tvg-name="UK: BT Sport 1 HD" tvg-id="btsport1.uk" group-title="United Kingdom",UK: BT Sport 1 HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666270
+#EXTINF:-1 tvg-name="UK: BT Sport 3 HD" tvg-id="btsport3.uk" group-title="United Kingdom",UK: BT Sport 3 HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666271
+#EXTINF:-1 tvg-name="UK: BT Sport 2 HD" tvg-id="btsport2.uk" group-title="United Kingdom",UK: BT Sport 2 HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666273
+#EXTINF:-1 tvg-name="UK: RTE One HD" tvg-id="rt.uk" group-title="United Kingdom",UK: RTE One HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666687
+#EXTINF:-1 tvg-name="UK: RTE 2 HD" tvg-id="" group-title="United Kingdom",UK: RTE 2 HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666688
+#EXTINF:-1 tvg-name="UK: itv 1 FHD" tvg-id="itv1anglia.uk" group-title="United Kingdom",UK: itv 1 FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666689
+#EXTINF:-1 tvg-name="UK: itv 2 FHD" tvg-id="itv2.uk" group-title="United Kingdom",UK: itv 2 FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666690
+#EXTINF:-1 tvg-name="UK: itv 4 FHD" tvg-id="itv4.uk" group-title="United Kingdom",UK: itv 4 FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666691
+#EXTINF:-1 tvg-name="UK: EUROSPORT 1 FHD" tvg-id="eurosport2.uk" group-title="United Kingdom",UK: EUROSPORT 1 FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666692
+#EXTINF:-1 tvg-name="UK: Discovery History FHD" tvg-id="" group-title="United Kingdom",UK: Discovery History FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666694
+#EXTINF:-1 tvg-name="UK: BBC 3 FHD" tvg-id="" group-title="United Kingdom",UK: BBC 3 FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666695
+#EXTINF:-1 tvg-name="UK: BBC News FHD" tvg-id="bbcnews.uk" group-title="United Kingdom",UK: BBC News FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666696
+#EXTINF:-1 tvg-name="UK: BBC 1 FHD" tvg-id="bbc1.uk" group-title="United Kingdom",UK: BBC 1 FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666697
+#EXTINF:-1 tvg-name="UK: Sky Sports Main Event FHD" tvg-id="skysportsmainevent.uk" group-title="United Kingdom",UK: Sky Sports Main Event FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666698
+#EXTINF:-1 tvg-name="UK: Sky Sports Action HD" tvg-id="skysportsaction.uk" group-title="United Kingdom",UK: Sky Sports Action HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666700
+#EXTINF:-1 tvg-name="UK: itv 3 FHD" tvg-id="itv3.uk" group-title="United Kingdom",UK: itv 3 FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666703
+#EXTINF:-1 tvg-name="UK: Discovery Channel FHD" tvg-id="discoverychannel.uk" group-title="United Kingdom",UK: Discovery Channel FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666708
+#EXTINF:-1 tvg-name="UK: Movie Drama HD" tvg-id="" group-title="United Kingdom",UK: Movie Drama HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666712
+#EXTINF:-1 tvg-name="UK: Discovery Science FHD" tvg-id="discoveryscience.uk" group-title="United Kingdom",UK: Discovery Science FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666713
+#EXTINF:-1 tvg-name="UK: Sky Living HD" tvg-id="" group-title="United Kingdom",UK: Sky Living HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666715
+#EXTINF:-1 tvg-name="UK: Cartoon Network FHD" tvg-id="cartoonnetwork.uk" group-title="United Kingdom",UK: Cartoon Network FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666720
+#EXTINF:-1 tvg-name="UK: NAT GEO Wild FHD" tvg-id="natgeowild.uk" group-title="United Kingdom",UK: NAT GEO Wild FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666724
+#EXTINF:-1 tvg-name="UK: Sky Cinema sci fi & Horror FHD" tvg-id="skyscifihorror.uk" group-title="United Kingdom",UK: Sky Cinema sci fi & Horror FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666725
+#EXTINF:-1 tvg-name="UK: Sky Cinema Select FHD" tvg-id="skyselect.uk" group-title="United Kingdom",UK: Sky Cinema Select FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666726
+#EXTINF:-1 tvg-name="UK: Sky Cinema Family FHD" tvg-id="skyfamily.uk" group-title="United Kingdom",UK: Sky Cinema Family FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666727
+#EXTINF:-1 tvg-name="UK: At The Races FHD" tvg-id="attheraces.uk" group-title="United Kingdom",UK: At The Races FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666731
+#EXTINF:-1 tvg-name="UK: BBC 4 FHD" tvg-id="bbc4.uk" group-title="United Kingdom",UK: BBC 4 FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666732
+#EXTINF:-1 tvg-name="UK: Dave FHD" tvg-id="dave.uk" group-title="United Kingdom",UK: Dave FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666733
+#EXTINF:-1 tvg-name="UK: Investigation Discovery HD" tvg-id="investigationdiscovery.uk" group-title="United Kingdom",UK: Investigation Discovery HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666734
+#EXTINF:-1 tvg-name="UK: Horror Channel FHD" tvg-id="historychannel.uk" group-title="United Kingdom",UK: Horror Channel FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666736
+#EXTINF:-1 tvg-name="UK: Sky Select HD" tvg-id="skyselect.uk" group-title="United Kingdom",UK: Sky Select HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666737
+#EXTINF:-1 tvg-name="UK: More4 FHD" tvg-id="more4.uk" group-title="United Kingdom",UK: More4 FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666738
+#EXTINF:-1 tvg-name="UK: nicktoons FHD" tvg-id="nicktoons.uk" group-title="United Kingdom",UK: nicktoons FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666740
+#EXTINF:-1 tvg-name="UK: Racing FHD" tvg-id="racinguk.uk" group-title="United Kingdom",UK: Racing FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666741
+#EXTINF:-1 tvg-name="UK: Real Lives HD" tvg-id="reallives.uk" group-title="United Kingdom",UK: Real Lives HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666742
+#EXTINF:-1 tvg-name="UK: Sky Sports Arena HD" tvg-id="skysportsarena.uk" group-title="United Kingdom",UK: Sky Sports Arena HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666743
+#EXTINF:-1 tvg-name="UK: Sky Sports Golf FHD" tvg-id="" group-title="United Kingdom",UK: Sky Sports Golf FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666745
+#EXTINF:-1 tvg-name="UK: Yesterday HD" tvg-id="yesterday.uk" group-title="United Kingdom",UK: Yesterday HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6661065
+#EXTINF:-1 tvg-name="UK: Travel Channel FHD" tvg-id="travelchannel.uk" group-title="United Kingdom",UK: Travel Channel FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6661066
+#EXTINF:-1 tvg-name="UK: TLC FHD" tvg-id="tlc.uk" group-title="United Kingdom",UK: TLC FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6661067
+#EXTINF:-1 tvg-name="UK: SYFY FHD" tvg-id="syfy.uk" group-title="United Kingdom",UK: SYFY FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6661068
+#EXTINF:-1 tvg-name="UK: Sky 2 FHD" tvg-id="sky2.uk" group-title="United Kingdom",UK: Sky 2 FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6661074
+#EXTINF:-1 tvg-name="UK: Sky 1 FHD" tvg-id="sky1.uk" group-title="United Kingdom",UK: Sky 1 FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6661080
+#EXTINF:-1 tvg-name="UK: Sky News FHD" tvg-id="skynews.uk" group-title="United Kingdom",UK: Sky News FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6661081
+#EXTINF:-1 tvg-name="UK: Sky Cinema Thriller FHD" tvg-id="" group-title="United Kingdom",UK: Sky Cinema Thriller FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6661082
+#EXTINF:-1 tvg-name="UK: Sky Cinema Premiere FHD" tvg-id="" group-title="United Kingdom",UK: Sky Cinema Premiere FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6661085
+#EXTINF:-1 tvg-name="UK: Sky Cinema Hits FHD" tvg-id="skyhits.uk" group-title="United Kingdom",UK: Sky Cinema Hits FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6661086
+#EXTINF:-1 tvg-name="UK: Sky Cinema Great FHD" tvg-id="skygreats.uk" group-title="United Kingdom",UK: Sky Cinema Great FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6661087
+#EXTINF:-1 tvg-name="UK: Sky Cinema Drama FHD" tvg-id="skydrama.uk" group-title="United Kingdom",UK: Sky Cinema Drama FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6661089
+#EXTINF:-1 tvg-name="UK: Sky Cinema Disney FHD" tvg-id="skydisney.uk" group-title="United Kingdom",UK: Sky Cinema Disney FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6661090
+#EXTINF:-1 tvg-name="UK: Sky Cinema Comedy FHD" tvg-id="skycinemacomedy.uk" group-title="United Kingdom",UK: Sky Cinema Comedy FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6661091
+#EXTINF:-1 tvg-name="UK: Sky Cinema Action & Adventure FHD" tvg-id="skyatlantic.uk" group-title="United Kingdom",UK: Sky Cinema Action & Adventure FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6661092
+#EXTINF:-1 tvg-name="UK: Sky Atlantic FHD" tvg-id="skyatlantic.uk" group-title="United Kingdom",UK: Sky Atlantic FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6661093
+#EXTINF:-1 tvg-name="UK: Sky Arts FHD" tvg-id="" group-title="United Kingdom",UK: Sky Arts FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6661094
+#EXTINF:-1 tvg-name="UK: Really FHD" tvg-id="really.uk" group-title="United Kingdom",UK: Really FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6661095
+#EXTINF:-1 tvg-name="UK: Quest FHD" tvg-id="quest.uk" group-title="United Kingdom",UK: Quest FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6661096
+#EXTINF:-1 tvg-name="UK: PREMIER SPORTS FHD" tvg-id="premiersports.uk" group-title="United Kingdom",UK: PREMIER SPORTS FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6661097
+#EXTINF:-1 tvg-name="UK: Nick Junior FHD" tvg-id="nickjunior.uk" group-title="United Kingdom",UK: Nick Junior FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6661098
+#EXTINF:-1 tvg-name="UK: nickelodeon FHD" tvg-id="nickelodeon.uk" group-title="United Kingdom",UK: nickelodeon FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6661099
+#EXTINF:-1 tvg-name="UK: NAT GEO FHD" tvg-id="natgeo.uk" group-title="United Kingdom",UK: NAT GEO FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6661101
+#EXTINF:-1 tvg-name="UK: MUTV FHD" tvg-id="mutv.uk" group-title="United Kingdom",UK: MUTV FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6661102
+#EXTINF:-1 tvg-name="UK: History Channel FHD" tvg-id="historychannel.uk" group-title="United Kingdom",UK: History Channel FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6661107
+#EXTINF:-1 tvg-name="UK: GOLD FHD" tvg-id="gold.uk" group-title="United Kingdom",UK: GOLD FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6661108
+#EXTINF:-1 tvg-name="UK: Eden HD" tvg-id="eden.uk" group-title="United Kingdom",UK: Eden HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6661109
+#EXTINF:-1 tvg-name="UK: E4 FHD" tvg-id="e4.uk" group-title="United Kingdom",UK: E4 FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6661110
+#EXTINF:-1 tvg-name="UK: Disney XD FHD" tvg-id="" group-title="United Kingdom",UK: Disney XD FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6661111
+#EXTINF:-1 tvg-name="UK: Disney Junior FHD" tvg-id="disneyjunior.uk" group-title="United Kingdom",UK: Disney Junior FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6661112
+#EXTINF:-1 tvg-name="UK: Disney Channel FHD" tvg-id="" group-title="United Kingdom",UK: Disney Channel FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6661113
+#EXTINF:-1 tvg-name="UK: Discovery Turbo FHD" tvg-id="discoveryturbo.uk" group-title="United Kingdom",UK: Discovery Turbo FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6661114
+#EXTINF:-1 tvg-name="UK: Comedy Central FHD" tvg-id="comedycentral.uk" group-title="United Kingdom",UK: Comedy Central FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6661118
+#EXTINF:-1 tvg-name="UK: Channel 5 FHD" tvg-id="channel5.uk" group-title="United Kingdom",UK: Channel 5 FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6661119
+#EXTINF:-1 tvg-name="UK: Channel 4 FHD" tvg-id="channel4.uk" group-title="United Kingdom",UK: Channel 4 FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6661120
+#EXTINF:-1 tvg-name="UK: CBS Reality HD" tvg-id="cbsreality.uk" group-title="United Kingdom",UK: CBS Reality HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6661121
+#EXTINF:-1 tvg-name="UK: CBS Justice HD" tvg-id="cbsjustice.uk" group-title="United Kingdom",UK: CBS Justice HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6661122
+#EXTINF:-1 tvg-name="UK: CBS Drama HD" tvg-id="cbsdrama.uk" group-title="United Kingdom",UK: CBS Drama HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6661123
+#EXTINF:-1 tvg-name="UK: BT Sport ESPN HD" tvg-id="btsportespn.uk" group-title="United Kingdom",UK: BT Sport ESPN HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6661124
+#EXTINF:-1 tvg-name="UK: Boomerang HD" tvg-id="boomerang.uk" group-title="United Kingdom",UK: Boomerang HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6661125
+#EXTINF:-1 tvg-name="UK: BABY TV FHD" tvg-id="babytv.uk" group-title="United Kingdom",UK: BABY TV FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6661129
+#EXTINF:-1 tvg-name="UK: ANIMAL PLANET FHD" tvg-id="animalplanet.uk" group-title="United Kingdom",UK: ANIMAL PLANET FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6661130
+#EXTINF:-1 tvg-name="UK: Alibi FHD" tvg-id="alibi.uk" group-title="United Kingdom",UK: Alibi FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6661131
+#EXTINF:-1 tvg-name="UK: Film 4 HD" tvg-id="film4.uk" group-title="United Kingdom",UK: Film 4 HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6661541
+#EXTINF:-1 tvg-name="UK: E! FHD" tvg-id="eentertainmentplus1.uk" group-title="United Kingdom",UK: E! FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6661542
+#EXTINF:-1 tvg-name="UK: RTÉ JR HD" tvg-id="" group-title="United Kingdom",UK: RTÉ JR HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6661545
+#EXTINF:-1 tvg-name="UK: Cartoonito FHD" tvg-id="cartoonito.uk" group-title="United Kingdom",UK: Cartoonito FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6661546
+#EXTINF:-1 tvg-name="UK: CNN HD" tvg-id="cnn.uk" group-title="United Kingdom",UK: CNN HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6661547
+#EXTINF:-1 tvg-name="UK: CITV FHD" tvg-id="citv.uk" group-title="United Kingdom",UK: CITV FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6661548
+#EXTINF:-1 tvg-name="UK: Crime+ Investigation FHD" tvg-id="crimeandinvestigationnetwork.uk" group-title="United Kingdom",UK: Crime+ Investigation FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6661549
+#EXTINF:-1 tvg-name="UK: Discovery Shed FHD" tvg-id="discoveryshed.uk" group-title="United Kingdom",UK: Discovery Shed FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6661550
+#EXTINF:-1 tvg-name="UK: Premium Sport 1 HD" tvg-id="" group-title="United Kingdom",UK: Premium Sport 1 HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6661552
+#EXTINF:-1 tvg-name="UK: euronews FHD" tvg-id="eurosport1.uk" group-title="United Kingdom",UK: euronews FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6661554
+#EXTINF:-1 tvg-name="UK: EUROSPORT 2 FHD" tvg-id="" group-title="United Kingdom",UK: EUROSPORT 2 FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6661555
+#EXTINF:-1 tvg-name="UK: itv BE FHD" tvg-id="itvbe.uk" group-title="United Kingdom",UK: itv BE FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6661560
+#EXTINF:-1 tvg-name="UK: Quest Red HD" tvg-id="questred.uk" group-title="United Kingdom",UK: Quest Red HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6661577
+#EXTINF:-1 tvg-name="UK: Pick HD" tvg-id="" group-title="United Kingdom",UK: Pick HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6661578
+#EXTINF:-1 tvg-name="UK: 5 USA HD" tvg-id="" group-title="United Kingdom",UK: 5 USA HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6661579
+#EXTINF:-1 tvg-name="UK: Pop Max HD" tvg-id="popmax.uk" group-title="United Kingdom",UK: Pop Max HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6661598
+#EXTINF:-1 tvg-name="UK: POP Channel" tvg-id="pop.uk" group-title="United Kingdom",UK: POP Channel
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6661599
+#EXTINF:-1 tvg-name="UK: Home HD" tvg-id="" group-title="United Kingdom",UK: Home HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6661600
+#EXTINF:-1 tvg-name="UK: H2 FHD" tvg-id="history2.uk" group-title="United Kingdom",UK: H2 FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6661601
+#EXTINF:-1 tvg-name="UK: DMAX HD" tvg-id="discoverydmax.uk" group-title="United Kingdom",UK: DMAX HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6661604
+#EXTINF:-1 tvg-name="UK: Sky Sports Racing HD" tvg-id="skysportsracing.uk" group-title="United Kingdom",UK: Sky Sports Racing HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6661605
+#EXTINF:-1 tvg-name="UK: BLOOMBERG HD" tvg-id="bloombergtv.uk" group-title="United Kingdom",UK: BLOOMBERG HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6661610
+#EXTINF:-1 tvg-name="UK: Fox News HD" tvg-id="fox.uk" group-title="United Kingdom",UK: Fox News HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6661611
+#EXTINF:-1 tvg-name="UK: 4 Seven FHD" tvg-id="4seven.uk" group-title="United Kingdom",UK: 4 Seven FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6664625
+#EXTINF:-1 tvg-name="UK: 5 Select HD" tvg-id="" group-title="United Kingdom",UK: 5 Select HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6664631
+#EXTINF:-1 tvg-name="UK: 5 STAR HD" tvg-id="5star.uk" group-title="United Kingdom",UK: 5 STAR HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6664633
+#EXTINF:-1 tvg-name="UK: 5 Spike HD" tvg-id="5spike.uk" group-title="United Kingdom",UK: 5 Spike HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6664635
+#EXTINF:-1 tvg-name="UK: Paramount Network HD" tvg-id="Paramount.uk" group-title="United Kingdom",UK: Paramount Network HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6664637
+#EXTINF:-1 tvg-name="UK: Drama Channel" tvg-id="drama.uk" group-title="United Kingdom",UK: Drama Channel
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6664638
+#EXTINF:-1 tvg-name="UK: Watch FHD" tvg-id="" group-title="United Kingdom",UK: Watch FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6664639
+#EXTINF:-1 tvg-name="UK: Challenge HD" tvg-id="challenge.uk" group-title="United Kingdom",UK: Challenge HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6664641
+#EXTINF:-1 tvg-name="UK: Blaze HD" tvg-id="blaze.uk" group-title="United Kingdom",UK: Blaze HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6664642
+#EXTINF:-1 tvg-name="UK: True Entertainment" tvg-id="" group-title="United Kingdom",UK: True Entertainment
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6664644
+#EXTINF:-1 tvg-name="UK: CBS Reality +1" tvg-id="" group-title="United Kingdom",UK: CBS Reality +1
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6664647
+#EXTINF:-1 tvg-name="UK: Universal Channel HD" tvg-id="" group-title="United Kingdom",UK: Universal Channel HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6664649
+#EXTINF:-1 tvg-name="UK: Comedy Central Extra HD" tvg-id="comedycentral.uk" group-title="United Kingdom",UK: Comedy Central Extra HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6664656
+#EXTINF:-1 tvg-name="UK: Food Network FHD" tvg-id="foodnetwork.uk" group-title="United Kingdom",UK: Food Network FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6664658
+#EXTINF:-1 tvg-name="UK: FOOD NETWORK +1" tvg-id="" group-title="United Kingdom",UK: FOOD NETWORK +1
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6664659
+#EXTINF:-1 tvg-name="UK: Lifetime HD" tvg-id="lifetime.uk" group-title="United Kingdom",UK: Lifetime HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6664667
+#EXTINF:-1 tvg-name="UK: AMC HD" tvg-id="amc.uk" group-title="United Kingdom",UK: AMC HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6664669
+#EXTINF:-1 tvg-name="UK: Discovery +1" tvg-id="discoverychannelplus1.uk" group-title="United Kingdom",UK: Discovery +1
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6664677
+#EXTINF:-1 tvg-name="UK: Sky Cinema Crime & Thriller FHD" tvg-id="" group-title="United Kingdom",UK: Sky Cinema Crime & Thriller FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6664697
+#EXTINF:-1 tvg-name="UK: Talking Pictures HD" tvg-id="talkingpictures.uk" group-title="United Kingdom",UK: Talking Pictures HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6664710
+#EXTINF:-1 tvg-name="UK: TCM FHD" tvg-id="tcm.uk" group-title="United Kingdom",UK: TCM FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6664711
+#EXTINF:-1 tvg-name="UK: BOX NATION FHD" tvg-id="boxnation.uk" group-title="United Kingdom",UK: BOX NATION FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6664719
+#EXTINF:-1 tvg-name="UK: LFC TV FHD" tvg-id="liverpoolfctv.uk" group-title="United Kingdom",UK: LFC TV FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6664721
+#EXTINF:-1 tvg-name="UK: Premier Sports 1 FHD" tvg-id="" group-title="United Kingdom",UK: Premier Sports 1 FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6664722
+#EXTINF:-1 tvg-name="UK: PREMIER SPORTS 2 FHD" tvg-id="premiersports2.uk" group-title="United Kingdom",UK: PREMIER SPORTS 2 FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6664723
+#EXTINF:-1 tvg-name="UK: EIR SPORTS 1 HD" tvg-id="" group-title="United Kingdom",UK: EIR SPORTS 1 HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6664725
+#EXTINF:-1 tvg-name="UK: MTV FHD" tvg-id="mtv.uk" group-title="United Kingdom",UK: MTV FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6664728
+#EXTINF:-1 tvg-name="UK: VH1" tvg-id="" group-title="United Kingdom",UK: VH1
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6664730
+#EXTINF:-1 tvg-name="UK: MTV Music FHD" tvg-id="mtvmusic.uk" group-title="United Kingdom",UK: MTV Music FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6664731
+#EXTINF:-1 tvg-name="UK: MTV Base HD" tvg-id="mtvbase.uk" group-title="United Kingdom",UK: MTV Base HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6664733
+#EXTINF:-1 tvg-name="UK: MTV Classic HD" tvg-id="mtvclassic.uk" group-title="United Kingdom",UK: MTV Classic HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6664735
+#EXTINF:-1 tvg-name="UK: MTV Hits FHD" tvg-id="mtvhits.uk" group-title="United Kingdom",UK: MTV Hits FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6664736
+#EXTINF:-1 tvg-name="UK: MTV OMG HD" tvg-id="mtvomg.uk" group-title="United Kingdom",UK: MTV OMG HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6664737
+#EXTINF:-1 tvg-name="UK: MTV Rocks HD" tvg-id="mtvrocks.uk" group-title="United Kingdom",UK: MTV Rocks HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6664738
+#EXTINF:-1 tvg-name="UK: The Box" tvg-id="" group-title="United Kingdom",UK: The Box
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6664740
+#EXTINF:-1 tvg-name="UK: Box Hits HD" tvg-id="" group-title="United Kingdom",UK: Box Hits HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6664742
+#EXTINF:-1 tvg-name="UK: Starz TV" tvg-id="starztv.uk" group-title="United Kingdom",UK: Starz TV
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6664743
+#EXTINF:-1 tvg-name="UK: Magic HD" tvg-id="" group-title="United Kingdom",UK: Magic HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6664745
+#EXTINF:-1 tvg-name="UK: Kiss TV" tvg-id="kisstv.uk" group-title="United Kingdom",UK: Kiss TV
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6664746
+#EXTINF:-1 tvg-name="UK: 4Music HD" tvg-id="4music.uk" group-title="United Kingdom",UK: 4Music HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6664749
+#EXTINF:-1 tvg-name="UK: CBeebies FHD" tvg-id="cbeebies.uk" group-title="United Kingdom",UK: CBeebies FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6664753
+#EXTINF:-1 tvg-name="UK: CBBC FHD" tvg-id="cbbc.uk" group-title="United Kingdom",UK: CBBC FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6664754
+#EXTINF:-1 tvg-name="UK: Tiny Pop HD" tvg-id="" group-title="United Kingdom",UK: Tiny Pop HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6664755
+#EXTINF:-1 tvg-name="UK: Nick Junior TOO HD" tvg-id="nickjrtoo.uk" group-title="United Kingdom",UK: Nick Junior TOO HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6664759
+#EXTINF:-1 tvg-name="UK: BBC Parliment HD" tvg-id="bbcparliament.uk" group-title="United Kingdom",UK: BBC Parliment HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6664766
+#EXTINF:-1 tvg-name="UK: RTE News FHD" tvg-id="" group-title="United Kingdom",UK: RTE News FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6664774
+#EXTINF:-1 tvg-name="UK: S4C FHD" tvg-id="" group-title="United Kingdom",UK: S4C FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6664775
+#EXTINF:-1 tvg-name="UK: itv Encore" tvg-id="" group-title="United Kingdom",UK: itv Encore
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6664807
+#EXTINF:-1 tvg-name="UK: CGTN News" tvg-id="" group-title="United Kingdom",UK: CGTN News
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6664818
+#EXTINF:-1 tvg-name="UK: CGTN Documentary" tvg-id="" group-title="United Kingdom",UK: CGTN Documentary
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6664819
+#EXTINF:-1 tvg-name="UK: True Movies 1" tvg-id="truemovies.uk" group-title="United Kingdom",UK: True Movies 1
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6664820
+#EXTINF:-1 tvg-name="UK: Sky Arts 1" tvg-id="" group-title="United Kingdom",UK: Sky Arts 1
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6664822
+#EXTINF:-1 tvg-name="UK: Fine Living Network" tvg-id="" group-title="United Kingdom",UK: Fine Living Network
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6664824
+#EXTINF:-1 tvg-name="UK: Discovery H&H HD" tvg-id="" group-title="United Kingdom",UK: Discovery H&H HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6664829
+#EXTINF:-1 tvg-name="UK: VH1 Classic HD" tvg-id="" group-title="United Kingdom",UK: VH1 Classic HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6664832
+#EXTINF:-1 tvg-name="UK: Sky Action HD" tvg-id="skyatlantic.uk" group-title="United Kingdom",UK: Sky Action HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6664836
+#EXTINF:-1 tvg-name="UK: Sky Comedy FHD" tvg-id="skycomedyhd.uk" group-title="United Kingdom",UK: Sky Comedy FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6664837
+#EXTINF:-1 tvg-name="UK: Sky Sports F1 FHD" tvg-id="" group-title="United Kingdom",UK: Sky Sports F1 FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6665727
+#EXTINF:-1 tvg-name="UK: itv FHD" tvg-id="itv1anglia.uk" group-title="United Kingdom",UK: itv FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6665878
+#EXTINF:-1 tvg-name="UK: BT Sport eXtra 1 HD" tvg-id="btsportx1.uk" group-title="United Kingdom",UK: BT Sport eXtra 1 HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6667435
+#EXTINF:-1 tvg-name="UK: BT Sport Extra 3 HD" tvg-id="btsportx3.uk" group-title="United Kingdom",UK: BT Sport Extra 3 HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6667436
+#EXTINF:-1 tvg-name="UK: BT Sport eXtra 5 HD" tvg-id="" group-title="United Kingdom",UK: BT Sport eXtra 5 HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6667438
+#EXTINF:-1 tvg-name="UK: Kicc TV" tvg-id="kisstv.uk" group-title="United Kingdom",UK: Kicc TV
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6667550
+#EXTINF:-1 tvg-name="UK: Sky Family HD" tvg-id="skyfamily.uk" group-title="United Kingdom",UK: Sky Family HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6667984
+#EXTINF:-1 tvg-name="UK: SKY THRILLER HD" tvg-id="" group-title="United Kingdom",UK: SKY THRILLER HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6667990
+#EXTINF:-1 tvg-name="UK: TV3" tvg-id="" group-title="United Kingdom",UK: TV3
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6667995
+#EXTINF:-1 tvg-name="UK: BBC World News HD" tvg-id="bbcnews.uk" group-title="United Kingdom",UK: BBC World News HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6669759
+#EXTINF:-1 tvg-name="UK: BET HD" tvg-id="bet.uk" group-title="United Kingdom",UK: BET HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6669760
+#EXTINF:-1 tvg-name="UK: Tiny Pop +1" tvg-id="" group-title="United Kingdom",UK: Tiny Pop +1
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/6669805
+#EXTINF:-1 tvg-name="UK: Sky Drama Movies" tvg-id="" group-title="United Kingdom",UK: Sky Drama Movies
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66610613
+#EXTINF:-1 tvg-name="UK: Sky Cinema Drama & Romance FHD" tvg-id="skydrama.uk" group-title="United Kingdom",UK: Sky Cinema Drama & Romance FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66610614
+#EXTINF:-1 tvg-name="UK: CBS ACTION HD" tvg-id="" group-title="United Kingdom",UK: CBS ACTION HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66610617
+#EXTINF:-1 tvg-name="UK: W HD" tvg-id="" group-title="United Kingdom",UK: W HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66611448
+#EXTINF:-1 tvg-name="UK: Good Food HD" tvg-id="goodfood.uk" group-title="United Kingdom",UK: Good Food HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66611450
+#EXTINF:-1 tvg-name="UK: Viceland HD" tvg-id="" group-title="United Kingdom",UK: Viceland HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66611452
+#EXTINF:-1 tvg-name="UK: London Live HD" tvg-id="londonlive.uk" group-title="United Kingdom",UK: London Live HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66611459
+#EXTINF:-1 tvg-name="UK: Thane" tvg-id="" group-title="United Kingdom",UK: Thane
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66611469
+#EXTINF:-1 tvg-name="UK: MYTV" tvg-id="" group-title="United Kingdom",UK: MYTV
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66611470
+#EXTINF:-1 tvg-name="UK: WWE Channel HD" tvg-id="" group-title="United Kingdom",UK: WWE Channel HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66611484
+#EXTINF:-1 tvg-name="UK: FIGHT BOX FHD" tvg-id="" group-title="United Kingdom",UK: FIGHT BOX FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66611485
+#EXTINF:-1 tvg-name="UK: UFC FIGHT night Pass HD" tvg-id="" group-title="United Kingdom",UK: UFC FIGHT night Pass HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66611487
+#EXTINF:-1 tvg-name="UK: Horse & Country HD" tvg-id="" group-title="United Kingdom",UK: Horse & Country HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66611492
+#EXTINF:-1 tvg-name="UK: POP Max +1" tvg-id="" group-title="United Kingdom",UK: POP Max +1
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66611525
+#EXTINF:-1 tvg-name="UK: NTV" tvg-id="" group-title="United Kingdom",UK: NTV
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66611552
+#EXTINF:-1 tvg-name="UK: France 24 FHD" tvg-id="france24.uk" group-title="United Kingdom",UK: France 24 FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66611560
+#EXTINF:-1 tvg-name="UK: CNBC HD" tvg-id="cnbc.uk" group-title="United Kingdom",UK: CNBC HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66611562
+#EXTINF:-1 tvg-name="UK: UTV Ireland" tvg-id="" group-title="United Kingdom",UK: UTV Ireland
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66611571
+#EXTINF:-1 tvg-name="UK: TG4 HD" tvg-id="" group-title="United Kingdom",UK: TG4 HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66611572
+#EXTINF:-1 tvg-name="UK: CBSN News HD" tvg-id="" group-title="United Kingdom",UK: CBSN News HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66611582
+#EXTINF:-1 tvg-name="UK: BBC First HD" tvg-id="" group-title="United Kingdom",UK: BBC First HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66611586
+#EXTINF:-1 tvg-name="UK: BBC ALBA" tvg-id="" group-title="United Kingdom",UK: BBC ALBA
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66611663
+#EXTINF:-1 tvg-name="UK: 3E HD" tvg-id="" group-title="United Kingdom",UK: 3E HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66611683
+#EXTINF:-1 tvg-name="UK: MOTORS TV FHD" tvg-id="" group-title="United Kingdom",UK: MOTORS TV FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66611712
+#EXTINF:-1 tvg-name="UK: Movies 4 Men" tvg-id="" group-title="United Kingdom",UK: Movies 4 Men
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66611713
+#EXTINF:-1 tvg-name="UK: MTV Dance HD" tvg-id="mtvdance.uk" group-title="United Kingdom",UK: MTV Dance HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66611715
+#EXTINF:-1 tvg-name="UK: PBS America" tvg-id="" group-title="United Kingdom",UK: PBS America
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66611720
+#EXTINF:-1 tvg-name="UK: Sky Witness FHD" tvg-id="" group-title="United Kingdom",UK: Sky Witness FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66611738
+#EXTINF:-1 tvg-name="UK: VIVA" tvg-id="" group-title="United Kingdom",UK: VIVA
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66611745
+#EXTINF:-1 tvg-name="UK: W 1" tvg-id="" group-title="United Kingdom",UK: W 1
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66611746
+#EXTINF:-1 tvg-name="UK: BBC Scotland HD" tvg-id="" group-title="United Kingdom",UK: BBC Scotland HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66612470
+#EXTINF:-1 tvg-name="UK: SKY DRAMA HD" tvg-id="drama.uk" group-title="United Kingdom",UK: SKY DRAMA HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66612526
+#EXTINF:-1 tvg-name="UK: BT Sport ESPN FHD" tvg-id="" group-title="United Kingdom",UK: BT Sport ESPN FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66615128
+#EXTINF:-1 tvg-name="UK: BT Sport 3 FHD" tvg-id="" group-title="United Kingdom",UK: BT Sport 3 FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66615130
+#EXTINF:-1 tvg-name="UK: BT Sport 1 FHD" tvg-id="" group-title="United Kingdom",UK: BT Sport 1 FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66615131
+#EXTINF:-1 tvg-name="UK: BT Sport 2 FHD" tvg-id="btsport2.uk" group-title="United Kingdom",UK: BT Sport 2 FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66615132
+#EXTINF:-1 tvg-name="UK: Sky Crime FHD" tvg-id="skycrime.uk" group-title="United Kingdom",UK: Sky Crime FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66615155
+#EXTINF:-1 tvg-name="UK: Star Plus FHD" tvg-id="" group-title="United Kingdom",UK: Star Plus FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66616091
+#EXTINF:-1 tvg-name="UK: UTV FHD" tvg-id="" group-title="United Kingdom",UK: UTV FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66616105
+#EXTINF:-1 tvg-name="UK: Dave Ja Vu" tvg-id="davejavu.uk" group-title="United Kingdom",UK: Dave Ja Vu
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66617031
+#EXTINF:-1 tvg-name="UK: Sky Cinema Showcase HD" tvg-id="" group-title="United Kingdom",UK: Sky Cinema Showcase HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66617041
+#EXTINF:-1 tvg-name="UK: Club MTV" tvg-id="" group-title="United Kingdom",UK: Club MTV
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66617054
+#EXTINF:-1 tvg-name="UK: iConcerts HD" tvg-id="" group-title="United Kingdom",UK: iConcerts HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66617059
+#EXTINF:-1 tvg-name="UK: Geo News" tvg-id="geonews.uk" group-title="United Kingdom",UK: Geo News
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66617095
+#EXTINF:-1 tvg-name="UK: ABP News HD" tvg-id="" group-title="United Kingdom",UK: ABP News HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66617122
+#EXTINF:-1 tvg-name="UK: Virgin Media Three HD" tvg-id="" group-title="United Kingdom",UK: Virgin Media Three HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66617171
+#EXTINF:-1 tvg-name="UK: KIX" tvg-id="" group-title="United Kingdom",UK: KIX
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66617491
+#EXTINF:-1 tvg-name="UK: Box Office 3 HD" tvg-id="" group-title="United Kingdom",UK: Box Office 3 HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66618163
+#EXTINF:-1 tvg-name="UK: Box Office 1 HD" tvg-id="" group-title="United Kingdom",UK: Box Office 1 HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66618164
+#EXTINF:-1 tvg-name="UK: Box Office 2 HD" tvg-id="" group-title="United Kingdom",UK: Box Office 2 HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66618165
+#EXTINF:-1 tvg-name="UK: Box Office 4 HD" tvg-id="" group-title="United Kingdom",UK: Box Office 4 HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66618166
+#EXTINF:-1 tvg-name="UK: BOX OFFICE 5 HD" tvg-id="" group-title="United Kingdom",UK: BOX OFFICE 5 HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66618167
+#EXTINF:-1 tvg-name="UK: Box Office 6 HD" tvg-id="" group-title="United Kingdom",UK: Box Office 6 HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66618168
+#EXTINF:-1 tvg-name="UK: BOX OFFICE 7" tvg-id="" group-title="United Kingdom",UK: BOX OFFICE 7
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66618169
+#EXTINF:-1 tvg-name="UK: BOX OFFICE 9" tvg-id="" group-title="United Kingdom",UK: BOX OFFICE 9
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66618170
+#EXTINF:-1 tvg-name="UK: BOX OFFICE 8" tvg-id="" group-title="United Kingdom",UK: BOX OFFICE 8
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66618171
+#EXTINF:-1 tvg-name="UK: DW" tvg-id="" group-title="United Kingdom",UK: DW
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66619276
+#EXTINF:-1 tvg-name="UK: Tru TV HD" tvg-id="" group-title="United Kingdom",UK: Tru TV HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66621534
+#EXTINF:-1 tvg-name="UK: MTV Live FHD" tvg-id="mtvlive.uk" group-title="United Kingdom",UK: MTV Live FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66621860
+#EXTINF:-1 tvg-name="UK: GOD TV" tvg-id="" group-title="United Kingdom",UK: GOD TV
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66622338
+#EXTINF:-1 tvg-name="UK: WWE Network FHD" tvg-id="" group-title="United Kingdom",UK: WWE Network FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66622953
+#EXTINF:-1 tvg-name="UK: CAPITAL TV" tvg-id="" group-title="United Kingdom",UK: CAPITAL TV
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66623115
+#EXTINF:-1 tvg-name="UK: ELEVEN SPORTS HD" tvg-id="" group-title="United Kingdom",UK: ELEVEN SPORTS HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66623514
+#EXTINF:-1 tvg-name="UK: Al Jazeera English HD" tvg-id="" group-title="United Kingdom",UK: Al Jazeera English HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66624077
+#EXTINF:-1 tvg-name="UK: Rishtey" tvg-id="" group-title="United Kingdom",UK: Rishtey
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66625906
+#EXTINF:-1 tvg-name="UK: BBC Entertainement" tvg-id="bbcentertainment.uk/NL" group-title="United Kingdom",UK: BBC Entertainement
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66627793
+#EXTINF:-1 tvg-name="UK: ABC News" tvg-id="" group-title="United Kingdom",UK: ABC News
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66628004
+#EXTINF:-1 tvg-name="UK: FC Liverpool TV" tvg-id="" group-title="United Kingdom",UK: FC Liverpool TV
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66628015
+#EXTINF:-1 tvg-name="UK: Sky Drama Romance" tvg-id="" group-title="United Kingdom",UK: Sky Drama Romance
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66628021
+#EXTINF:-1 tvg-name="UK: Chart Show Hits" tvg-id="" group-title="United Kingdom",UK: Chart Show Hits
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66629761
+#EXTINF:-1 tvg-name="UK: Baby Nursery Rhymes" tvg-id="" group-title="United Kingdom",UK: Baby Nursery Rhymes
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66629764
+#EXTINF:-1 tvg-name="UK: BT Sport Europe" tvg-id="" group-title="United Kingdom",UK: BT Sport Europe
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66632220
+#EXTINF:-1 tvg-name="UK: Sky Premier" tvg-id="skypremiere.uk" group-title="United Kingdom",UK: Sky Premier
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66632228
+#EXTINF:-1 tvg-name="UK: SKY GREATS HD" tvg-id="" group-title="United Kingdom",UK: SKY GREATS HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66632229
+#EXTINF:-1 tvg-name="UK: NICKELEDION JR" tvg-id="" group-title="United Kingdom",UK: NICKELEDION JR
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66632459
+#EXTINF:-1 tvg-name="UK: British Muslim TV" tvg-id="" group-title="United Kingdom",UK: British Muslim TV
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66633447
+#EXTINF:-1 tvg-name="UK: FIGHT Channel" tvg-id="" group-title="United Kingdom",UK: FIGHT Channel
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66633572
+#EXTINF:-1 tvg-name="UK: BBC 1 OXFORD" tvg-id="" group-title="United Kingdom",UK: BBC 1 OXFORD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66635000
+#EXTINF:-1 tvg-name="UK: Sky Show Case" tvg-id="" group-title="United Kingdom",UK: Sky Show Case
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66636616
+#EXTINF:-1 tvg-name="UK: Sky Cinema Witness" tvg-id="" group-title="United Kingdom",UK: Sky Cinema Witness
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66636950
+#EXTINF:-1 tvg-name="UK: Destination America" tvg-id="" group-title="United Kingdom",UK: Destination America
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66636962
+#EXTINF:-1 tvg-name="UK: NAT GEO People" tvg-id="" group-title="United Kingdom",UK: NAT GEO People
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66636973
+#EXTINF:-1 tvg-name="UK: Free Sports HD" tvg-id="freesports.uk" group-title="United Kingdom",UK: Free Sports HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66637876
+#EXTINF:-1 tvg-name="UK: Sky Hits HD" tvg-id="" group-title="United Kingdom",UK: Sky Hits HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66638895
+#EXTINF:-1 tvg-name="UK: Sky Cinema Premiere +1" tvg-id="" group-title="United Kingdom",UK: Sky Cinema Premiere +1
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66642439
+#EXTINF:-1 tvg-name="UK: BT ESPN HD" tvg-id="" group-title="United Kingdom",UK: BT ESPN HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66644110
+#EXTINF:-1 tvg-name="UK: Sky Sports HD" tvg-id="" group-title="United Kingdom",UK: Sky Sports HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66644147
+#EXTINF:-1 tvg-name="UK: ESPN HD" tvg-id="" group-title="United Kingdom",UK: ESPN HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66644557
+#EXTINF:-1 tvg-name="UK: BT Sport eXtra 4 HD" tvg-id="btsportx4.uk" group-title="United Kingdom",UK: BT Sport eXtra 4 HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66647961
+#EXTINF:-1 tvg-name="UK: Sky Sports 2" tvg-id="" group-title="United Kingdom",UK: Sky Sports 2
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66647984
+#EXTINF:-1 tvg-name="UK: ELEVEN SPORTS 2 HD" tvg-id="" group-title="United Kingdom",UK: ELEVEN SPORTS 2 HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66648406
+#EXTINF:-1 tvg-name="UK: Sky Action & Adventure HD" tvg-id="skyatlantic.uk" group-title="United Kingdom",UK: Sky Action & Adventure HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66648407
+#EXTINF:-1 tvg-name="UK: Sky Modern Greats HD" tvg-id="" group-title="United Kingdom",UK: Sky Modern Greats HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66648415
+#EXTINF:-1 tvg-name="UK: BBC 1 NORTHERN IRELAND" tvg-id="" group-title="United Kingdom",UK: BBC 1 NORTHERN IRELAND
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66648579
+#EXTINF:-1 tvg-name="UK: QVC" tvg-id="qvc.uk" group-title="United Kingdom",UK: QVC
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66648643
+#EXTINF:-1 tvg-name="UK: QVC Beauty" tvg-id="" group-title="United Kingdom",UK: QVC Beauty
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66648644
+#EXTINF:-1 tvg-name="UK: QVC Style" tvg-id="" group-title="United Kingdom",UK: QVC Style
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66648646
+#EXTINF:-1 tvg-name="UK: Spike" tvg-id="spike.uk" group-title="United Kingdom",UK: Spike
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66648659
+#EXTINF:-1 tvg-name="UK: BT Sport eXtra 2 HD" tvg-id="btsportx2.uk" group-title="United Kingdom",UK: BT Sport eXtra 2 HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66648713
+#EXTINF:-1 tvg-name="UK: WWE Raw Network" tvg-id="" group-title="United Kingdom",UK: WWE Raw Network
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66648748
+#EXTINF:-1 tvg-name="UK: Nick Junior Peppa FHD" tvg-id="" group-title="United Kingdom",UK: Nick Junior Peppa FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66648766
+#EXTINF:-1 tvg-name="UK: Ary News" tvg-id="" group-title="United Kingdom",UK: Ary News
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66648815
+#EXTINF:-1 tvg-name="UK: Hum News" tvg-id="" group-title="United Kingdom",UK: Hum News
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66648826
+#EXTINF:-1 tvg-name="UK: Boomerang +1" tvg-id="boomerangplus1.uk" group-title="United Kingdom",UK: Boomerang +1
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66648877
+#EXTINF:-1 tvg-name="UK: RT NEWS" tvg-id="rt.uk" group-title="United Kingdom",UK: RT NEWS
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66648883
+#EXTINF:-1 tvg-name="UK: Sky Uk RTE 1" tvg-id="" group-title="United Kingdom",UK: Sky Uk RTE 1
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66653630
+#EXTINF:-1 tvg-name="UK: Edge Sport FHD" tvg-id="" group-title="United Kingdom",UK: Edge Sport FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66654012
+#EXTINF:-1 tvg-name="UK: FOX FHD" tvg-id="" group-title="United Kingdom",UK: FOX FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66655549
+#EXTINF:-1 tvg-name="UK: 5a" tvg-id="" group-title="United Kingdom",UK: 5a
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66656969
+#EXTINF:-1 tvg-name="UK: BOX OFFICE 10" tvg-id="" group-title="United Kingdom",UK: BOX OFFICE 10
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66657394
+#EXTINF:-1 tvg-name="UK: CNA" tvg-id="" group-title="United Kingdom",UK: CNA
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66660298
+#EXTINF:-1 tvg-name="UK: SKY GOLD FHD" tvg-id="" group-title="United Kingdom",UK: SKY GOLD FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66660352
+#EXTINF:-1 tvg-name="UK: Darama" tvg-id="drama.uk" group-title="United Kingdom",UK: Darama
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66660355
+#EXTINF:-1 tvg-name="UK: BBC CBEEBIES HD" tvg-id="" group-title="United Kingdom",UK: BBC CBEEBIES HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66661253
+#EXTINF:-1 tvg-name="UK: Sab TV" tvg-id="" group-title="United Kingdom",UK: Sab TV
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66661805
+#EXTINF:-1 tvg-name="UK: Kerrang! TV" tvg-id="kerrang.uk" group-title="United Kingdom",UK: Kerrang! TV
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66662714
+#EXTINF:-1 tvg-name="UK: BBC 1 YORKS" tvg-id="" group-title="United Kingdom",UK: BBC 1 YORKS
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66663137
+#EXTINF:-1 tvg-name="UK: Hillsong Channel" tvg-id="historychannel.uk" group-title="United Kingdom",UK: Hillsong Channel
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66663165
+#EXTINF:-1 tvg-name="UK: RT News Now" tvg-id="" group-title="United Kingdom",UK: RT News Now
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66663186
+#EXTINF:-1 tvg-name="UK: Tom & Jerry HD" tvg-id="" group-title="United Kingdom",UK: Tom & Jerry HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66663231
+#EXTINF:-1 tvg-name="UK: Kids Tom & Jerry" tvg-id="" group-title="United Kingdom",UK: Kids Tom & Jerry
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66665053
+#EXTINF:-1 tvg-name="UK: Reuters" tvg-id="" group-title="United Kingdom",UK: Reuters
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66665060
+#EXTINF:-1 tvg-name="UK: News Max" tvg-id="" group-title="United Kingdom",UK: News Max
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66665063
+#EXTINF:-1 tvg-name="UK: Channel AKA" tvg-id="channelaka.uk" group-title="United Kingdom",UK: Channel AKA
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66665074
+#EXTINF:-1 tvg-name="UK: itv 4 + 1" tvg-id="" group-title="United Kingdom",UK: itv 4 + 1
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66665105
+#EXTINF:-1 tvg-name="UK: TV 5" tvg-id="" group-title="United Kingdom",UK: TV 5
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66665404
+#EXTINF:-1 tvg-name="UK: True Ent" tvg-id="" group-title="United Kingdom",UK: True Ent
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66665405
+#EXTINF:-1 tvg-name="UK: Star Jalsha" tvg-id="" group-title="United Kingdom",UK: Star Jalsha
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66665409
+#EXTINF:-1 tvg-name="UK: Star Gold" tvg-id="" group-title="United Kingdom",UK: Star Gold
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66665410
+#EXTINF:-1 tvg-name="UK: The Races" tvg-id="" group-title="United Kingdom",UK: The Races
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66665547
+#EXTINF:-1 tvg-name="UK: SKY Disney HD" tvg-id="skydisney.uk" group-title="United Kingdom",UK: SKY Disney HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66667091
+#EXTINF:-1 tvg-name="UK: BET Star" tvg-id="bet.uk" group-title="United Kingdom",UK: BET Star
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66670065
+#EXTINF:-1 tvg-name="UK: Setanta Sports" tvg-id="" group-title="United Kingdom",UK: Setanta Sports
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66670109
+#EXTINF:-1 tvg-name="UK: Star Bharat" tvg-id="" group-title="United Kingdom",UK: Star Bharat
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66670816
+#EXTINF:-1 tvg-name="UK: Setanta Ireland" tvg-id="" group-title="United Kingdom",UK: Setanta Ireland
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66671048
+#EXTINF:-1 tvg-name="UK: Sky Sports Premier League HD" tvg-id="skysportspremiereleague.uk" group-title="United Kingdom",UK: Sky Sports Premier League HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66671055
+#EXTINF:-1 tvg-name="UK: BBC 2 FHD" tvg-id="bbc2.uk" group-title="United Kingdom",UK: BBC 2 FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66671163
+#EXTINF:-1 tvg-name="UK: Liverpool FC FHD" tvg-id="" group-title="United Kingdom",UK: Liverpool FC FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66672700
+#EXTINF:-1 tvg-name="UK: Motor sport TV" tvg-id="" group-title="United Kingdom",UK: Motor sport TV
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66674359
+#EXTINF:-1 tvg-name="UK: Sky1 +1" tvg-id="" group-title="United Kingdom",UK: Sky1 +1
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66674375
+#EXTINF:-1 tvg-name="UK: BBC Wales" tvg-id="" group-title="United Kingdom",UK: BBC Wales
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66674379
+#EXTINF:-1 tvg-name="UK: Movies 24" tvg-id="" group-title="United Kingdom",UK: Movies 24
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66674386
+#EXTINF:-1 tvg-name="UK: SYFY +1" tvg-id="" group-title="United Kingdom",UK: SYFY +1
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66674393
+#EXTINF:-1 tvg-name="UK: TLC IRELAND" tvg-id="" group-title="United Kingdom",UK: TLC IRELAND
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66674401
+#EXTINF:-1 tvg-name="UK: Sky Discovery Science" tvg-id="discoveryscienceplus1.uk" group-title="United Kingdom",UK: Sky Discovery Science
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66674428
+#EXTINF:-1 tvg-name="UK: MSNBC TV" tvg-id="" group-title="United Kingdom",UK: MSNBC TV
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66674431
+#EXTINF:-1 tvg-name="UK: Living" tvg-id="" group-title="United Kingdom",UK: Living
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66674432
+#EXTINF:-1 tvg-name="UK: Sky News Arabia" tvg-id="" group-title="United Kingdom",UK: Sky News Arabia
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66675893
+#EXTINF:-1 tvg-name="UK: Zee Cinema" tvg-id="zeecinema.uk" group-title="United Kingdom",UK: Zee Cinema
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66676882
+#EXTINF:-1 tvg-name="UK: Chelsea TV HD" tvg-id="" group-title="United Kingdom",UK: Chelsea TV HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66677283
+#EXTINF:-1 tvg-name="UK: Love Nature FHD" tvg-id="lovenature.uk" group-title="United Kingdom",UK: Love Nature FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66678665
+#EXTINF:-1 tvg-name="UK: EIR SPORTS 1 FHD" tvg-id="" group-title="United Kingdom",UK: EIR SPORTS 1 FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66678689
+#EXTINF:-1 tvg-name="UK: Sky Cinema sci fi" tvg-id="skyscifihorror.uk" group-title="United Kingdom",UK: Sky Cinema sci fi
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66679413
+#EXTINF:-1 tvg-name="UK: SKY SP ARENA HD" tvg-id="" group-title="United Kingdom",UK: SKY SP ARENA HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66681124
+#EXTINF:-1 tvg-name="UK: Al Jazeera" tvg-id="" group-title="United Kingdom",UK: Al Jazeera
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66683009
+#EXTINF:-1 tvg-name="UK: Sky Cinema Crime" tvg-id="" group-title="United Kingdom",UK: Sky Cinema Crime
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66684900
+#EXTINF:-1 tvg-name="UK: BT Sport Mosaic 2" tvg-id="" group-title="United Kingdom",UK: BT Sport Mosaic 2
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66685305
+#EXTINF:-1 tvg-name="UK: red bull HD" tvg-id="" group-title="United Kingdom",UK: red bull HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66685429
+#EXTINF:-1 tvg-name="UK: BBC LifeStyle HD" tvg-id="" group-title="United Kingdom",UK: BBC LifeStyle HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66685436
+#EXTINF:-1 tvg-name="UK: Virgin Media Two" tvg-id="" group-title="United Kingdom",UK: Virgin Media Two
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66685441
+#EXTINF:-1 tvg-name="UK: Sky Cinema Superhero FHD" tvg-id="" group-title="United Kingdom",UK: Sky Cinema Superhero FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66685443
+#EXTINF:-1 tvg-name="UK: MTV 90s" tvg-id="" group-title="United Kingdom",UK: MTV 90s
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66691052
+#EXTINF:-1 tvg-name="UK: Bloomberg News" tvg-id="" group-title="United Kingdom",UK: Bloomberg News
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/66695242
+#EXTINF:-1 tvg-name="UK: CNN News HD" tvg-id="" group-title="United Kingdom",UK: CNN News HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666120435
+#EXTINF:-1 tvg-name="UK: TV One HD" tvg-id="" group-title="United Kingdom",UK: TV One HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666121145
+#EXTINF:-1 tvg-name="UK: HUM EUROPE" tvg-id="" group-title="United Kingdom",UK: HUM EUROPE
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666121303
+#EXTINF:-1 tvg-name="UK: TVP 3 Łódź" tvg-id="" group-title="United Kingdom",UK: TVP 3 Łódź
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666122190
+#EXTINF:-1 tvg-name="UK: Virgin Media 1 HD" tvg-id="" group-title="United Kingdom",UK: Virgin Media 1 HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666122200
+#EXTINF:-1 tvg-name="UK: Sky Cinemaeats" tvg-id="" group-title="United Kingdom",UK: Sky Cinemaeats
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666122201
+#EXTINF:-1 tvg-name="UK: Info Corona Virus" tvg-id="" group-title="United Kingdom",UK: Info Corona Virus
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666122206
+#EXTINF:-1 tvg-name="UK: Clubland" tvg-id="clublandtv.uk" group-title="United Kingdom",UK: Clubland
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666144752
+#EXTINF:-1 tvg-name="UK: Duck TV" tvg-id="" group-title="United Kingdom",UK: Duck TV
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666144753
+#EXTINF:-1 tvg-name="UK: Now 80s" tvg-id="now80s.uk" group-title="United Kingdom",UK: Now 80s
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666144754
+#EXTINF:-1 tvg-name="UK: itv 2 +1" tvg-id="" group-title="United Kingdom",UK: itv 2 +1
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666145744
+#EXTINF:-1 tvg-name="UK: E4 +1" tvg-id="" group-title="United Kingdom",UK: E4 +1
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666145745
+#EXTINF:-1 tvg-name="UK: Comedy Central +1" tvg-id="" group-title="United Kingdom",UK: Comedy Central +1
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666145791
+#EXTINF:-1 tvg-name="UK: Channel 5 +1" tvg-id="" group-title="United Kingdom",UK: Channel 5 +1
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666145792
+#EXTINF:-1 tvg-name="UK: Sky Sports News FHD" tvg-id="skysportsnews.uk" group-title="United Kingdom",UK: Sky Sports News FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666145795
+#EXTINF:-1 tvg-name="UK: Sky Sports Premier League FHD" tvg-id="skysportspremiereleague.uk" group-title="United Kingdom",UK: Sky Sports Premier League FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666145796
+#EXTINF:-1 tvg-name="UK: Sky Sports Mix FHD" tvg-id="" group-title="United Kingdom",UK: Sky Sports Mix FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666145798
+#EXTINF:-1 tvg-name="UK: Sky Sports Football FHD" tvg-id="" group-title="United Kingdom",UK: Sky Sports Football FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666145799
+#EXTINF:-1 tvg-name="UK: Sky Sports Cricket FHD" tvg-id="" group-title="United Kingdom",UK: Sky Sports Cricket FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666145801
+#EXTINF:-1 tvg-name="UK: Sky Sports Racing FHD" tvg-id="" group-title="United Kingdom",UK: Sky Sports Racing FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666145802
+#EXTINF:-1 tvg-name="UK: Arise News" tvg-id="arisenews.uk" group-title="United Kingdom",UK: Arise News
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666146108
+#EXTINF:-1 tvg-name="UK: Virgin One HD" tvg-id="" group-title="United Kingdom",UK: Virgin One HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666146668
+#EXTINF:-1 tvg-name="UK: Virgin Three HD" tvg-id="" group-title="United Kingdom",UK: Virgin Three HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666146669
+#EXTINF:-1 tvg-name="UK: Virgin Two" tvg-id="" group-title="United Kingdom",UK: Virgin Two
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666146670
+#EXTINF:-1 tvg-name="UK: Horror Channel 1 HD" tvg-id="" group-title="United Kingdom",UK: Horror Channel 1 HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666147671
+#EXTINF:-1 tvg-name="UK: COMEDY XTRA" tvg-id="" group-title="United Kingdom",UK: COMEDY XTRA
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666148002
+#EXTINF:-1 tvg-name="UK: DW English" tvg-id="" group-title="United Kingdom",UK: DW English
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666148005
+#EXTINF:-1 tvg-name="UK: Sky Cinema MODERN GREATS HD" tvg-id="" group-title="United Kingdom",UK: Sky Cinema MODERN GREATS HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666148197
+#EXTINF:-1 tvg-name="UK: True Movies +1 HD" tvg-id="" group-title="United Kingdom",UK: True Movies +1 HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666148200
+#EXTINF:-1 tvg-name="UK: Sky Sports Box Office" tvg-id="" group-title="United Kingdom",UK: Sky Sports Box Office
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666151119
+#EXTINF:-1 tvg-name="UK: beIN Sports 1 HD" tvg-id="" group-title="United Kingdom",UK: beIN Sports 1 HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666151143
+#EXTINF:-1 tvg-name="UK: beIN Sports 7 HD" tvg-id="" group-title="United Kingdom",UK: beIN Sports 7 HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666151145
+#EXTINF:-1 tvg-name="UK: HBO Comedy HD" tvg-id="" group-title="United Kingdom",UK: HBO Comedy HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666151864
+#EXTINF:-1 tvg-name="UK: Al Jazeera Eng HD" tvg-id="" group-title="United Kingdom",UK: Al Jazeera Eng HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666157249
+#EXTINF:-1 tvg-name="UK: CGTN HD" tvg-id="" group-title="United Kingdom",UK: CGTN HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666157252
+#EXTINF:-1 tvg-name="UK: BBC 1 WEST MIDLANDS" tvg-id="" group-title="United Kingdom",UK: BBC 1 WEST MIDLANDS
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666157259
+#EXTINF:-1 tvg-name="UK: BBC 1 NORTH WEST" tvg-id="" group-title="United Kingdom",UK: BBC 1 NORTH WEST
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666157261
+#EXTINF:-1 tvg-name="UK: BBC 1 SOUTH EAST" tvg-id="" group-title="United Kingdom",UK: BBC 1 SOUTH EAST
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666157265
+#EXTINF:-1 tvg-name="UK: BBC 1 SOUTH" tvg-id="" group-title="United Kingdom",UK: BBC 1 SOUTH
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666157266
+#EXTINF:-1 tvg-name="UK: BBC 1 NORTH EAST" tvg-id="" group-title="United Kingdom",UK: BBC 1 NORTH EAST
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666157267
+#EXTINF:-1 tvg-name="UK: BBC 1 EAST" tvg-id="" group-title="United Kingdom",UK: BBC 1 EAST
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666157268
+#EXTINF:-1 tvg-name="UK: BBC 1 CAMBRIDGE" tvg-id="" group-title="United Kingdom",UK: BBC 1 CAMBRIDGE
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666157270
+#EXTINF:-1 tvg-name="UK: Showcase" tvg-id="" group-title="United Kingdom",UK: Showcase
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666157271
+#EXTINF:-1 tvg-name="UK: Travel XP HD" tvg-id="" group-title="United Kingdom",UK: Travel XP HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666157273
+#EXTINF:-1 tvg-name="UK: MTV 24 Music" tvg-id="mtv.uk" group-title="United Kingdom",UK: MTV 24 Music
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666157275
+#EXTINF:-1 tvg-name="UK: Box Upfront" tvg-id="" group-title="United Kingdom",UK: Box Upfront
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666157278
+#EXTINF:-1 tvg-name="UK: Kiss Music TV" tvg-id="" group-title="United Kingdom",UK: Kiss Music TV
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666157279
+#EXTINF:-1 tvg-name="UK: Kiss Radio" tvg-id="" group-title="United Kingdom",UK: Kiss Radio
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666157281
+#EXTINF:-1 tvg-name="UK: CHSTV" tvg-id="" group-title="United Kingdom",UK: CHSTV
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666157282
+#EXTINF:-1 tvg-name="UK: EWTN Catholic" tvg-id="ewtn.uk" group-title="United Kingdom",UK: EWTN Catholic
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666157283
+#EXTINF:-1 tvg-name="UK: Hochanda" tvg-id="" group-title="United Kingdom",UK: Hochanda
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666157284
+#EXTINF:-1 tvg-name="UK: Revelation" tvg-id="" group-title="United Kingdom",UK: Revelation
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666157285
+#EXTINF:-1 tvg-name="UK: TBN" tvg-id="" group-title="United Kingdom",UK: TBN
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666157286
+#EXTINF:-1 tvg-name="UK: SonLife" tvg-id="" group-title="United Kingdom",UK: SonLife
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666157287
+#EXTINF:-1 tvg-name="UK: Spotlight TV" tvg-id="" group-title="United Kingdom",UK: Spotlight TV
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666157288
+#EXTINF:-1 tvg-name="UK: Now 90s" tvg-id="" group-title="United Kingdom",UK: Now 90s
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666157335
+#EXTINF:-1 tvg-name="UK: FC Manchester United" tvg-id="" group-title="United Kingdom",UK: FC Manchester United
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666157394
+#EXTINF:-1 tvg-name="UK: beIN Sports 12" tvg-id="" group-title="United Kingdom",UK: beIN Sports 12
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666157396
+#EXTINF:-1 tvg-name="UK: FIGHT Channel World" tvg-id="" group-title="United Kingdom",UK: FIGHT Channel World
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666157398
+#EXTINF:-1 tvg-name="UK: FIGHT Sport" tvg-id="" group-title="United Kingdom",UK: FIGHT Sport
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666157399
+#EXTINF:-1 tvg-name="UK: Sky Cinema Atlantic" tvg-id="" group-title="United Kingdom",UK: Sky Cinema Atlantic
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666157404
+#EXTINF:-1 tvg-name="UK: Sky Cinema Premiere 1" tvg-id="" group-title="United Kingdom",UK: Sky Cinema Premiere 1
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666157405
+#EXTINF:-1 tvg-name="UK: ATLANTIC HD" tvg-id="" group-title="United Kingdom",UK: ATLANTIC HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666158463
+#EXTINF:-1 tvg-name="UK: Sky Good Food" tvg-id="" group-title="United Kingdom",UK: Sky Good Food
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666158467
+#EXTINF:-1 tvg-name="UK: SPORTS ACTION" tvg-id="" group-title="United Kingdom",UK: SPORTS ACTION
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666158510
+#EXTINF:-1 tvg-name="UK: SKYS PORTS FOOTBALL" tvg-id="" group-title="United Kingdom",UK: SKYS PORTS FOOTBALL
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666158511
+#EXTINF:-1 tvg-name="UK: Discovery H&H +1 HD" tvg-id="" group-title="United Kingdom",UK: Discovery H&H +1 HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666158589
+#EXTINF:-1 tvg-name="UK: H&h" tvg-id="" group-title="United Kingdom",UK: H&h
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666163129
+#EXTINF:-1 tvg-name="UK: Sky Cinema Action Adventure HD" tvg-id="" group-title="United Kingdom",UK: Sky Cinema Action Adventure HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666163175
+#EXTINF:-1 tvg-name="UK: YESTERDAY +1" tvg-id="" group-title="United Kingdom",UK: YESTERDAY +1
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666163398
+#EXTINF:-1 tvg-name="UK: V2BEAT TV" tvg-id="" group-title="United Kingdom",UK: V2BEAT TV
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666165366
+#EXTINF:-1 tvg-name="UK: Noor TV" tvg-id="" group-title="United Kingdom",UK: Noor TV
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666165369
+#EXTINF:-1 tvg-name="UK: EUROSPORT" tvg-id="" group-title="United Kingdom",UK: EUROSPORT
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666165752
+#EXTINF:-1 tvg-name="UK: itv +1" tvg-id="" group-title="United Kingdom",UK: itv +1
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666165901
+#EXTINF:-1 tvg-name="UK: 5 USA +1" tvg-id="" group-title="United Kingdom",UK: 5 USA +1
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666165903
+#EXTINF:-1 tvg-name="UK: QUEST +1" tvg-id="" group-title="United Kingdom",UK: QUEST +1
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666165904
+#EXTINF:-1 tvg-name="UK: 5 STAR +1" tvg-id="" group-title="United Kingdom",UK: 5 STAR +1
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666165908
+#EXTINF:-1 tvg-name="UK: TVC News" tvg-id="" group-title="United Kingdom",UK: TVC News
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666165911
+#EXTINF:-1 tvg-name="UK: TRT World HD" tvg-id="" group-title="United Kingdom",UK: TRT World HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666165912
+#EXTINF:-1 tvg-name="UK: NHK World News HD" tvg-id="" group-title="United Kingdom",UK: NHK World News HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666165913
+#EXTINF:-1 tvg-name="UK: CNBC News HD" tvg-id="" group-title="United Kingdom",UK: CNBC News HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666165914
+#EXTINF:-1 tvg-name="UK: EIR SPORTS 2 HD" tvg-id="" group-title="United Kingdom",UK: EIR SPORTS 2 HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666165915
+#EXTINF:-1 tvg-name="UK: UFC FIGHT Pass HD" tvg-id="" group-title="United Kingdom",UK: UFC FIGHT Pass HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666165917
+#EXTINF:-1 tvg-name="UK: Nick Junior 2 HD" tvg-id="" group-title="United Kingdom",UK: Nick Junior 2 HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666165930
+#EXTINF:-1 tvg-name="UK: PoP +1" tvg-id="" group-title="United Kingdom",UK: PoP +1
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666165932
+#EXTINF:-1 tvg-name="UK: ANIMAL PLANET +1 HD" tvg-id="" group-title="United Kingdom",UK: ANIMAL PLANET +1 HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666165934
+#EXTINF:-1 tvg-name="UK: Afro Music Channel" tvg-id="" group-title="United Kingdom",UK: Afro Music Channel
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666165937
+#EXTINF:-1 tvg-name="UK: IQRA United Kingdon" tvg-id="" group-title="United Kingdom",UK: IQRA United Kingdon
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666165982
+#EXTINF:-1 tvg-name="UK: Hidayat TV" tvg-id="" group-title="United Kingdom",UK: Hidayat TV
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666165994
+#EXTINF:-1 tvg-name="UK: Jewellery Maker" tvg-id="" group-title="United Kingdom",UK: Jewellery Maker
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666166001
+#EXTINF:-1 tvg-name="UK: Ahlulbayt TV" tvg-id="" group-title="United Kingdom",UK: Ahlulbayt TV
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666166005
+#EXTINF:-1 tvg-name="UK: QVC UK +1" tvg-id="" group-title="United Kingdom",UK: QVC UK +1
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666166009
+#EXTINF:-1 tvg-name="UK: Wesal TV" tvg-id="" group-title="United Kingdom",UK: Wesal TV
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666166011
+#EXTINF:-1 tvg-name="UK: Kanshi TV" tvg-id="" group-title="United Kingdom",UK: Kanshi TV
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666166018
+#EXTINF:-1 tvg-name="UK: LA Muscle TV" tvg-id="" group-title="United Kingdom",UK: LA Muscle TV
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666166022
+#EXTINF:-1 tvg-name="UK: LCBN" tvg-id="" group-title="United Kingdom",UK: LCBN
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666166026
+#EXTINF:-1 tvg-name="UK: BBC 1 London" tvg-id="" group-title="United Kingdom",UK: BBC 1 London
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666166647
+#EXTINF:-1 tvg-name="UK: Cruise 1st TV" tvg-id="" group-title="United Kingdom",UK: Cruise 1st TV
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666166648
+#EXTINF:-1 tvg-name="UK: Islam TV" tvg-id="" group-title="United Kingdom",UK: Islam TV
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666166650
+#EXTINF:-1 tvg-name="UK: ID" tvg-id="" group-title="United Kingdom",UK: ID
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666166651
+#EXTINF:-1 tvg-name="UK: itv London" tvg-id="" group-title="United Kingdom",UK: itv London
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666166652
+#EXTINF:-1 tvg-name="UK: EIR SPORTS 2 FHD" tvg-id="" group-title="United Kingdom",UK: EIR SPORTS 2 FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666166670
+#EXTINF:-1 tvg-name="UK: Madani Channel" tvg-id="" group-title="United Kingdom",UK: Madani Channel
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666166722
+#EXTINF:-1 tvg-name="UK: BT Sport eXtra 4 FHD" tvg-id="" group-title="United Kingdom",UK: BT Sport eXtra 4 FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666167576
+#EXTINF:-1 tvg-name="UK: CNN International" tvg-id="" group-title="United Kingdom",UK: CNN International
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666168911
+#EXTINF:-1 tvg-name="UK: Sky Sports Main Event HD" tvg-id="" group-title="United Kingdom",UK: Sky Sports Main Event HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666169975
+#EXTINF:-1 tvg-name="UK: Liverpool TV HD" tvg-id="" group-title="United Kingdom",UK: Liverpool TV HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666170002
+#EXTINF:-1 tvg-name="UK: Sky sci fi & Horror" tvg-id="" group-title="United Kingdom",UK: Sky sci fi & Horror
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666171941
+#EXTINF:-1 tvg-name="UK: ROK" tvg-id="" group-title="United Kingdom",UK: ROK
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666171943
+#EXTINF:-1 tvg-name="UK: Music Box" tvg-id="" group-title="United Kingdom",UK: Music Box
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666171944
+#EXTINF:-1 tvg-name="UK: CNBC Europe" tvg-id="" group-title="United Kingdom",UK: CNBC Europe
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666171945
+#EXTINF:-1 tvg-name="UK: Sky Cinema Grates" tvg-id="" group-title="United Kingdom",UK: Sky Cinema Grates
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666173114
+#EXTINF:-1 tvg-name="UK: Aaj Tak" tvg-id="" group-title="United Kingdom",UK: Aaj Tak
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666173150
+#EXTINF:-1 tvg-name="UK: Zing HD" tvg-id="" group-title="United Kingdom",UK: Zing HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666173160
+#EXTINF:-1 tvg-name="UK: TCM Movies HD" tvg-id="" group-title="United Kingdom",UK: TCM Movies HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666173184
+#EXTINF:-1 tvg-name="UK: Home & Health" tvg-id="" group-title="United Kingdom",UK: Home & Health
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666173193
+#EXTINF:-1 tvg-name="UK: France 24 English" tvg-id="" group-title="United Kingdom",UK: France 24 English
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666173226
+#EXTINF:-1 tvg-name="UK: HORIZON SPORTS" tvg-id="" group-title="United Kingdom",UK: HORIZON SPORTS
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666173275
+#EXTINF:-1 tvg-name="UK: World of Free Sports" tvg-id="" group-title="United Kingdom",UK: World of Free Sports
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666173276
+#EXTINF:-1 tvg-name="UK: Rishtey Cineplex" tvg-id="" group-title="United Kingdom",UK: Rishtey Cineplex
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666174174
+#EXTINF:-1 tvg-name="UK: SET Max" tvg-id="" group-title="United Kingdom",UK: SET Max
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666174175
+#EXTINF:-1 tvg-name="UK: RT" tvg-id="" group-title="United Kingdom",UK: RT
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666174177
+#EXTINF:-1 tvg-name="UK: TRACE URBAN" tvg-id="" group-title="United Kingdom",UK: TRACE URBAN
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666174178
+#EXTINF:-1 tvg-name="UK: VENUS" tvg-id="" group-title="United Kingdom",UK: VENUS
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666174179
+#EXTINF:-1 tvg-name="UK: BBC EARTH" tvg-id="" group-title="United Kingdom",UK: BBC EARTH
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666174446
+#EXTINF:-1 tvg-name="UK: Sky Crime Thriller" tvg-id="" group-title="United Kingdom",UK: Sky Crime Thriller
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666174449
+#EXTINF:-1 tvg-name="UK: Sky Box Nation" tvg-id="" group-title="United Kingdom",UK: Sky Box Nation
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666174601
+#EXTINF:-1 tvg-name="UK: NBA" tvg-id="" group-title="United Kingdom",UK: NBA
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666182451
+#EXTINF:-1 tvg-name="UK: True Movies" tvg-id="" group-title="United Kingdom",UK: True Movies
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666182454
+#EXTINF:-1 tvg-name="UK: SKY PRE ORDER 1 HD" tvg-id="" group-title="United Kingdom",UK: SKY PRE ORDER 1 HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666187615
+#EXTINF:-1 tvg-name="UK: SKY PRE ORDER KIDS HD" tvg-id="" group-title="United Kingdom",UK: SKY PRE ORDER KIDS HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666187616
+#EXTINF:-1 tvg-name="UK: SKY SP ACTION HD" tvg-id="" group-title="United Kingdom",UK: SKY SP ACTION HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666192623
+#EXTINF:-1 tvg-name="UK: SKY SP FOOTBALL HD" tvg-id="" group-title="United Kingdom",UK: SKY SP FOOTBALL HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666192624
+#EXTINF:-1 tvg-name="UK: SKY SP NEWS HD" tvg-id="" group-title="United Kingdom",UK: SKY SP NEWS HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666192625
+#EXTINF:-1 tvg-name="UK: beIN Sports 11 HD" tvg-id="" group-title="United Kingdom",UK: beIN Sports 11 HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666192635
+#EXTINF:-1 tvg-name="UK: Key TV" tvg-id="" group-title="United Kingdom",UK: Key TV
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666192662
+#EXTINF:-1 tvg-name="UK: Real Madrid TV" tvg-id="" group-title="United Kingdom",UK: Real Madrid TV
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666192747
+#EXTINF:-1 tvg-name="UK: STV HD" tvg-id="" group-title="United Kingdom",UK: STV HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666192776
+#EXTINF:-1 tvg-name="UK: History Channel 2 FHD" tvg-id="" group-title="United Kingdom",UK: History Channel 2 FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666192857
+#EXTINF:-1 tvg-name="UK: 24/7 sci fi Movies" tvg-id="" group-title="United Kingdom",UK: 24/7 sci fi Movies
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666193493
+#EXTINF:-1 tvg-name="UK: BT Sport eXtra FHD" tvg-id="" group-title="United Kingdom",UK: BT Sport eXtra FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666193633
+#EXTINF:-1 tvg-name="UK: BT Sport eXtra 3 FHD" tvg-id="" group-title="United Kingdom",UK: BT Sport eXtra 3 FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666193635
+#EXTINF:-1 tvg-name="UK: BT Sport eXtra 2 FHD" tvg-id="" group-title="United Kingdom",UK: BT Sport eXtra 2 FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666193636
+#EXTINF:-1 tvg-name="UK: Dubai Sports 3" tvg-id="" group-title="United Kingdom",UK: Dubai Sports 3
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666194773
+#EXTINF:-1 tvg-name="UK: Motor Trend" tvg-id="" group-title="United Kingdom",UK: Motor Trend
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666194860
+#EXTINF:-1 tvg-name="UK: FOX SPORTS News" tvg-id="" group-title="United Kingdom",UK: FOX SPORTS News
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666194875
+#EXTINF:-1 tvg-name="UK: RHYMES" tvg-id="" group-title="United Kingdom",UK: RHYMES
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666195562
+#EXTINF:-1 tvg-name="UK: LFC Liverpool TV" tvg-id="" group-title="United Kingdom",UK: LFC Liverpool TV
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666195719
+#EXTINF:-1 tvg-name="UK: Sky Sports Bundesligas Premier League HD" tvg-id="" group-title="United Kingdom",UK: Sky Sports Bundesligas Premier League HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666195727
+#EXTINF:-1 tvg-name="UK: Sky Cinema Cinemaeats HD" tvg-id="" group-title="United Kingdom",UK: Sky Cinema Cinemaeats HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666196387
+#EXTINF:-1 tvg-name="UK: Rap Music HD" tvg-id="" group-title="United Kingdom",UK: Rap Music HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666196388
+#EXTINF:-1 tvg-name="UK: RUSSIA TODAY NEWS" tvg-id="" group-title="United Kingdom",UK: RUSSIA TODAY NEWS
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666196390
+#EXTINF:-1 tvg-name="UK: Sky Cienma Premiere HD" tvg-id="" group-title="United Kingdom",UK: Sky Cienma Premiere HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666196391
+#EXTINF:-1 tvg-name="UK: Movies4Men" tvg-id="" group-title="United Kingdom",UK: Movies4Men
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666196393
+#EXTINF:-1 tvg-name="UK: Sky Cinema ANIMATION HD" tvg-id="" group-title="United Kingdom",UK: Sky Cinema ANIMATION HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666197207
+#EXTINF:-1 tvg-name="UK: VIRGIN MEDIA SPORT IRELAND FHD" tvg-id="" group-title="United Kingdom",UK: VIRGIN MEDIA SPORT IRELAND FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666197208
+#EXTINF:-1 tvg-name="UK: BBC 2 ENGLAND HD" tvg-id="" group-title="United Kingdom",UK: BBC 2 ENGLAND HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666197209
+#EXTINF:-1 tvg-name="UK: BBC 1 EAST MIDLANDS" tvg-id="" group-title="United Kingdom",UK: BBC 1 EAST MIDLANDS
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666197210
+#EXTINF:-1 tvg-name="UK: BBC 1 EAST YORKSHIRE" tvg-id="" group-title="United Kingdom",UK: BBC 1 EAST YORKSHIRE
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666197211
+#EXTINF:-1 tvg-name="UK: CULTURE" tvg-id="" group-title="United Kingdom",UK: CULTURE
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666197381
+#EXTINF:-1 tvg-name="UK: NICKTOONS KD" tvg-id="" group-title="United Kingdom",UK: NICKTOONS KD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666197495
+#EXTINF:-1 tvg-name="UK: Nick Junior TOO KD" tvg-id="" group-title="United Kingdom",UK: Nick Junior TOO KD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666197496
+#EXTINF:-1 tvg-name="UK: Nick Junior KD" tvg-id="" group-title="United Kingdom",UK: Nick Junior KD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666197497
+#EXTINF:-1 tvg-name="UK: UFC NIGHT PASS" tvg-id="" group-title="United Kingdom",UK: UFC NIGHT PASS
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666197670
+#EXTINF:-1 tvg-name="UK: POP Kids" tvg-id="" group-title="United Kingdom",UK: POP Kids
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666198077
+#EXTINF:-1 tvg-name="UK: TV3 IR HD" tvg-id="" group-title="United Kingdom",UK: TV3 IR HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666198178
+#EXTINF:-1 tvg-name="UK: World Fishing Channel HD" tvg-id="" group-title="United Kingdom",UK: World Fishing Channel HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666198769
+#EXTINF:-1 tvg-name="UK: NHK World TV" tvg-id="" group-title="United Kingdom",UK: NHK World TV
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666198805
+#EXTINF:-1 tvg-name="UK: HBO HD" tvg-id="" group-title="United Kingdom",UK: HBO HD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666199061
+#EXTINF:-1 tvg-name="UK: Sky Cinema Action FHD" tvg-id="" group-title="United Kingdom",UK: Sky Cinema Action FHD
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666199062
+#EXTINF:-1 tvg-name="UK: VH1 Classis" tvg-id="" group-title="United Kingdom",UK: VH1 Classis
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666199063
+#EXTINF:-1 tvg-name="UK: Aplus TV Europe" tvg-id="" group-title="United Kingdom",UK: Aplus TV Europe
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666199251
+#EXTINF:-1 tvg-name="UK: Prime TV" tvg-id="" group-title="United Kingdom",UK: Prime TV
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666199253
+#EXTINF:-1 tvg-name="UK: MTV MUSIC +1" tvg-id="" group-title="United Kingdom",UK: MTV MUSIC +1
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666200237
+#EXTINF:-1 tvg-name="UK: STAR UTSAV" tvg-id="" group-title="United Kingdom",UK: STAR UTSAV
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666200278
+#EXTINF:-1 tvg-name="UK: MTA 2 Urdu" tvg-id="" group-title="United Kingdom",UK: MTA 2 Urdu
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666200279
+#EXTINF:-1 tvg-name="UK: Sheffield TV" tvg-id="" group-title="United Kingdom",UK: Sheffield TV
+https://cdn.sha-256.org/2022441184/bSgVcuDT7R/666200280

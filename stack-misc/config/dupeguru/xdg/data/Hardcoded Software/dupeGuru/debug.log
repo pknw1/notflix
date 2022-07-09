@@ -1,0 +1,2 @@
+2021-09-29 20:35:12,128 - WARNING - Error while loading /config/xdg/data/Hardcoded Software/dupeGuru/exclude_list.xml: [Errno 2] No such file or directory: '/config/xdg/data/Hardcoded Software/dupeGuru/exclude_list.xml'
+2021-09-29 20:51:09,136 - WARNING - Error while loading /config/xdg/data/Hardcoded Software/dupeGuru/exclude_list.xml: [Errno 2] No such file or directory: '/config/xdg/data/Hardcoded Software/dupeGuru/exclude_list.xml'

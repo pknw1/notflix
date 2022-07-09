@@ -1,0 +1,179 @@
+version: '3'
+
+services:
+  jackett:
+    image: linuxserver/jackett:latest
+    container_name: jackett
+    restart: always
+    hostname: jackett
+    dns:
+      - 8.8.8.8
+    ports:
+      - 172.18.0.1:9117:9117
+    networks:
+      - proxy
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - /etc/ssl:/etc/ssl:ro
+      - /etc/localtime:/etc/localtime:ro
+      - /tmp:/tmp
+      - ./config/jackett:/config
+      - /shared:/shared
+      - /download:/download
+      - /content:/content
+      - /:/host:ro
+    environment:
+      - TZ=Europe/London
+      - VIRTUAL_HOST=jackett.pknw1.co.uk
+      - VIRTUAL_PORT=9117
+      - PUID=666
+      - PGID=666
+
+
+  overseerr:
+    image: linuxserver/overseerr:latest
+    container_name: overseerr
+    restart: always
+    hostname: overseerr
+    dns:
+      - 8.8.8.8
+    networks:
+      - proxy
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - /etc/ssl:/etc/ssl:ro
+      - /etc/localtime:/etc/localtime:ro
+      - /tmp:/tmp
+      - ./config/overseerr:/config
+      - /shared:/shared
+      - /download:/download
+      - /content:/content
+      - /:/host:ro
+    environment:
+      - TZ=Europe/London
+      - VIRTUAL_HOST=requests.pknw1.co.uk
+      - VIRTUAL_PORT=5055
+      - PUID=666
+      - PGID=666
+
+
+  radarr:
+    image: linuxserver/radarr:latest
+    container_name: radarr
+    restart: always
+    hostname: radarr
+    dns:
+      - 8.8.8.8
+    ports:
+      - 172.18.0.1:7878:7878
+    networks:
+      - proxy
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - /etc/ssl:/etc/ssl:ro
+      - /etc/localtime:/etc/localtime:ro
+      - /tmp:/tmp
+      - ./config/radarr:/config
+      - /shared:/shared
+      - /download:/download
+      - /content:/content
+      - /content:/media
+      - /:/host:ro
+    environment:
+      - TZ=Europe/London
+      - VIRTUAL_HOST=radarr.pknw1.co.uk
+      - VIRTUAL_PORT=7878
+      - PUID=666
+      - PGID=666
+
+
+  sonarr:
+    image: linuxserver/sonarr:latest
+    container_name: sonarr
+    restart: always
+    hostname: sonarr
+    dns:
+      - 8.8.8.8
+    networks:
+      - proxy
+    ports:
+      - 172.18.0.1:8989:8989
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - /etc/ssl:/etc/ssl:ro
+      - /etc/localtime:/etc/localtime:ro
+      - /tmp:/tmp
+      - ./config/sonarr:/config
+      - /shared:/shared
+      - /download:/download
+      - /content:/content
+      - /content:/media
+      - /:/host:ro
+    environment:
+      - TZ=Europe/London
+      - VIRTUAL_HOST=sonarr.pknw1.co.uk
+      - VIRTUAL_PORT=8989
+      - PUID=666
+      - PGID=666
+
+
+  utorrent:
+    image: linuxserver/qbittorrent:latest
+    container_name: utorrent
+    restart: always
+    hostname: utorrent
+    dns:
+      - 8.8.8.8
+    networks:
+      - proxy
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - /etc/ssl:/etc/ssl:ro
+      - /etc/localtime:/etc/localtime:ro
+      - /tmp:/tmp
+      - ./config/utorrent:/config
+      - /shared:/shared
+      - /download:/download
+      - /content:/content
+      - /:/host:ro
+    environment:
+      - TZ=Europe/London
+      - VIRTUAL_HOST=utorrent.pknw1.co.uk
+      - VIRTUAL_PORT=8080
+      - PUID=666
+      - PGID=666
+
+  lidarr:
+    image: linuxserver/lidarr:latest
+    container_name: lidarr
+    restart: always
+    hostname: lidarr
+    dns:
+      - 8.8.8.8
+    networks:
+      - proxy
+    ports:
+      - 172.18.0.1:8686:8686
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - /etc/ssl:/etc/ssl:ro
+      - /etc/localtime:/etc/localtime:ro
+      - /tmp:/tmp
+      - ./config/lidarr:/config
+      - /shared:/shared
+      - /download:/download
+      - /content:/content
+      - /content:/media
+      - /:/host:ro
+    environment:
+      - TZ=Europe/London
+      - VIRTUAL_HOST=lidarr.pknw1.co.uk
+      - VIRTUAL_PORT=8686
+      - PUID=666
+      - PGID=666
+
+networks:
+  proxy:
+    external:
+      name: proxy
+

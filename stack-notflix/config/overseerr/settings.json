@@ -1,0 +1,261 @@
+{
+ "clientId": "97d55915-0bb7-48f1-8354-87cb419d6c2c",
+ "vapidPrivate": "GBiZXuXZVddkyQSoFbFNFZSC8k7gj5S54I3wr9diqeU",
+ "vapidPublic": "BOqWkbkzOt5JeLk-gdLQLV_dWOPuYC_McxPNlUET-9hTA2oJP5rWzJirFeP0xdLbROBU07dCCD2OguA9I9TY89U",
+ "main": {
+  "apiKey": "MTYyNjQyNjM4OTIwN2Y4YzUzNjMwLTM1NTctNDc4Yi1iYzAyLTM1MjYxOTc3OTIyYSk=",
+  "applicationTitle": "Notflix",
+  "applicationUrl": "https://notflix.pknw1.co.uk",
+  "csrfProtection": false,
+  "cacheImages": false,
+  "defaultPermissions": 160,
+  "defaultQuotas": {
+   "movie": {
+    "quotaLimit": 0,
+    "quotaDays": 7
+   },
+   "tv": {
+    "quotaLimit": 0,
+    "quotaDays": 7
+   }
+  },
+  "hideAvailable": false,
+  "localLogin": true,
+  "newPlexLogin": true,
+  "region": "GB",
+  "originalLanguage": "en",
+  "trustProxy": false,
+  "partialRequestsEnabled": true,
+  "locale": "en"
+ },
+ "plex": {
+  "name": "NewServer",
+  "ip": "192-99-13-66.87b91654d8cd43dea348fe941d2c4fa8.plex.direct",
+  "port": 32400,
+  "useSsl": true,
+  "libraries": [
+   {
+    "id": "1",
+    "name": "Movies",
+    "enabled": true,
+    "type": "movie",
+    "lastScan": 1656950400263
+   },
+   {
+    "id": "14",
+    "name": "YouTube",
+    "enabled": false,
+    "type": "movie"
+   },
+   {
+    "id": "9",
+    "name": "AWS",
+    "enabled": false,
+    "type": "show"
+   },
+   {
+    "id": "2",
+    "name": "TV",
+    "enabled": true,
+    "type": "show",
+    "lastScan": 1656950404677
+   }
+  ],
+  "machineId": "aa4f102e744f242e6a659b2eb880bdbd7e574d41",
+  "webAppUrl": ""
+ },
+ "tautulli": {
+  "hostname": "tautulli.pknw1.co.uk",
+  "port": 443,
+  "useSsl": true,
+  "urlBase": "",
+  "apiKey": "9c2363f2a53f47afa82f48ec0fb675cb",
+  "externalUrl": "https://tautulli.pknw1.co.uk"
+ },
+ "radarr": [
+  {
+   "name": "radarr",
+   "hostname": "172.18.0.1",
+   "port": 7878,
+   "apiKey": "a79fa465a0ff440f9cdaf8f059b998b1",
+   "useSsl": false,
+   "activeProfileId": 7,
+   "activeProfileName": "pk",
+   "activeDirectory": "/content/movies",
+   "is4k": false,
+   "minimumAvailability": "preDB",
+   "tags": [],
+   "isDefault": true,
+   "externalUrl": "https://radarr.pknw1.co.uk",
+   "syncEnabled": true,
+   "preventSearch": false,
+   "id": 0
+  },
+  {
+   "name": "radarr",
+   "hostname": "172.18.0.1",
+   "port": 7878,
+   "apiKey": "a79fa465a0ff440f9cdaf8f059b998b1",
+   "useSsl": false,
+   "activeProfileId": 8,
+   "activeProfileName": "1080",
+   "activeDirectory": "/content/movies",
+   "is4k": false,
+   "minimumAvailability": "released",
+   "tags": [],
+   "isDefault": false,
+   "syncEnabled": false,
+   "preventSearch": false,
+   "id": 1
+  }
+ ],
+ "sonarr": [
+  {
+   "name": "sonarr",
+   "hostname": "172.18.0.1",
+   "port": 8989,
+   "apiKey": "b86dec35ca8b469eab75e908d67f03a6",
+   "useSsl": false,
+   "activeProfileId": 2,
+   "activeLanguageProfileId": 1,
+   "activeProfileName": "SD",
+   "activeDirectory": "/media/tv",
+   "tags": [],
+   "animeTags": [],
+   "is4k": false,
+   "isDefault": true,
+   "enableSeasonFolders": true,
+   "syncEnabled": true,
+   "preventSearch": false,
+   "id": 0
+  },
+  {
+   "name": "sonarr",
+   "hostname": "172.18.0.1",
+   "port": 8989,
+   "apiKey": "b86dec35ca8b469eab75e908d67f03a6",
+   "useSsl": false,
+   "baseUrl": "",
+   "activeProfileId": 3,
+   "activeLanguageProfileId": 1,
+   "activeProfileName": "1080",
+   "activeDirectory": "/media/tv",
+   "activeAnimeProfileId": 3,
+   "activeAnimeProfileName": "1080",
+   "tags": [],
+   "animeTags": [],
+   "is4k": false,
+   "isDefault": false,
+   "enableSeasonFolders": true,
+   "syncEnabled": false,
+   "preventSearch": false,
+   "id": 1
+  }
+ ],
+ "public": {
+  "initialized": true
+ },
+ "notifications": {
+  "agents": {
+   "email": {
+    "enabled": false,
+    "options": {
+     "emailFrom": "",
+     "smtpHost": "",
+     "smtpPort": 587,
+     "secure": false,
+     "ignoreTls": false,
+     "requireTls": false,
+     "allowSelfSigned": false,
+     "senderName": "Overseerr"
+    }
+   },
+   "discord": {
+    "enabled": false,
+    "types": 0,
+    "options": {
+     "webhookUrl": "",
+     "enableMentions": true
+    }
+   },
+   "lunasea": {
+    "enabled": false,
+    "types": 0,
+    "options": {
+     "webhookUrl": ""
+    }
+   },
+   "slack": {
+    "enabled": false,
+    "types": 0,
+    "options": {
+     "webhookUrl": ""
+    }
+   },
+   "telegram": {
+    "enabled": true,
+    "types": 1288,
+    "options": {
+     "botAPI": "5077891606:AAHpEiJhQjsqv3xQyApKhirl2PY9uj1uNMQ",
+     "chatId": "-1001669969922",
+     "sendSilently": true
+    }
+   },
+   "pushbullet": {
+    "enabled": false,
+    "types": 0,
+    "options": {
+     "accessToken": ""
+    }
+   },
+   "pushover": {
+    "enabled": false,
+    "types": 0,
+    "options": {
+     "accessToken": "",
+     "userToken": ""
+    }
+   },
+   "webhook": {
+    "enabled": false,
+    "types": 0,
+    "options": {
+     "webhookUrl": "",
+     "jsonPayload": "IntcbiAgICBcIm5vdGlmaWNhdGlvbl90eXBlXCI6IFwie3tub3RpZmljYXRpb25fdHlwZX19XCIsXG4gICAgXCJzdWJqZWN0XCI6IFwie3tzdWJqZWN0fX1cIixcbiAgICBcIm1lc3NhZ2VcIjogXCJ7e21lc3NhZ2V9fVwiLFxuICAgIFwiaW1hZ2VcIjogXCJ7e2ltYWdlfX1cIixcbiAgICBcImVtYWlsXCI6IFwie3tub3RpZnl1c2VyX2VtYWlsfX1cIixcbiAgICBcInVzZXJuYW1lXCI6IFwie3tub3RpZnl1c2VyX3VzZXJuYW1lfX1cIixcbiAgICBcImF2YXRhclwiOiBcInt7bm90aWZ5dXNlcl9hdmF0YXJ9fVwiLFxuICAgIFwie3ttZWRpYX19XCI6IHtcbiAgICAgICAgXCJtZWRpYV90eXBlXCI6IFwie3ttZWRpYV90eXBlfX1cIixcbiAgICAgICAgXCJ0bWRiSWRcIjogXCJ7e21lZGlhX3RtZGJpZH19XCIsXG4gICAgICAgIFwiaW1kYklkXCI6IFwie3ttZWRpYV9pbWRiaWR9fVwiLFxuICAgICAgICBcInR2ZGJJZFwiOiBcInt7bWVkaWFfdHZkYmlkfX1cIixcbiAgICAgICAgXCJzdGF0dXNcIjogXCJ7e21lZGlhX3N0YXR1c319XCIsXG4gICAgICAgIFwic3RhdHVzNGtcIjogXCJ7e21lZGlhX3N0YXR1czRrfX1cIlxuICAgIH0sXG4gICAgXCJ7e2V4dHJhfX1cIjogW10sXG4gICAgXCJ7e3JlcXVlc3R9fVwiOiB7XG4gICAgICAgIFwicmVxdWVzdF9pZFwiOiBcInt7cmVxdWVzdF9pZH19XCIsXG4gICAgICAgIFwicmVxdWVzdGVkQnlfZW1haWxcIjogXCJ7e3JlcXVlc3RlZEJ5X2VtYWlsfX1cIixcbiAgICAgICAgXCJyZXF1ZXN0ZWRCeV91c2VybmFtZVwiOiBcInt7cmVxdWVzdGVkQnlfdXNlcm5hbWV9fVwiLFxuICAgICAgICBcInJlcXVlc3RlZEJ5X2F2YXRhclwiOiBcInt7cmVxdWVzdGVkQnlfYXZhdGFyfX1cIlxuICAgIH1cbn0i"
+    }
+   },
+   "webpush": {
+    "enabled": true,
+    "options": {}
+   },
+   "gotify": {
+    "enabled": false,
+    "types": 0,
+    "options": {
+     "url": "",
+     "token": ""
+    }
+   }
+  }
+ },
+ "jobs": {
+  "plex-recently-added-scan": {
+   "schedule": "0 */5 * * * *"
+  },
+  "plex-full-scan": {
+   "schedule": "0 0 */12 * * *"
+  },
+  "radarr-scan": {
+   "schedule": "0 0 4 * * *"
+  },
+  "sonarr-scan": {
+   "schedule": "0 30 4 * * *"
+  },
+  "download-sync": {
+   "schedule": "0 * * * * *"
+  },
+  "download-sync-reset": {
+   "schedule": "0 0 1 * * *"
+  }
+ }
+}

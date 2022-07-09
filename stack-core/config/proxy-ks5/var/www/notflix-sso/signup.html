@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html  >
+<head>
+  <!-- Site made with Mobirise Website Builder v5.6.0, https://mobirise.com -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Mobirise v5.6.0, mobirise.com">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  <link rel="shortcut icon" href="assets/images/nota-2-1076x498.png" type="image/x-icon">
+  <meta name="description" content="">
+  
+  
+  <title>users</title>
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="assets/animatecss/animate.css">
+  <link rel="stylesheet" href="assets/dropdown/css/style.css">
+  <link rel="stylesheet" href="assets/socicon/css/styles.css">
+  <link rel="stylesheet" href="assets/theme/css/style.css">
+  <link rel="preload" href="https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap"></noscript>
+  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+  
+  
+  
+  
+</head>
+<body>
+  
+  <section data-bs-version="5.1" class="menu menu2 cid-sX5u7JMOVD" once="menu" id="menu2-e">
+    
+    <nav class="navbar navbar-dropdown navbar-fixed-top collapsed">
+        <div class="container">
+            <div class="navbar-brand">
+                <span class="navbar-logo">
+                    <a href="https://notflix.pknw1.co.uk">
+                        <img src="assets/images/nota-2-1076x498.png" alt="Notflix" style="height: 3rem;">
+                    </a>
+                </span>
+                
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbarSupportedContent" data-bs-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                
+                <div class="icons-menu">
+                    <a class="iconfont-wrapper" href="https://notflix.pknw1.co.uk" target="_blank">
+                        <span class="p-2 mbr-iconfont socicon-nextdoor socicon"></span>
+                    </a>
+                    <a class="iconfont-wrapper" href="javascript:OpenModal('login')">
+                        <span class="p-2 mbr-iconfont socicon-persona socicon"></span>
+                    </a>
+                    <a class="iconfont-wrapper" href="https://telegram.pknw1.co.uk" target="_blank">
+                        <span class="p-2 mbr-iconfont socicon-telegram socicon"></span>
+                    </a>
+                    <a class="iconfont-wrapper" href="https://github.com/pknw1" target="_blank">
+                        <span class="p-2 mbr-iconfont socicon-github socicon"></span>
+                    </a>
+                </div>
+                
+            </div>
+        </div>
+    </nav>
+</section>
+
+<section class="mbr-section" id="witsec-modal-window-block-c" data-rv-view="20">
+
+	<style>
+	/* Let's not animate the contents of modal windows */
+	.no-anim {
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+	</style>
+
+	
+	
+	<div><div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="loginLabel" aria-hidden="true">  <div class="modal-dialog  modal-dialog-centered" style="height:auto" role="document">    <div class="modal-content"><div class="modal-body" id="login_body"><p> to access Plex, Requests or Downloads use the following login <br>
+
+</p><ul>
+<li><strong>username</strong>:pkmovies2 </li>
+<li><strong>password</strong>:pknw1plex </li>
+</ul>
+
+<p>
+if you get an error, use the username <strong>pknw1plex@pknw1.co.uk</strong> with the same password
+</p></div>    </div>  </div></div><script> 
+document.addEventListener("DOMContentLoaded", function() { 
+  if(typeof jQuery === "function") {
+    $("#login").on("hidden.bs.modal", function () { 
+      var html = $( "#login_body" ).html(); 
+      $( "#login_body" ).empty(); 
+      $( "#login_body" ).append(html); 
+    }) 
+  } else { 
+      var mdw = document.getElementById("#login") 
+      mdw.addEventListener("hidden.bs.modal", function(event) { 
+        mdw.innerHTML = mdw.innerHTML; 
+      }); 
+  } 
+}); 
+</script></div>
+
+	<script>
+	if (typeof OpenModal === 'undefined') {
+		OpenModal = function(modalName) {
+			if(typeof jQuery === "function") {
+				if ($('#' + modalName).length)
+					$('#' + modalName).modal('show');
+				else
+					alert("Sorry, but there is no modal for " + modalName);
+			} else {
+				let mdw = new bootstrap.Modal(document.getElementById(modalName), {});
+				mdw.show();
+			}
+		}
+	}
+
+	function modalSetCookie(cname, cvalue, exdays) {
+		var d = new Date();
+		d.setTime(d.getTime() + (exdays*24*60*60*1000));
+		var expires = "expires="+ d.toUTCString();
+		document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+	}
+
+	function modalGetCookie(cname) {
+		var name = cname + "=";
+		var decodedCookie = decodeURIComponent(document.cookie);
+		var ca = decodedCookie.split(';');
+		for(var i = 0; i <ca.length; i++) {
+			var c = ca[i];
+			while (c.charAt(0) == ' ') {
+				c = c.substring(1);
+			}
+			if (c.indexOf(name) == 0) {
+				return c.substring(name.length, c.length);
+			}
+		}
+		return "";
+	}
+	</script>
+
+</section>
+
+<section class="mbr-section" id="witsec-modal-window-block-d" data-rv-view="21">
+
+	<style>
+	/* Let's not animate the contents of modal windows */
+	.no-anim {
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+	</style>
+
+	
+	
+	<div><div class="modal fade" id="search" tabindex="-1" role="dialog" aria-labelledby="searchLabel" aria-hidden="true">  <div class="modal-dialog modal-lg modal-dialog-centered" style="height:auto" role="document">    <div class="modal-content"><div class="modal-body" id="search_body">
+<p> to search the web for new and requested releases, a combination of the following software is used <br>
+
+</p><ul>
+<li><a href="https://hub.docker.com/r/linuxserver/overseerr" target="_new">Overseer</a></li>
+<li><a href="https://hub.docker.com/r/linuxserver/sonarr" target="_new">Sonarr</a></li>
+<li><a href="https://hub.docker.com/r/linuxserver/radarr" target="_new">Radarr</a></li>
+<li><a href="https://hub.docker.com/r/linuxserver/jackett" target="_new">Jackett</a></li>
+<li><a href="https://www.docker.com" target="_new">Docker</a></li>
+<li><a href="https://www.haproxy.org" target="_new">HAProxy</a></li>
+<li><a href="https://github.com/nginx-proxy/nginx-proxy" target="_new">jwilder/nginx-proxy</a></li>
+<li><a href="https://github.com/pknw1/PlexSSOv2" target="_new">PlexSSO</a></li>
+<li><a href="https://github.com/linuxserver/docker-plex" target="_new">Plex</a></li>
+<li>and many more helper services</li>
+with thanks  to 
+<li><a href="https://linuxserver.io" target="_new">LinuxServer</a></li>
+<li><a href="https://kimsufi.com" target="_new">KimSufi</a></li>
+
+
+
+</ul>
+
+<p>
+if you'd like to know more or setup your own logins/versions, drop me a message
+</p></div>    </div>  </div></div><script> 
+document.addEventListener("DOMContentLoaded", function() { 
+  if(typeof jQuery === "function") {
+    $("#search").on("hidden.bs.modal", function () { 
+      var html = $( "#search_body" ).html(); 
+      $( "#search_body" ).empty(); 
+      $( "#search_body" ).append(html); 
+    }) 
+  } else { 
+      var mdw = document.getElementById("#search") 
+      mdw.addEventListener("hidden.bs.modal", function(event) { 
+        mdw.innerHTML = mdw.innerHTML; 
+      }); 
+  } 
+}); 
+</script></div>
+
+	<script>
+	if (typeof OpenModal === 'undefined') {
+		OpenModal = function(modalName) {
+			if(typeof jQuery === "function") {
+				if ($('#' + modalName).length)
+					$('#' + modalName).modal('show');
+				else
+					alert("Sorry, but there is no modal for " + modalName);
+			} else {
+				let mdw = new bootstrap.Modal(document.getElementById(modalName), {});
+				mdw.show();
+			}
+		}
+	}
+
+	function modalSetCookie(cname, cvalue, exdays) {
+		var d = new Date();
+		d.setTime(d.getTime() + (exdays*24*60*60*1000));
+		var expires = "expires="+ d.toUTCString();
+		document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+	}
+
+	function modalGetCookie(cname) {
+		var name = cname + "=";
+		var decodedCookie = decodeURIComponent(document.cookie);
+		var ca = decodedCookie.split(';');
+		for(var i = 0; i <ca.length; i++) {
+			var c = ca[i];
+			while (c.charAt(0) == ' ') {
+				c = c.substring(1);
+			}
+			if (c.indexOf(name) == 0) {
+				return c.substring(name.length, c.length);
+			}
+		}
+		return "";
+	}
+	</script>
+
+</section>
+
+<section class="mbr-section" id="witsec-modal-window-block-f" data-rv-view="24">
+
+	<style>
+	/* Let's not animate the contents of modal windows */
+	.no-anim {
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+	</style>
+
+	
+	
+	<div><div class="modal fade" id="tg" tabindex="-1" role="dialog" aria-labelledby="tgLabel" aria-hidden="true">  <div class="modal-dialog  " style="height:auto" role="document">    <div class="modal-content"><div class="modal-body" id="tg_body"><p> to get notified of new releases on Plex, you can <br>
+
+</p><ul>
+<li>setup your own Plex account and send your username over to be added</li>
+<li><a href="https://telegram.pknw1.co.uk" target="_new">Join PlexUpdates</a> group on <a href="https://web.telegram.org/k/" target="_new">Telegram</a> </li>
+</ul>
+
+<p>
+</p></div>    </div>  </div></div><script> 
+document.addEventListener("DOMContentLoaded", function() { 
+  if(typeof jQuery === "function") {
+    $("#tg").on("hidden.bs.modal", function () { 
+      var html = $( "#tg_body" ).html(); 
+      $( "#tg_body" ).empty(); 
+      $( "#tg_body" ).append(html); 
+    }) 
+  } else { 
+      var mdw = document.getElementById("#tg") 
+      mdw.addEventListener("hidden.bs.modal", function(event) { 
+        mdw.innerHTML = mdw.innerHTML; 
+      }); 
+  } 
+}); 
+</script></div>
+
+	<script>
+	if (typeof OpenModal === 'undefined') {
+		OpenModal = function(modalName) {
+			if(typeof jQuery === "function") {
+				if ($('#' + modalName).length)
+					$('#' + modalName).modal('show');
+				else
+					alert("Sorry, but there is no modal for " + modalName);
+			} else {
+				let mdw = new bootstrap.Modal(document.getElementById(modalName), {});
+				mdw.show();
+			}
+		}
+	}
+
+	function modalSetCookie(cname, cvalue, exdays) {
+		var d = new Date();
+		d.setTime(d.getTime() + (exdays*24*60*60*1000));
+		var expires = "expires="+ d.toUTCString();
+		document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+	}
+
+	function modalGetCookie(cname) {
+		var name = cname + "=";
+		var decodedCookie = decodeURIComponent(document.cookie);
+		var ca = decodedCookie.split(';');
+		for(var i = 0; i <ca.length; i++) {
+			var c = ca[i];
+			while (c.charAt(0) == ' ') {
+				c = c.substring(1);
+			}
+			if (c.indexOf(name) == 0) {
+				return c.substring(name.length, c.length);
+			}
+		}
+		return "";
+	}
+	</script>
+
+</section>
+
+<section class="mbr-section" id="witsec-modal-window-block-i" data-rv-view="25">
+
+	<style>
+	/* Let's not animate the contents of modal windows */
+	.no-anim {
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+	</style>
+
+	
+	
+	<div><div class="modal fade" id="sso" tabindex="-1" role="dialog" aria-labelledby="ssoLabel" aria-hidden="true">  <div class="modal-dialog  modal-dialog-centered" style="height:auto" role="document">    <div class="modal-content"><div class="modal-body" id="sso_body"><p> to access Plex, Requests or Downloads use the following login <br>
+
+</p><ul>
+<li><strong>username</strong>:pkmovies2 </li>
+<li><strong>password</strong>:pknw1plex </li>
+</ul>
+
+<p>
+if you get an error, use the username <strong>pknw1plex@pknw1.co.uk</strong> with the same password
+</p></div>    </div>  </div></div><script> 
+document.addEventListener("DOMContentLoaded", function() { 
+  if(typeof jQuery === "function") {
+    $("#sso").on("hidden.bs.modal", function () { 
+      var html = $( "#sso_body" ).html(); 
+      $( "#sso_body" ).empty(); 
+      $( "#sso_body" ).append(html); 
+    }) 
+  } else { 
+      var mdw = document.getElementById("#sso") 
+      mdw.addEventListener("hidden.bs.modal", function(event) { 
+        mdw.innerHTML = mdw.innerHTML; 
+      }); 
+  } 
+}); 
+</script></div>
+
+	<script>
+	if (typeof OpenModal === 'undefined') {
+		OpenModal = function(modalName) {
+			if(typeof jQuery === "function") {
+				if ($('#' + modalName).length)
+					$('#' + modalName).modal('show');
+				else
+					alert("Sorry, but there is no modal for " + modalName);
+			} else {
+				let mdw = new bootstrap.Modal(document.getElementById(modalName), {});
+				mdw.show();
+			}
+		}
+	}
+
+	function modalSetCookie(cname, cvalue, exdays) {
+		var d = new Date();
+		d.setTime(d.getTime() + (exdays*24*60*60*1000));
+		var expires = "expires="+ d.toUTCString();
+		document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+	}
+
+	function modalGetCookie(cname) {
+		var name = cname + "=";
+		var decodedCookie = decodeURIComponent(document.cookie);
+		var ca = decodedCookie.split(';');
+		for(var i = 0; i <ca.length; i++) {
+			var c = ca[i];
+			while (c.charAt(0) == ' ') {
+				c = c.substring(1);
+			}
+			if (c.indexOf(name) == 0) {
+				return c.substring(name.length, c.length);
+			}
+		}
+		return "";
+	}
+	</script>
+
+</section>
+
+<section data-bs-version="5.1" class="accordion3 cid-OtORkeCzfG" id="design-block-OtORkeCzfG">
+
+    
+
+    <div class="mbr-overlay" style="opacity: 0.7; background-color: rgb(32, 38, 41);">
+    </div>
+    <div class="container">
+        <div class="row media-container-row">
+
+
+<div class="col-lg-5">
+<div class="section-title-2 position-relative pb-3 mb-3">
+<h5 class="mbr-fonts-style display-7">Movies | TV Shows | Requests | Updates<br><br></h5>
+<h1 class="mb-0 mbr-fonts-style display-5">Create your own Plex account to continue access to Plex &amp; Requests</h1>
+</div>
+<p class="stp mbr-fonts-style display-7">.</p>
+
+</div>
+
+<div class="col-lg-7">
+
+
+            <div class="col-md-12">
+                <div class="section-head text-center space30">
+                    
+                </div>
+                <div class="clearfix"></div>
+                <div id="bootstrap-accordion_2" class="panel-group accordionStyles accordion" role="tablist" aria-multiselectable="true">
+                    <div class="card">
+                        <div class="card-header" role="tab" id="headingOne">
+                            <a role="button" class="panel-title collapsed text-black" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse1_2" aria-expanded="false" aria-controls="collapse1">
+                                </a><h4 class="mbr-fonts-style display-7"><a role="button" class="panel-title collapsed text-black" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse1_2" aria-expanded="false" aria-controls="collapse1">Create a free </a><a href="https://plex.tv" class="text-primary" target="_blank">Plex </a>account</h4>
+                            
+                        </div>
+                        <div id="collapse1_2" class="panel-collapse noScroll collapse  show" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_2">
+                            <div class="panel-body p-4">
+                                <p class="mbr-fonts-style panel-text display-7">
+                                   Dolor nonumy tempor elitr et rebum ipsum sit duo duo. Diam sed sed magna et magna diam aliquyam amet dolore ipsum erat duo. Sit rebum magna duo labore no diam..</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" role="tab" id="headingTwo">
+                            <a role="button" class="collapsed panel-title text-black" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse2_2" aria-expanded="false" aria-controls="collapse2">
+                                <h4 class="mbr-fonts-style display-7">Login &amp; Set your Plex Username&nbsp;</h4>
+                            </a>
+                            
+                        </div>
+                        <div id="collapse2_2" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_2">
+                            <div class="panel-body p-4">
+                                <p class="mbr-fonts-style panel-text display-7">
+                                   Dolor nonumy tempor elitr et rebum ipsum sit duo duo. Diam sed sed magna et magna diam aliquyam amet dolore ipsum erat duo. Sit rebum magna duo labore no diam..</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" role="tab" id="headingThree">
+                            <a role="button" class="collapsed text-black panel-title" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse3_2" aria-expanded="false" aria-controls="collapse3">
+                                <h4 class="mbr-fonts-style display-7">Send over your Plex Username&nbsp;</h4>
+                            </a>
+                        </div>
+                        <div id="collapse3_2" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_2">
+                            <div class="panel-body p-4">
+                                <p class="mbr-fonts-style panel-text display-7">Dolor nonumy tempor elitr et rebum ipsum sit duo duo. Diam sed sed magna et magna diam aliquyam amet dolore ipsum erat duo. Sit rebum magna duo labore no diam.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" role="tab" id="headingFour">
+                            <a role="button" class="collapsed panel-title text-black" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse4_2" aria-expanded="false" aria-controls="collapse4">
+                                <h4 class="mbr-fonts-style display-7">Access the shared Movies/TV Sections&nbsp;</h4>
+                            </a> 
+                        </div>
+                        <div id="collapse4_2" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingFour" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_2">
+                            <div class="panel-body p-4">
+                                <p class="mbr-fonts-style panel-text display-7">
+                                   Dolor nonumy tempor elitr et rebum ipsum sit duo duo. Diam sed sed magna et magna diam aliquyam amet dolore ipsum erat duo. Sit rebum magna duo labore no diam..</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" role="tab" id="headingFive">
+                            <a role="button" class="collapsed panel-title text-black" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse5_2" aria-expanded="false" aria-controls="collapse5">
+                                <h4 class="mbr-fonts-style display-7">Login to Notflix to make requests</h4>
+                            </a>
+                        </div>
+                        <div id="collapse5_2" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingFive" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_2">
+                            <div class="panel-body p-4">
+                                <p class="mbr-fonts-style panel-text display-7">
+                                   Dolor nonumy tempor elitr et rebum ipsum sit duo duo. Diam sed sed magna et magna diam aliquyam amet dolore ipsum erat duo. Sit rebum magna duo labore no diam..</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" role="tab" id="headingSix">
+                            <a role="button" class="collapsed panel-title text-black" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse6_2" aria-expanded="false" aria-controls="collapse6">
+                                <h4 class="mbr-fonts-style display-7">Get updates on Mobile</h4>
+                            </a>
+                        </div>
+                        <div id="collapse6_2" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingSix" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_2">
+                            <div class="panel-body p-4">
+                                <p class="mbr-fonts-style panel-text display-7">
+                                   Dolor nonumy tempor elitr et rebum ipsum sit duo duo. Diam sed sed magna et magna diam aliquyam amet dolore ipsum erat duo. Sit rebum magna duo labore no diam..</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+</div>
+
+
+
+        </div>
+    </div>
+</section><section style="background-color: #fff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif; color:#aaa; font-size:12px; padding: 0; align-items: center; display: flex;"><a href="https://mobirise.site/y" style="flex: 1 1; height: 3rem; padding-left: 1rem;"></a><p style="flex: 0 0 auto; margin:0; padding-right:1rem;">This <a href="https://mobirise.site/e" style="color:#aaa;">site</a> was designed with Mobirise</p></section><script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/ytplayer/index.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/mbr-switch-arrow/mbr-switch-arrow.js"></script>  <script src="assets/theme/js/script.js"></script>  
+  
+  
+  <input name="animation" type="hidden">
+  </body>
+</html>

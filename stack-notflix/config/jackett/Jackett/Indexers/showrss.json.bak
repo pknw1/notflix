@@ -1,0 +1,26 @@
+[
+  {
+    "id": "sitelink",
+    "type": "inputstring",
+    "name": "Site Link",
+    "value": "https://showrss.info/"
+  },
+  {
+    "id": "cookieheader",
+    "type": "hiddendata",
+    "name": "CookieHeader",
+    "value": "__cfduid=d05f6b6deb176f5af3d0ee5918b31bb3c1592989603; XSRF-TOKEN=eyJpdiI6IlJwS1VJNGxrUXAyM0x2N3hkcGo0MUE9PSIsInZhbHVlIjoiZlVoWWdYYnFjOFFtXC9sTDJ2NVwvNVBUaHFtUGhMdWZUXC9OV2tmQTFRb2hSTXdsdlI5a250eTkwbis1NGpiNXlLNiIsIm1hYyI6IjZjYzMwMjJhZTI3YTc1YWExNTc4OWE5ZTljMWIxODM2MDc4NzI3NzUyZmE3NzkwMWQ3YmU1MzZkOWQyN2Q2ZDAifQ%3D%3D"
+  },
+  {
+    "id": "lasterror",
+    "type": "hiddendata",
+    "name": "LastError",
+    "value": null
+  },
+  {
+    "id": "tags",
+    "type": "inputtags",
+    "name": "Tags",
+    "value": ""
+  }
+]

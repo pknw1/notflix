@@ -1,0 +1,47 @@
+[
+  {
+    "id": "sitelink",
+    "type": "inputstring",
+    "name": "Site Link",
+    "value": "https://kickass.ws/"
+  },
+  {
+    "id": "cookieheader",
+    "type": "hiddendata",
+    "name": "CookieHeader",
+    "value": "__cfduid=decea6e9549d061d696da646dd8481f851599169553; __cf_bm=3qkQij_j_Nev3QS.8N0B3syzsaCeqhZzSUxZFRBAI84-1653580802-0-AefrS0+3AV+t9rO5U1jdu2uaJCWR67FcAXuDW8C1D/70Z9rOq+/qzdCRr57/sE+xDztP1NDOlg9HGyPwyssI+7E="
+  },
+  {
+    "id": "lasterror",
+    "type": "hiddendata",
+    "name": "LastError",
+    "value": null
+  },
+  {
+    "id": "sortrequestedfromsite",
+    "type": "inputselect",
+    "name": "Sort requested from site",
+    "value": "time_add",
+    "options": {
+      "time_add": "created",
+      "seeders": "seeders",
+      "size": "size"
+    }
+  },
+  {
+    "id": "orderrequestedfromsite",
+    "type": "inputselect",
+    "name": "Order requested from site",
+    "value": "desc",
+    "options": {
+      "desc": "desc",
+      "asc": "asc"
+    }
+  },
+  {
+    "id": "tags",
+    "type": "inputtags",
+    "name": "Tags",
+    "value": ""
+  }
+]

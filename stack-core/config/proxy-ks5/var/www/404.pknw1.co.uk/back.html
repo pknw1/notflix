@@ -1,0 +1,345 @@
+
+<!DOCTYPE HTML>
+<html xmlns="://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <meta name="Description" content=""/>
+    <link rel="shortcut icon" href=""/>
+    <!--[if IE]>
+    <script src="://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--
+    <link href="css/style.css" rel="stylesheet"/>
+    -->
+    <link href="css/jquery.terminal.css" rel="stylesheet"/>
+    <link href="jquery-ui/jquery-ui-1.10.4.custom.min.css" rel="stylesheet"/>
+    <link href="keyboard/keyboard.css" rel="stylesheet"/>
+
+    <style>
+body {
+    margin: 0;
+    padding: 0;
+}
+#keyboard-wrapper {
+    position: relative;
+}
+#keyboard-wrapper textarea {
+    position: absolute;
+    clip: rect(0,0,0,0);
+}
+.ui-keyboard {
+    border-width: 1px 0 0 0;
+    border-radius: 0;
+}
+button {
+    outline: none;
+}
+textarea {
+    position: absolute;
+    clip: rect(0,0,0,0);
+}
+    </style>
+    <script src="./jquery.min.js"></script>
+    <script src="js/jquery.mousewheel-min.js"></script>
+    <script src="js/jquery.terminal-min.js"></script>
+    <script src="jquery-ui/jquery-ui-1.10.4.custom.min.js"></script>
+    <script src="keyboard/jquery.keyboard.min.js"></script>
+    <script>
+
+
+function is_touch_device() {
+    return 'ontouchstart' in window // works on most browsers
+      || 'onmsgesturechange' in window; // works on ie10
+}
+
+$(function() {
+    $.keyboard.keyaction.pageup = function() {
+        term.scroll(-10);
+    };
+    $.keyboard.keyaction.pagedown = function() {
+        term.scroll(10);
+    };
+    $.keyboard.keyaction.foo = function() {
+        console.log('foo');
+    };
+    var keyboard = $('textarea').keyboard({
+        layout: 'custom',
+        customLayout: {
+            'default': [
+                '` 1 2 3 4 5 6 7 8 9 0 - = {bksp}',
+                '{tab} q w e r t y u i o p [ ] \\',
+                'a s d f g h j k l ; \' {enter}',
+                '{shift} z x c v b n m , . / {shift} {pageup}',
+                '{sp:2} {alt} {space} {sp:1} {left} {right} {pagedown}'
+            ],
+            'shift': [
+                '~ ! @ # $ % ^ & * ( ) _ + {bksp}',
+                '{tab} Q W E R T Y U I O P { } |',
+                'A S D F G H J K L : " {enter}',
+                '{shift} Z X C V B N M < > ? {shift}',
+                '{space} {left} {right}'
+            ]
+        },
+        display: { 'pageup': 'pgUp', 'pagedown': 'pgDown' },
+        usePreview: false,
+        alwaysOpen: true,
+        stayOpen: true,
+        appendTo: '#keyboard-wrapper'
+    }).getkeyboard().reveal();
+
+    // there is no other easy way to make cursor working with keyboard
+    // the result of this is that textarea can have garbage
+    (function(insertText) {
+        keyboard.insertText = function(text) {
+            if (text == 'bksp') {
+                var e = $.Event("keydown");
+                e.which = 8;
+                $root.trigger(e);
+            } else {
+                term.insert(text);
+            }
+            //return insertText.apply(keyboard, [].slice.call(arguments));
+        };
+    })(keyboard.insertText);
+
+    var $root = $(document.documentElement || window);
+    // proper use of API
+    $.extend($.keyboard.keyaction, {
+        enter: function(base, el, e) {
+            var event = $.Event("keydown");
+            event.which = event.keyCode = 13;
+            event.shiftKey = e.shiftKey;
+            $root.trigger(event);
+        },
+        tab: function(base, el, e) {
+            var event = $.Event("keydown");
+            event.which = 9;
+            event.shiftKey = e.shiftKey;
+            $root.trigger(event);
+            return false;
+        },
+        left: (function(left) {
+            return function(base, el, e) {
+                // match terminal postion with
+                var cmd = term.cmd();
+                cmd.position(-1, true);
+                left.apply(this, [].slice.call(arguments));
+            };
+        })($.keyboard.keyaction.left),
+        right: (function(right) {
+            return function(base, el, e) {
+                var cmd = term.cmd();
+                cmd.position(1, true);
+                right.apply(this, [].slice.call(arguments));
+            };
+        })($.keyboard.keyaction.right)
+    });
+    var intepreter = {
+        Summary: function() {
+            this.echo('\nExecutive Summary');
+            this.echo('-----------------');
+            this.echo('\tA highly motivated and experienced technical lead, with over 15 years experience');
+            this.echo('\tspanning Corporate, Finance, Telecoms, Media and Government Sectors, my');
+            this.echo('\tprofessional experience has equipped me to be an invaluable asset for any');
+            this.echo('\torganisation where availability, accountability and seamless real-time workflows');
+            this.echo('\tare a critical factor.');
+            this.echo('\n');
+        },
+        Skills: function() {
+          this.echo('\nSkills Summary');
+          this.echo('--------------');
+          this.echo('\tNetworking and infrastructure');
+          this.echo('\tCDN/Akamai/Varnish, Global secure HA,Cloud based infrastructure, HubicFuse, Docker, F5 BigIP, Zeus Stingray,SteelApp, OVH, DNS');
+          this.echo('\n\tPlatforms');
+          this.echo('\tSolaris 7 – 10 (zones), Windows, RHEL, VMWare, VirtualBox,Rightscale, AWS, OVH, Outsystems, SALT, Gluster/FUSE, Kubernetes');
+          this.echo('\n\tWeb/Middleware, Java/J2EE');
+          this.echo('\tJava issue resolution from trace, Apache HTTPd, Jetty, Tomcat, Weblogic, Active/Rabbit MQ, NodeJS, Wordpress, MySQL, PHP, Drupal, JMX extraction to Visual VM');
+          this.echo('\n\tDevelopment lifecycle/Deployment');
+          this.echo('\tBamboo, Maven, Grails, ANT,Artifactory, GIT. GitHub');
+          this.echo('\n\tData availability, monitoring and analytics');
+          this.echo('\tNew relic, Oracle,Sitecatalyst, LogicMonitor, Sitescope, Jira, SAR, Orca, app server tuning/optimisation');
+          this.echo('\n\tScripting and automation');
+          this.echo('\tShell/Perl Scripting, HTML, CSS, PHP,Trafficscript, C, Lotuscript, Ansible, Puppet, Python, SQL');
+
+        },
+        Behaviours: function() {
+          this.echo('\nBehaviours Overview');
+          this.echo('-------------------');
+          this.echo('\tNaturally approachable, personable and calm under pressure, I ensure that key ');
+          this.echo('\tstakeholders are kept in the loop while not over-informing. To the point, while ');
+          this.echo('\tremaining diplomatic, I feel my confidence and experience equip me better than ');
+          this.echo('\tmany of my similarly technically capable peers.');
+          this.echo('\n');
+          this.echo('\tI pride myself on my can-do attitude, always taking the bigger picture into ');
+          this.echo('\taccount so that the organization move away from the fire fight mentality, ');
+          this.echo('\tworking towards long term reliability, sustainability and development.');
+          this.echo('\n');
+          this.echo('\t');
+        },
+        Current: function() {
+          this.echo('\nCurrent Role');
+          this.echo('------------');
+          this.echo('\t[JULY 2015 - Present]\t\tSmartFocus\t-\tHead of Operations\t[London]');
+          this.echo('\n\tModernise the companies production operations considering the global layout of the support teams and unify the disparate support ');
+          this.echo('\tprocesses ranging from outdated manual build processes, inflexible hardware allocation and wholly separate development to production');
+          this.echo('\tentities to a fully integrated and as much as possible automated self maintaining offering to allow the business to evolve at the ');
+          this.echo('\trate it desires');
+          this.echo('\n');
+          this.echo('\t* Manage five poorly integrated separate architectures for Email, Analytics, Tracking, Targeting and customer lifecycle');
+          this.echo('\t* Inherited unmaintained infrastructure and migrated majorly to AWS before re-integrating into an internal private cloud built on KVM');
+          this.echo('\t* Introduce OpsWorks on AWS before migrating back into Ansible Tower solution for production systems');
+          this.echo('\t* Migrated to BitBucket from internal repo’s and positioned Jenkins to automate build, deploy and test releases');
+          this.echo('\t* Embarked on containerising all applications (Docker) as most components for all products were built under tomcat');
+          this.echo('\t* Manage UK, US and FR Ops teams and unify to support all products in a follow the sun fashion to reduce on-call requirement');
+
+        },
+
+
+
+
+        Previous: function() {
+          this.echo('\nPrevious Roles');
+          this.echo('---------------');
+          this.echo('\t[03/15 – 06/15]\t\t  FICO          -   Web Operations Engineer II');
+          this.echo('\t[05/14 – 02/15]\t\t  Sony DADC     -   WebOps Specialist ');
+          this.echo('\t[01/14 – 05/14]\t\t  News UK       -   Production Operations Specialist ');
+          this.echo('\t[09/11 – 01/14]\t\t  MailOnline    -   Senior App Support Analyst / Support Lead ');
+          this.echo('\t[05/10 – 09/11]\t\t  DVLA          -   Technical Services Manager ');
+          this.echo('\t[04/09 – 04/10]\t\t  Call Catchers -   Business Development Manager ');
+          this.echo('\t[09/06 – 04/09]\t\t  Conduit UK    -   Support Team Leader (Vodafone Tech) ');
+          this.echo('\t[03/04 – 08/06]\t\t  Citigroup     -   Senior Middleware Support Analyst ');
+          this.echo('\t[2002 - 2003]\t\t\tFirst National-   Solaris and Applications Support / Admin ');
+          this.echo('\t[2000 - 2002]\t\t\tRubus         -   Infrastructure Consultant ');
+          this.echo('\t[1999 – 2000]\t\t\tIBM           -   IT & Systems Specialist ');
+          this.echo('\t[1998 - 1999]\t\t\tIBM           -   Industrial Trainee ');
+        },
+
+
+        All: function() {
+        this.echo('\nPaul Kelleher - pknw1@hotmail.co.uk');
+        this.echo('-----------------------------------\n');
+        this.echo('\nExecutive Summary');
+        this.echo('-----------------');
+        this.echo('\tA highly motivated and experienced technical lead, with over 15 years experience');
+        this.echo('\tspanning Corporate, Finance, Telecoms, Media and Government Sectors, my');
+        this.echo('\tprofessional experience has equipped me to be an invaluable asset for any');
+        this.echo('\torganisation where availability, accountability and seamless real-time workflows');
+        this.echo('\tare a critical factor.');
+        this.echo('\n');
+
+        this.echo('\nSkills Summary');
+        this.echo('--------------');
+        this.echo('\tNetworking and infrastructure');
+        this.echo('\tCDN/Akamai/Varnish, Global secure HA,Cloud based infrastructure, HubicFuse, Docker, F5 BigIP, Zeus Stingray,SteelApp, OVH, DNS');
+        this.echo('\n\tPlatforms');
+        this.echo('\tSolaris 7 – 10 (zones), Windows, RHEL, VMWare, VirtualBox,Rightscale, AWS, OVH, Outsystems, SALT, Gluster/FUSE, Kubernetes');
+        this.echo('\n\tWeb/Middleware, Java/J2EE');
+        this.echo('\tJava issue resolution from trace, Apache HTTPd, Jetty, Tomcat, Weblogic, Active/Rabbit MQ, NodeJS, Wordpress, MySQL, PHP, Drupal, JMX extraction to Visual VM');
+        this.echo('\n\tDevelopment lifecycle/Deployment');
+        this.echo('\tBamboo, Maven, Grails, ANT,Artifactory, GIT. GitHub');
+        this.echo('\n\tData availability, monitoring and analytics');
+        this.echo('\tNew relic, Oracle,Sitecatalyst, LogicMonitor, Sitescope, Jira, SAR, Orca, app server tuning/optimisation');
+        this.echo('\n\tScripting and automation');
+        this.echo('\tShell/Perl Scripting, HTML, CSS, PHP,Trafficscript, C, Lotuscript, Ansible, Puppet, Python, SQL');
+
+        this.echo('\nBehaviours Overview');
+        this.echo('-------------------');
+        this.echo('\tNaturally approachable, personable and calm under pressure, I ensure that key ');
+        this.echo('\tstakeholders are kept in the loop while not over-informing. To the point, while ');
+        this.echo('\tremaining diplomatic, I feel my confidence and experience equip me better than ');
+        this.echo('\tmany of my similarly technically capable peers.');
+        this.echo('\n');
+        this.echo('\tI pride myself on my can-do attitude, always taking the bigger picture into ');
+        this.echo('\taccount so that the organization move away from the fire fight mentality, ');
+        this.echo('\tworking towards long term reliability, sustainability and development.');
+        this.echo('\n');
+        this.echo('\t');
+
+        this.echo('\nCurrent Role');
+        this.echo('------------');
+        this.echo('\t[JULY 2015 - Present]\t\tSmartFocus\t-\tHead of Operations\t[London]');
+        this.echo('\n\tModernise the companies production operations considering the global layout of the support teams and unify the disparate support ');
+        this.echo('\tprocesses ranging from outdated manual build processes, inflexible hardware allocation and wholly separate development to production');
+        this.echo('\tentities to a fully integrated and as much as possible automated self maintaining offering to allow the business to evolve at the ');
+        this.echo('\trate it desires');
+        this.echo('\n');
+        this.echo('\t* Manage five poorly integrated separate architectures for Email, Analytics, Tracking, Targeting and customer lifecycle');
+        this.echo('\t* Inherited unmaintained infrastructure and migrated majorly to AWS before re-integrating into an internal private cloud built on KVM');
+        this.echo('\t* Introduce OpsWorks on AWS before migrating back into Ansible Tower solution for production systems');
+        this.echo('\t* Migrated to BitBucket from internal repo’s and positioned Jenkins to automate build, deploy and test releases');
+        this.echo('\t* Embarked on containerising all applications (Docker) as most components for all products were built under tomcat');
+        this.echo('\t* Manage UK, US and FR Ops teams and unify to support all products in a follow the sun fashion to reduce on-call requirement');
+
+        this.echo('\nPrevious Roles');
+        this.echo('---------------');
+        this.echo('\t[03/15 – 06/15]\t\t  FICO          -   Web Operations Engineer II');
+        this.echo('\t[05/14 – 02/15]\t\t  Sony DADC     -   WebOps Specialist ');
+        this.echo('\t[01/14 – 05/14]\t\t  News UK       -   Production Operations Specialist ');
+        this.echo('\t[09/11 – 01/14]\t\t  MailOnline    -   Senior App Support Analyst / Support Lead ');
+        this.echo('\t[05/10 – 09/11]\t\t  DVLA          -   Technical Services Manager ');
+        this.echo('\t[04/09 – 04/10]\t\t  Call Catchers -   Business Development Manager ');
+        this.echo('\t[09/06 – 04/09]\t\t  Conduit UK    -   Support Team Leader (Vodafone Tech) ');
+        this.echo('\t[03/04 – 08/06]\t\t  Citigroup     -   Senior Middleware Support Analyst ');
+        this.echo('\t[2002 - 2003]\t\t\tFirst National-   Solaris and Applications Support / Admin ');
+        this.echo('\t[2000 - 2002]\t\t\tRubus         -   Infrastructure Consultant ');
+        this.echo('\t[1999 – 2000]\t\t\tIBM           -   IT & Systems Specialist ');
+        this.echo('\t[1998 - 1999]\t\t\tIBM           -   Industrial Trainee ');
+        },
+
+        Links: function() {
+        this.echo('\nPaul Kelleher - pknw1@hotmail.co.uk');
+        this.echo('-----------------------------------\n');
+        this.echo('\nExecutive Summary');
+        this.echo('-----------------');
+        this.echo('\tA highly motivated and experienced technical lead, with over 15 years experience');
+        this.echo('\tspanning Corporate, Finance, Telecoms, Media and Government Sectors, my');
+        this.echo('\tprofessional experience has equipped me to be an invaluable asset for any');
+        this.echo('\torganisation where availability, accountability and seamless real-time workflows');
+        this.echo('\tare a critical factor.');
+        this.echo('\n');
+
+        this.echo('\nPrevious Roles');
+        this.echo('---------------');
+        this.echo('\tEmail\t\t      - pknw1@hotmail.co.uk');
+        this.echo('\tMobile\t\t     - 07553 581090');
+        this.echo('\tLinked In\t\t  - linkedin.pknw1.co.uk');
+        this.echo('\tGithub\t\t     - github.com/pknw1');
+        this.echo('\tDocker Hub\t\t - hub.docker.com/r/pknw1/');
+
+        },
+
+
+
+        help: function() {
+            this.echo('Available commands: ' + Object.keys(intepreter).join(', '));
+        },
+
+        man: function() {
+            this.echo('Available commands: ' + Object.keys(intepreter).join(', '));
+        }
+    };
+    var term = $('#term').terminal(intepreter, {
+        name: 'virtual',
+        greetings: '\n\n\n██████╗ ██╗  ██╗███╗   ██╗██╗    ██╗ ██╗    ██████╗ ██████╗    ██╗   ██╗██╗  ██╗\n██╔══██╗██║ ██╔╝████╗  ██║██║    ██║███║   ██╔════╝██╔═══██╗   ██║   ██║██║ ██╔╝\n██████╔╝█████╔╝ ██╔██╗ ██║██║ █╗ ██║╚██║   ██║     ██║   ██║   ██║   ██║█████╔╝ \n██╔═══╝ ██╔═██╗ ██║╚██╗██║██║███╗██║ ██║   ██║     ██║   ██║   ██║   ██║██╔═██╗ \n██║     ██║  ██╗██║ ╚████║╚███╔███╔╝ ██║██╗╚██████╗╚██████╔╝██╗╚██████╔╝██║  ██╗\n╚═╝     ╚═╝  ╚═╝╚═╝  ╚═══╝ ╚══╝╚══╝  ╚═╝╚═╝ ╚═════╝ ╚═════╝ ╚═╝ ╚═════╝ ╚═╝  ╚═╝\n\n\n██╗  ██╗ ██████╗ ██╗  ██╗\n██║  ██║██╔═████╗██║  ██║\n███████║██║██╔██║███████║\n╚════██║████╔╝██║╚════██║\n     ██║╚██████╔╝     ██║\n     ╚═╝ ╚═════╝      ╚═╝ \n\n',
+        completion: true,
+        prompt: 'not found:~ $ ',
+        onBlur: function() {
+            return false;
+        }
+
+
+    });
+
+
+
+});
+    </script>
+
+</head>
+<body>
+    <div id="term"></div>
+      <textarea></textarea>
+    </div>
+</body>
+</html>

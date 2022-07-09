@@ -1,0 +1,1051 @@
+{
+  "settings": {
+    "name": "notflix",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "mobirise5",
+      "title": "Mobirise 5",
+      "styling": {
+        "primaryColor": "#6592e6",
+        "secondaryColor": "#ff8a8a",
+        "successColor": "#4479d9",
+        "infoColor": "#47b5ed",
+        "warningColor": "#ffc107",
+        "dangerColor": "#ff9966",
+        "mainFont": "Jost",
+        "display1Font": "Jost",
+        "display1Size": 4.6,
+        "display2Font": "Jost",
+        "display2Size": 3,
+        "display5Font": "Jost",
+        "display5Size": 2,
+        "display7Font": "Jost",
+        "display7Size": 1.2,
+        "display4Font": "Jost",
+        "display4Size": "1.0",
+        "isRoundedButtons": false,
+        "isGhostButtonBorder": false,
+        "underlinedLinks": false,
+        "isAnimatedOnScroll": false,
+        "isScrollToTopButton": true
+      },
+      "additionalSetColors": [
+        "#005da6",
+        "#ffc107",
+        "#fa0a0a",
+        "#c9e1e7"
+      ]
+    },
+    "path": "@PROJECT_PATH@",
+    "versionFirst": "5.3.10",
+    "siteFonts": [
+      {
+        "css": "'Jost', sans-serif",
+        "name": "Jost",
+        "url": "https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i"
+      }
+    ],
+    "imageResize": true,
+    "uniqCompNum": 49,
+    "versionPublish": "5.3.10",
+    "screenshot": "screenshot.png",
+    "publishChangesOnly": false,
+    "robotsSwitcher": true,
+    "robotsText": "User-agent: *\nDisallow: /cgi-bin\n",
+    "favicon": false,
+    "mbrsiteDomain": "pknw12021",
+    "sitemapSwitcher": false,
+    "sitemapSwitcherAuto": false,
+    "siteUrl": false,
+    "witsec-white-label": true,
+    "cookiesAlert": false,
+    "gdpr": false
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Home",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = \"image\")": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = \"color\")": {
+              "background-color": "@bg-value"
+            },
+            "& when (@reverseContent)": {
+              ".row": {
+                "flex-direction": "row-reverse"
+              }
+            },
+            "& when (@fullWidth)": {
+              "& when (@imageFullWidth)": {
+                ".container-fluid": {
+                  "padding": "0"
+                },
+                ".text-wrapper": {
+                  "padding": "0 4rem",
+                  "@media (max-width: 768px)": {
+                    "padding": "0 2rem"
+                  }
+                }
+              }
+            },
+            ".image-wrapper": {
+              "@media (max-width: 991px)": {
+                "margin-bottom": "2rem"
+              },
+              "img": {
+                "width": "100%",
+                "object-fit": "cover"
+              }
+            },
+            ".text-wrapper": {
+              "@media (min-width: 992px)": {
+                "padding": "0 2rem",
+                "& when (@fullWidth)": {
+                  "padding": "0 4rem"
+                }
+              },
+              "@media (max-width: 768px)": {
+                "margin-bottom": "2rem"
+              }
+            },
+            ".mbr-section-title": {
+              "color": "#ffc107"
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#ffc107"
+            }
+          },
+          "_name": "header14",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section class=\"header14\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline name=\"imageWidth\" title=\"Image\" min=\"4\" max=\"8\" step=\"1\" value=\"6\">\n        <input type=\"checkbox\" title=\"Reverse\" name=\"reverseContent\" checked>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Remove Padding\" name=\"imageFullWidth\" condition=\"fullWidth\">\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background7.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#000000\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center align-items-center\">\n            <div class=\"col-12 col-md-{{imageWidth}} image-wrapper\">\n                <img src=\"@PROJECT_PATH@/assets/images/nota-2-1076x498.png\" alt>\n            </div>\n            <div class=\"col-12 col-md\">\n                <div class=\"text-wrapper\">\n                    <h1 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\">\n                        <b>Streaming Portal</b></h1>\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Access the latest Movies&amp; TV Shows across any device; with a personal account, you can also access requests, software and educational packs/e-books<br></p>\n                    <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\">\n                        <a class=\"btn btn-secondary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Explore\n                            all features</a>\n                        <a class=\"btn btn-black-outline\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Create\n                            account &gt;</a>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "sDb5fEJP7S",
+          "_anchor": "header14-18",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor",
+            "img": {
+              "width": "120px",
+              "margin": "auto"
+            },
+            ".card": {
+              "transition": "all 0.3s",
+              "height": "fit-content",
+              "padding": "1rem 0",
+              "opacity": "0.7",
+              "margin-bottom": "1rem"
+            },
+            "@media (min-width: 992px)": {
+              ".card": {
+                "max-width": "12.5%"
+              }
+            }
+          },
+          "_name": "clients1",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section class=\"clients1\" group=\"Clients\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\">\n        <input type=\"range\" inline title=\"Items\" name=\"items\" min=\"1\" max=\"8\" value=\"5\" step=\"1\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#000000\">\n    </mbr-parameters>\n    <div class=\"images-container\" mbr-class=\"{'container-fluid':fullWidth, container:fullWidth==false}\">\n        <div class=\"mbr-section-head\">\n            <h3 class=\"mbr-section-title mbr-fonts-style align-center mb-0\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">\n                <b>Our Clients</b>\n            </h3>\n            <h4 class=\"mbr-section-subtitle mbr-fonts-style align-center mb-0 mt-2\" mbr-theme-style=\"display-5\" mbr-if=\"showSubTitle\" data-app-selector=\".mbr-section-subtitle\">For a better look, use pictures of the same size in this block.\n                elit</h4>\n            <p class=\"mbr-text mbr-fonts-style align-center mt-2\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">\n                Click on an image in this block to replace it. Set the number of logos in Block Parameters. </p>\n        </div>\n        <div class=\"row justify-content-center mt-4\">\n            <div class=\"col-md-3 card\">\n                <a href=\"index.html#watch-plex\"><img src=\"@PROJECT_PATH@/assets/images/plex-watch-1-240x150.png\" alt></a>\n            </div>\n            <div class=\"col-md-3 card\" mbr-if=\"items > 1\">\n                <a href=\"https://requests.pknw1.co.uk\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/req2-1-240x150.png\" alt></a>\n            </div>\n            <div class=\"col-md-3 card\" mbr-if=\"items > 2\">\n                <a href=\"https://download.pknw1.co.uk\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/dl-240x150.png\" alt></a>\n            </div>\n            <div class=\"col-md-3 card\" mbr-if=\"items > 3\">\n                <a href=\"https://github.com/croneter/PlexKodiConnect\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/notflix-kodi-2-240x108.png\" alt></a>\n            </div>\n            <div class=\"col-md-3 card\" mbr-if=\"items > 4\">\n                <a href=\"https://www.youtube.com/watch?v=yJdvEViuIAc\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/samsung-1-240x108.png\" alt></a>\n            </div>\n            <div class=\"col-md-3 card\" mbr-if=\"items > 5\">\n                <a href=\"javascript:$('.contactwindow').fadeToggle(); return false;\"><img src=\"@PROJECT_PATH@/assets/images/notflix-help-2-240x108.png\" alt></a>\n            </div>\n            <div class=\"col-md-3 card\" mbr-if=\"items > 6\">\n                <a href=\"javascript:OpenModal('cv')\"><img src=\"@PROJECT_PATH@/assets/images/rubus-w-240x36.png\" alt></a>\n            </div>\n            <div class=\"col-md-3 card\" mbr-if=\"items > 7\">\n                <a href=\"javascript:OpenModal('cv')\"><img src=\"@PROJECT_PATH@/assets/images/ibm-w-240x36.png\" alt></a>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "links",
+          "_isUserblock": true,
+          "_cid": "sC2llQj52Q",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = \"image\")": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = \"color\")": {
+              "background-color": "@bg-value"
+            },
+            "& when (@reverseContent)": {
+              ".row": {
+                "flex-direction": "row-reverse"
+              }
+            },
+            "& when (@fullWidth)": {
+              "& when (@imageFullWidth)": {
+                ".container-fluid": {
+                  "padding": "0"
+                },
+                ".text-wrapper": {
+                  "padding": "0 4rem",
+                  "@media (max-width: 768px)": {
+                    "padding": "0 2rem"
+                  }
+                }
+              }
+            },
+            ".image-wrapper": {
+              "@media (max-width: 991px)": {
+                "margin-bottom": "2rem"
+              },
+              "img": {
+                "width": "100%",
+                "object-fit": "cover"
+              }
+            },
+            ".text-wrapper": {
+              "@media (min-width: 992px)": {
+                "padding": "0 2rem",
+                "& when (@fullWidth)": {
+                  "padding": "0 4rem"
+                }
+              },
+              "@media (max-width: 768px)": {
+                "margin-bottom": "2rem"
+              }
+            },
+            ".mbr-section-title": {
+              "color": "#ffc107"
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#ffc107"
+            }
+          },
+          "_name": "header14",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section class=\"header14\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"4\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline name=\"imageWidth\" title=\"Image\" min=\"4\" max=\"8\" step=\"1\" value=\"5\">\n        <input type=\"checkbox\" title=\"Reverse\" name=\"reverseContent\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Remove Padding\" name=\"imageFullWidth\" condition=\"fullWidth\">\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background7.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#000000\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center align-items-center\">\n            <div class=\"col-12 col-md-{{imageWidth}} image-wrapper\">\n                <a href=\"https://app.plex.tv/desktop\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/plex-player-724x385.png\" alt></a>\n            </div>\n            <div class=\"col-12 col-md\">\n                <div class=\"text-wrapper\">\n                    <h1 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\">\n                        <b>Watch online via Plex</b></h1>\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">You can login online using the Plex Web Interface, or you can install their app on your mobile, smartTV or other device - see plex.tv for more info<br></p>\n                    <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-warning\" href=\"https://app.plex.tv/desktop\" data-app-placeholder=\"Type Text\" target=\"_blank\">Launch Plex</a>\n                        <a class=\"btn btn-warning-outline\" href=\"javascript:OpenModal('credentials')\" data-app-placeholder=\"Type Text\">Display Login Credentials &gt;</a></div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "sDb6OTAeLI",
+          "_anchor": "watch-plex",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_params": {
+            "modalName": "credentials",
+            "modalSize": "small",
+            "modalHeader": false,
+            "modalTitle": "Modal title",
+            "modalBody": "Login anywhere using \n\nusername: pkmovies\npassword: pknw1plex",
+            "modalBodyHTML": false,
+            "modalFooter": false,
+            "modalCloseBtn": true,
+            "modalCloseText": "Close",
+            "modalLink": true,
+            "modalLinkUrl": "https://cv.pknw1.co.uk",
+            "modalLinkText": "Download CV",
+            "modalLinkNewWindow": true,
+            "modalVerticalCenter": true,
+            "modalFade": false,
+            "modalAutoOpen": false,
+            "modalAutoOpenOnce": true,
+            "modalAutoOpenGDPR": true,
+            "modalAutoOpenDelay": 0
+          },
+          "modalTest": "<div class=\"mbr-section-btn\">\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#credentials\">Preview credentials</a>\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#credentials-howtouse\">How to use credentials</a>\n</div>\n<div class=\"modal fade\" id=\"credentials-howtouse\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"credentials-howtouseLabel\" aria-hidden=\"true\">\n  <div class=\"modal-dialog\" role=\"document\" style=\"height:auto\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <h5 class=\"modal-title\" id=\"credentials-howtouseLabel\">How to use?</h5>\n        <a href=\"\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a>\n      </div>\n      <div class=\"modal-body\">\n        Using your new modal is very easy. Simply create a new link, then click the \"...\" tab and enter the following as custom URL:<br /><br />\n        <code>javascript:OpenModal('credentials')</code>\n      </div>\n      <div class=\"modal-footer\">\n        <div class=\"mbr-section-btn\"><a href=\"#\" class=\"btn btn-secondary display-4\" data-dismiss=\"modal\">Close</a></div>\n      </div>\n    </div>\n  </div>\n</div>",
+          "modalBody": "Login anywhere using \n\nusername: pkmovies\npassword: pknw1plex",
+          "alias": "witsec-modal-window",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "witsec-modal-window-block",
+          "_sourceTheme": "mobirise5",
+          "_anchor": "witsec-modal-window-block-n",
+          "modalWindow": "<div class=\"modal \" id=\"credentials\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"credentialsLabel\" aria-hidden=\"true\">  <div class=\"modal-dialog modal-sm modal-dialog-centered\" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-body\" id=\"credentials_body\">Login anywhere using <br /><br />username: pkmovies<br />password: pknw1plex</div>    </div>  </div></div><script>document.addEventListener(\"DOMContentLoaded\", function() {  $(\"#credentials\").on(\"hidden.bs.modal\", function () {    var html = $( \"#credentials_body\" ).html();    $( \"#credentials_body\" ).empty();    $( \"#credentials_body\" ).append(html);  })});</script>"
+        },
+        {
+          "_params": {
+            "modalName": "requests",
+            "modalSize": "large",
+            "modalHeader": false,
+            "modalTitle": "Modal title",
+            "modalBody": "<div id=\"recent-roles2_tab0\" class=\"tab-pane in active\" role=\"tabpanel\">\n                        <div class=\"row\">\n                            <div class=\"col-md-12\">\n\t\t\t\t\t\t\t\t\t \n\t\t\t\t\t\t\t\t\t<p class=\"mbr-text mb-5 pt-3 mbr-light mbr-fonts-style display-7\" style=\"float: left; width: 100%; \">\n\t\t\t\t\t\t\t\t\tEngaged as <strong>Data Infrastructure Engineering Lead </strong>to help Vanquis transform the business to a cloud delivered, automated, scalable and adaptable technology model while adopting agile/devops methodologies for prioritising and delivering banking systems to rival the challenger banks. Building new teams to enable full stack support for the most key area of the bank – the data solutions for Customers and Business Intelligence<br><br>Suffering with a legacy VM & cloud infrastructure, managed by engineers who fought the change, servicing a business unsure of why cloud-first was championed by the previous CIO, what initially seemed like a challenging environment became a great opportunity to reach across the business and implement my personal brand of education.\n\n</p><table border=\"0\" width=\"100%\">\n  <tbody><tr>\n    <td width=\"50%\" style=\"font-size:1.3em; font-family:arial; color:#21529e\" class=\"mbr-fonts-style\"><strong>Highlights</strong></td>\n    <td width=\"50%\" style=\"font-size:1.3em; font-family:arial;color:#21529e\" class=\"mbr-fonts-style\"><strong>Achievements</strong></td>\n  </tr>\n   <tr>\n    <td>\n    \t<div class=\"mbr-text mbr-fonts-style display-4\">\n                    <ul>\n                        <li>Full access and opportunity to experience all azure/cloud platforms working together and enterprise options that leave little to go-wrong when designing and integrating services in regulated environments</li><li>Learning on the go with legacy engineers using features that didn’t exist a year ago – and some may not next year. Embracing their tech skills to piece together logical components with no fear of failure will always present the correct solution. if you fail often enough, you’ll be left with the right solution!</li><li>Getting to show seasoned engineers that breaking things is fine and encouraged, if you analyse a problem from first principles, the work can be shared and probably most discrete tasks or elements exist in some manner on GitHub – so work smarter</li></ul><p><br></p><ul>\n                    </ul>\n                </div>\n    </td>\n    <td>\n                    <ul>\n                        <li>Re-designed core subscription structu  for business unit, data sensitivity and effective cost management</li><li>Propose and Deliver Cloud Operating Model to the business and deliver key benefits from Policy and Automation</li><li>Delivered training to engineers on terraform and Ansible for Linux automation and Azure provisioning producing the basic template for re-building environments</li><li>Validation and On-Demand environments for testing built into VSTS Pipelines, delivered as IaC</li><li>Introduced Flows into the business as a tool that presents a self-service option for SME’s when time is short and it suits the business need</li></ul>\n               \n    </td>\n  </tr>\n</tbody></table>\n\t\t\t\t\t\t<p class=\"mbr-text mb-5 pt-3 mbr-light mbr-fonts-style display-7\" style=\"width:70%\"><strong>Link </strong><a href=\"https://www.vanquis.co.uk\" class=\"text-primary\" target=\"_blank\">www.vanquis.co.uk</a><br><br><strong>Skills</strong> <em>Azure, VSTS, Pipelines, Terraforkjhm, Ansible, Docker, AKS, Azure Policy, Azure Automation, Security, Monitoring, AD, Legacy Integration</em><em></em>                  </p>   \n\n \n\t\t\n\n                            </div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n                        </div>\n\t\t\t\t\t\t<div id=\"bootstrap-accordion_7\" class=\"panel-group accordionStyles accordion\" role=\"tablist\" aria-multiselectable=\"true\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"card mb-3\">\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"card-header\" role=\"tab\" id=\"headingOne\">\n\t\t\t\t\t\t\t\t\t\t\t\t<a role=\"button\" class=\"panel-title collapsed\" data-toggle=\"collapse\" data-core=\"\" href=\"#collapse1_7\" aria-expanded=\"false\" aria-controls=\"collapse1\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t</a><h6 class=\"panel-title-edit mbr-fonts-style mb-0 display-7\"><a role=\"button\" class=\"panel-title collapsed\" data-toggle=\"collapse\" data-core=\"\" href=\"#collapse1_7\" aria-expanded=\"false\" aria-controls=\"collapse1\"><strong>Click here for Projects and Initiatives at Vanquis </strong></a><strong><a href=\"javascript:OpenModal('sheets')\" class=\"text-primary\">[?]</a></strong></h6>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<span class=\"sign mbr-iconfont\"></span>\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t<div id=\"collapse1_7\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingOne\" data-parent=\"#bootstrap-accordion_7\">\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"panel-body\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t<iframe width=\"100%\" height=\"1800px\" frameborder=\"none\" src=\"https://docs.google.com/spreadsheets/d/e/2PACX-1vSNd4aeYiR6e5DH_U9mT8yrgm5_-IKAoptFkgJplYY8_5PwqNzw-C918EZ6-PmL9kb4QpOZ6nChHjYK/pubhtml?gid=2126528231&single=true&widget=true&headers=false\"></iframe>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n                    </div>",
+            "modalBodyHTML": true,
+            "modalFooter": true,
+            "modalCloseBtn": true,
+            "modalCloseText": "Close",
+            "modalLink": true,
+            "modalLinkUrl": "https://cv.pknw1.co.uk",
+            "modalLinkText": "Download CV",
+            "modalLinkNewWindow": true,
+            "modalVerticalCenter": true,
+            "modalFade": false,
+            "modalAutoOpen": false,
+            "modalAutoOpenOnce": true,
+            "modalAutoOpenGDPR": true,
+            "modalAutoOpenDelay": 0
+          },
+          "modalTest": "<div class=\"mbr-section-btn\">\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#requests\">Preview requests</a>\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#requests-howtouse\">How to use requests</a>\n</div>\n<div class=\"modal fade\" id=\"requests-howtouse\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"requests-howtouseLabel\" aria-hidden=\"true\">\n  <div class=\"modal-dialog\" role=\"document\" style=\"height:auto\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <h5 class=\"modal-title\" id=\"requests-howtouseLabel\">How to use?</h5>\n        <a href=\"\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a>\n      </div>\n      <div class=\"modal-body\">\n        Using your new modal is very easy. Simply create a new link, then click the \"...\" tab and enter the following as custom URL:<br /><br />\n        <code>javascript:OpenModal('requests')</code>\n      </div>\n      <div class=\"modal-footer\">\n        <div class=\"mbr-section-btn\"><a href=\"#\" class=\"btn btn-secondary display-4\" data-dismiss=\"modal\">Close</a></div>\n      </div>\n    </div>\n  </div>\n</div>",
+          "modalBody": "<div id=\"recent-roles2_tab0\" class=\"tab-pane in active\" role=\"tabpanel\">\n                        <div class=\"row\">\n                            <div class=\"col-md-12\">\n\t\t\t\t\t\t\t\t\t \n\t\t\t\t\t\t\t\t\t<p class=\"mbr-text mb-5 pt-3 mbr-light mbr-fonts-style display-7\" style=\"float: left; width: 100%; \">\n\t\t\t\t\t\t\t\t\tEngaged as <strong>Data Infrastructure Engineering Lead </strong>to help Vanquis transform the business to a cloud delivered, automated, scalable and adaptable technology model while adopting agile/devops methodologies for prioritising and delivering banking systems to rival the challenger banks. Building new teams to enable full stack support for the most key area of the bank – the data solutions for Customers and Business Intelligence<br><br>Suffering with a legacy VM & cloud infrastructure, managed by engineers who fought the change, servicing a business unsure of why cloud-first was championed by the previous CIO, what initially seemed like a challenging environment became a great opportunity to reach across the business and implement my personal brand of education.\n\n</p><table border=\"0\" width=\"100%\">\n  <tbody><tr>\n    <td width=\"50%\" style=\"font-size:1.3em; font-family:arial; color:#21529e\" class=\"mbr-fonts-style\"><strong>Highlights</strong></td>\n    <td width=\"50%\" style=\"font-size:1.3em; font-family:arial;color:#21529e\" class=\"mbr-fonts-style\"><strong>Achievements</strong></td>\n  </tr>\n   <tr>\n    <td>\n    \t<div class=\"mbr-text mbr-fonts-style display-4\">\n                    <ul>\n                        <li>Full access and opportunity to experience all azure/cloud platforms working together and enterprise options that leave little to go-wrong when designing and integrating services in regulated environments</li><li>Learning on the go with legacy engineers using features that didn’t exist a year ago – and some may not next year. Embracing their tech skills to piece together logical components with no fear of failure will always present the correct solution. if you fail often enough, you’ll be left with the right solution!</li><li>Getting to show seasoned engineers that breaking things is fine and encouraged, if you analyse a problem from first principles, the work can be shared and probably most discrete tasks or elements exist in some manner on GitHub – so work smarter</li></ul><p><br></p><ul>\n                    </ul>\n                </div>\n    </td>\n    <td>\n                    <ul>\n                        <li>Re-designed core subscription structu  for business unit, data sensitivity and effective cost management</li><li>Propose and Deliver Cloud Operating Model to the business and deliver key benefits from Policy and Automation</li><li>Delivered training to engineers on terraform and Ansible for Linux automation and Azure provisioning producing the basic template for re-building environments</li><li>Validation and On-Demand environments for testing built into VSTS Pipelines, delivered as IaC</li><li>Introduced Flows into the business as a tool that presents a self-service option for SME’s when time is short and it suits the business need</li></ul>\n               \n    </td>\n  </tr>\n</tbody></table>\n\t\t\t\t\t\t<p class=\"mbr-text mb-5 pt-3 mbr-light mbr-fonts-style display-7\" style=\"width:70%\"><strong>Link </strong><a href=\"https://www.vanquis.co.uk\" class=\"text-primary\" target=\"_blank\">www.vanquis.co.uk</a><br><br><strong>Skills</strong> <em>Azure, VSTS, Pipelines, Terraforkjhm, Ansible, Docker, AKS, Azure Policy, Azure Automation, Security, Monitoring, AD, Legacy Integration</em><em></em>                  </p>   \n\n \n\t\t\n\n                            </div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n                        </div>\n\t\t\t\t\t\t<div id=\"bootstrap-accordion_7\" class=\"panel-group accordionStyles accordion\" role=\"tablist\" aria-multiselectable=\"true\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"card mb-3\">\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"card-header\" role=\"tab\" id=\"headingOne\">\n\t\t\t\t\t\t\t\t\t\t\t\t<a role=\"button\" class=\"panel-title collapsed\" data-toggle=\"collapse\" data-core=\"\" href=\"#collapse1_7\" aria-expanded=\"false\" aria-controls=\"collapse1\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t</a><h6 class=\"panel-title-edit mbr-fonts-style mb-0 display-7\"><a role=\"button\" class=\"panel-title collapsed\" data-toggle=\"collapse\" data-core=\"\" href=\"#collapse1_7\" aria-expanded=\"false\" aria-controls=\"collapse1\"><strong>Click here for Projects and Initiatives at Vanquis </strong></a><strong><a href=\"javascript:OpenModal('sheets')\" class=\"text-primary\">[?]</a></strong></h6>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<span class=\"sign mbr-iconfont\"></span>\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t<div id=\"collapse1_7\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingOne\" data-parent=\"#bootstrap-accordion_7\">\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"panel-body\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t<iframe width=\"100%\" height=\"1800px\" frameborder=\"none\" src=\"https://docs.google.com/spreadsheets/d/e/2PACX-1vSNd4aeYiR6e5DH_U9mT8yrgm5_-IKAoptFkgJplYY8_5PwqNzw-C918EZ6-PmL9kb4QpOZ6nChHjYK/pubhtml?gid=2126528231&single=true&widget=true&headers=false\"></iframe>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n                    </div>",
+          "alias": "witsec-modal-window",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "witsec-modal-window-block",
+          "_sourceTheme": "mobirise5",
+          "_anchor": "witsec-modal-window-block-c",
+          "modalWindow": "<div class=\"modal \" id=\"requests\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"requestsLabel\" aria-hidden=\"true\">  <div class=\"modal-dialog modal-lg modal-dialog-centered\" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-body\" id=\"requests_body\"><div id=\"recent-roles2_tab0\" class=\"tab-pane in active\" role=\"tabpanel\">\n                        <div class=\"row\">\n                            <div class=\"col-md-12\">\n\t\t\t\t\t\t\t\t\t \n\t\t\t\t\t\t\t\t\t<p class=\"mbr-text mb-5 pt-3 mbr-light mbr-fonts-style display-7\" style=\"float: left; width: 100%; \">\n\t\t\t\t\t\t\t\t\tEngaged as <strong>Data Infrastructure Engineering Lead </strong>to help Vanquis transform the business to a cloud delivered, automated, scalable and adaptable technology model while adopting agile/devops methodologies for prioritising and delivering banking systems to rival the challenger banks. Building new teams to enable full stack support for the most key area of the bank – the data solutions for Customers and Business Intelligence<br><br>Suffering with a legacy VM & cloud infrastructure, managed by engineers who fought the change, servicing a business unsure of why cloud-first was championed by the previous CIO, what initially seemed like a challenging environment became a great opportunity to reach across the business and implement my personal brand of education.\n\n</p><table border=\"0\" width=\"100%\">\n  <tbody><tr>\n    <td width=\"50%\" style=\"font-size:1.3em; font-family:arial; color:#21529e\" class=\"mbr-fonts-style\"><strong>Highlights</strong></td>\n    <td width=\"50%\" style=\"font-size:1.3em; font-family:arial;color:#21529e\" class=\"mbr-fonts-style\"><strong>Achievements</strong></td>\n  </tr>\n   <tr>\n    <td>\n    \t<div class=\"mbr-text mbr-fonts-style display-4\">\n                    <ul>\n                        <li>Full access and opportunity to experience all azure/cloud platforms working together and enterprise options that leave little to go-wrong when designing and integrating services in regulated environments</li><li>Learning on the go with legacy engineers using features that didn’t exist a year ago – and some may not next year. Embracing their tech skills to piece together logical components with no fear of failure will always present the correct solution. if you fail often enough, you’ll be left with the right solution!</li><li>Getting to show seasoned engineers that breaking things is fine and encouraged, if you analyse a problem from first principles, the work can be shared and probably most discrete tasks or elements exist in some manner on GitHub – so work smarter</li></ul><p><br></p><ul>\n                    </ul>\n                </div>\n    </td>\n    <td>\n                    <ul>\n                        <li>Re-designed core subscription structu  for business unit, data sensitivity and effective cost management</li><li>Propose and Deliver Cloud Operating Model to the business and deliver key benefits from Policy and Automation</li><li>Delivered training to engineers on terraform and Ansible for Linux automation and Azure provisioning producing the basic template for re-building environments</li><li>Validation and On-Demand environments for testing built into VSTS Pipelines, delivered as IaC</li><li>Introduced Flows into the business as a tool that presents a self-service option for SME’s when time is short and it suits the business need</li></ul>\n               \n    </td>\n  </tr>\n</tbody></table>\n\t\t\t\t\t\t<p class=\"mbr-text mb-5 pt-3 mbr-light mbr-fonts-style display-7\" style=\"width:70%\"><strong>Link </strong><a href=\"https://www.vanquis.co.uk\" class=\"text-primary\" target=\"_blank\">www.vanquis.co.uk</a><br><br><strong>Skills</strong> <em>Azure, VSTS, Pipelines, Terraforkjhm, Ansible, Docker, AKS, Azure Policy, Azure Automation, Security, Monitoring, AD, Legacy Integration</em><em></em>                  </p>   \n\n \n\t\t\n\n                            </div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n                        </div>\n\t\t\t\t\t\t<div id=\"bootstrap-accordion_7\" class=\"panel-group accordionStyles accordion\" role=\"tablist\" aria-multiselectable=\"true\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"card mb-3\">\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"card-header\" role=\"tab\" id=\"headingOne\">\n\t\t\t\t\t\t\t\t\t\t\t\t<a role=\"button\" class=\"panel-title collapsed\" data-toggle=\"collapse\" data-core=\"\" href=\"#collapse1_7\" aria-expanded=\"false\" aria-controls=\"collapse1\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t</a><h6 class=\"panel-title-edit mbr-fonts-style mb-0 display-7\"><a role=\"button\" class=\"panel-title collapsed\" data-toggle=\"collapse\" data-core=\"\" href=\"#collapse1_7\" aria-expanded=\"false\" aria-controls=\"collapse1\"><strong>Click here for Projects and Initiatives at Vanquis </strong></a><strong><a href=\"javascript:OpenModal('sheets')\" class=\"text-primary\">[?]</a></strong></h6>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<span class=\"sign mbr-iconfont\"></span>\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t<div id=\"collapse1_7\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingOne\" data-parent=\"#bootstrap-accordion_7\">\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"panel-body\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t<iframe width=\"100%\" height=\"1800px\" frameborder=\"none\" src=\"https://docs.google.com/spreadsheets/d/e/2PACX-1vSNd4aeYiR6e5DH_U9mT8yrgm5_-IKAoptFkgJplYY8_5PwqNzw-C918EZ6-PmL9kb4QpOZ6nChHjYK/pubhtml?gid=2126528231&single=true&widget=true&headers=false\"></iframe>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n                    </div></div><div class=\"modal-footer\"><div class=\"mbr-section-btn\"><a href=\"#\" class=\"no-anim btn btn-secondary display-4\" data-dismiss=\"modal\">Close</a></div><div class=\"mbr-section-btn\"><a href=\"https://cv.pknw1.co.uk\" class=\"no-anim btn btn-primary display-4\" target=_new>Download CV</a></div></div>    </div>  </div></div><script>document.addEventListener(\"DOMContentLoaded\", function() {  $(\"#requests\").on(\"hidden.bs.modal\", function () {    var html = $( \"#requests_body\" ).html();    $( \"#requests_body\" ).empty();    $( \"#requests_body\" ).append(html);  })});</script>"
+        },
+        {
+          "_params": {
+            "modalName": "downloads",
+            "modalSize": "large",
+            "modalHeader": false,
+            "modalTitle": "Modal title",
+            "modalBody": "                    <div id=\"recent-roles2_tab0\" class=\"tab-pane in\" role=\"tabpanel\">\n                        <div class=\"row\">\n                            <div class=\"col-md-12\">\n\t\t\t\t\t\t\t\t\t<p class=\"mbr-text mb-5 pt-3 mbr-light mbr-fonts-style display-7\" style=\"float: left; width: 100%; \">\n\t\t\t\t\t\t\t\t\tDuring my placement year at IBM, I was the interface between the centrally managed services and the seven UK marketing centers ensuring that the services and systems were available for the various internal IBM customer’s and external customer’s making use of the facilities\n\t\t\t\t\t\t\t\t\t<p class=\"mbr-text mb-5 pt-3 mbr-light mbr-fonts-style display-7\" style=\"float: left; width: 100%; \">\nReturning to IBM immediately after finishing my degree, I worked on the day-to-day running and maintenance of the department infrastructure to support a UK wide network of Marketing Centers covering OS/2/Windows/MVS/AIX Token Ring LAN with MPN/FRAME WAN across 8 locations in UK and all Dev/Admin for the Lotus Notes Applications\n\n</p>\n           </p>   \n\n \n\t\t\n\n                            </div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n                        </div>\n\n                    </div>",
+            "modalBodyHTML": true,
+            "modalFooter": true,
+            "modalCloseBtn": true,
+            "modalCloseText": "Close",
+            "modalLink": true,
+            "modalLinkUrl": "/assets/files/Paul-KelleherCVNov2020v1.2-includeomittedSecOpsitems.pdf",
+            "modalLinkText": "Download CV",
+            "modalLinkNewWindow": true,
+            "modalVerticalCenter": true,
+            "modalFade": false,
+            "modalAutoOpen": false,
+            "modalAutoOpenOnce": true,
+            "modalAutoOpenGDPR": true,
+            "modalAutoOpenDelay": 0
+          },
+          "modalTest": "<div class=\"mbr-section-btn\">\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#downloads\">Preview downloads</a>\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#downloads-howtouse\">How to use downloads</a>\n</div>\n<div class=\"modal fade\" id=\"downloads-howtouse\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"downloads-howtouseLabel\" aria-hidden=\"true\">\n  <div class=\"modal-dialog\" role=\"document\" style=\"height:auto\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <h5 class=\"modal-title\" id=\"downloads-howtouseLabel\">How to use?</h5>\n        <a href=\"\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a>\n      </div>\n      <div class=\"modal-body\">\n        Using your new modal is very easy. Simply create a new link, then click the \"...\" tab and enter the following as custom URL:<br /><br />\n        <code>javascript:OpenModal('downloads')</code>\n      </div>\n      <div class=\"modal-footer\">\n        <div class=\"mbr-section-btn\"><a href=\"#\" class=\"btn btn-secondary display-4\" data-dismiss=\"modal\">Close</a></div>\n      </div>\n    </div>\n  </div>\n</div>",
+          "modalBody": "                    <div id=\"recent-roles2_tab0\" class=\"tab-pane in\" role=\"tabpanel\">\n                        <div class=\"row\">\n                            <div class=\"col-md-12\">\n\t\t\t\t\t\t\t\t\t<p class=\"mbr-text mb-5 pt-3 mbr-light mbr-fonts-style display-7\" style=\"float: left; width: 100%; \">\n\t\t\t\t\t\t\t\t\tDuring my placement year at IBM, I was the interface between the centrally managed services and the seven UK marketing centers ensuring that the services and systems were available for the various internal IBM customer’s and external customer’s making use of the facilities\n\t\t\t\t\t\t\t\t\t<p class=\"mbr-text mb-5 pt-3 mbr-light mbr-fonts-style display-7\" style=\"float: left; width: 100%; \">\nReturning to IBM immediately after finishing my degree, I worked on the day-to-day running and maintenance of the department infrastructure to support a UK wide network of Marketing Centers covering OS/2/Windows/MVS/AIX Token Ring LAN with MPN/FRAME WAN across 8 locations in UK and all Dev/Admin for the Lotus Notes Applications\n\n</p>\n           </p>   \n\n \n\t\t\n\n                            </div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n                        </div>\n\n                    </div>",
+          "alias": "witsec-modal-window",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "witsec-modal-window-block",
+          "_sourceTheme": "mobirise5",
+          "_anchor": "witsec-modal-window-block-17",
+          "modalWindow": "<div class=\"modal \" id=\"downloads\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"downloadsLabel\" aria-hidden=\"true\">  <div class=\"modal-dialog modal-lg modal-dialog-centered\" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-body\" id=\"downloads_body\">                    <div id=\"recent-roles2_tab0\" class=\"tab-pane in\" role=\"tabpanel\">\n                        <div class=\"row\">\n                            <div class=\"col-md-12\">\n\t\t\t\t\t\t\t\t\t<p class=\"mbr-text mb-5 pt-3 mbr-light mbr-fonts-style display-7\" style=\"float: left; width: 100%; \">\n\t\t\t\t\t\t\t\t\tDuring my placement year at IBM, I was the interface between the centrally managed services and the seven UK marketing centers ensuring that the services and systems were available for the various internal IBM customer’s and external customer’s making use of the facilities\n\t\t\t\t\t\t\t\t\t<p class=\"mbr-text mb-5 pt-3 mbr-light mbr-fonts-style display-7\" style=\"float: left; width: 100%; \">\nReturning to IBM immediately after finishing my degree, I worked on the day-to-day running and maintenance of the department infrastructure to support a UK wide network of Marketing Centers covering OS/2/Windows/MVS/AIX Token Ring LAN with MPN/FRAME WAN across 8 locations in UK and all Dev/Admin for the Lotus Notes Applications\n\n</p>\n           </p>   \n\n \n\t\t\n\n                            </div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n                        </div>\n\n                    </div></div><div class=\"modal-footer\"><div class=\"mbr-section-btn\"><a href=\"#\" class=\"no-anim btn btn-secondary display-4\" data-dismiss=\"modal\">Close</a></div><div class=\"mbr-section-btn\"><a href=\"/assets/files/Paul-KelleherCVNov2020v1.2-includeomittedSecOpsitems.pdf\" class=\"no-anim btn btn-primary display-4\" target=_new>Download CV</a></div></div>    </div>  </div></div><script>document.addEventListener(\"DOMContentLoaded\", function() {  $(\"#downloads\").on(\"hidden.bs.modal\", function () {    var html = $( \"#downloads_body\" ).html();    $( \"#downloads_body\" ).empty();    $( \"#downloads_body\" ).append(html);  })});</script>"
+        },
+        {
+          "_params": {
+            "modalName": "help",
+            "modalSize": "medium",
+            "modalHeader": true,
+            "modalTitle": "Modal title",
+            "modalBody": "",
+            "modalBodyHTML": true,
+            "modalFooter": true,
+            "modalCloseBtn": true,
+            "modalCloseText": "Close",
+            "modalLink": false,
+            "modalLinkUrl": "https://mobirise.com/",
+            "modalLinkText": "Visit Mobirise",
+            "modalLinkNewWindow": true,
+            "modalVerticalCenter": false,
+            "modalFade": true,
+            "modalAutoOpen": false,
+            "modalAutoOpenOnce": true,
+            "modalAutoOpenGDPR": true,
+            "modalAutoOpenDelay": 0
+          },
+          "modalTest": "<div class=\"mbr-section-btn\">\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#help\">Preview help</a>\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#help-howtouse\">How to use help</a>\n</div>\n<div class=\"modal fade\" id=\"help-howtouse\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"help-howtouseLabel\" aria-hidden=\"true\">\n  <div class=\"modal-dialog\" role=\"document\" style=\"height:auto\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <h5 class=\"modal-title\" id=\"help-howtouseLabel\">How to use?</h5>\n        <a href=\"\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a>\n      </div>\n      <div class=\"modal-body\">\n        Using your new modal is very easy. Simply create a new link, then click the \"...\" tab and enter the following as custom URL:<br /><br />\n        <code>javascript:OpenModal('help')</code>\n      </div>\n      <div class=\"modal-footer\">\n        <div class=\"mbr-section-btn\"><a href=\"#\" class=\"btn btn-secondary display-4\" data-dismiss=\"modal\">Close</a></div>\n      </div>\n    </div>\n  </div>\n</div>",
+          "modalBody": "",
+          "alias": "witsec-modal-window",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "witsec-modal-window-block",
+          "_sourceTheme": "mobirise5",
+          "_anchor": "witsec-modal-window-block-1a",
+          "modalWindow": "<div class=\"modal fade\" id=\"help\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"helpLabel\" aria-hidden=\"true\">  <div class=\"modal-dialog  \" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title\" id=\"helpLabel\">Modal title</h5>  <a href=\"#\" class=\"no-anim close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body\" id=\"help_body\"></div><div class=\"modal-footer\"><div class=\"mbr-section-btn\"><a href=\"#\" class=\"no-anim btn btn-secondary display-4\" data-dismiss=\"modal\">Close</a></div></div>    </div>  </div></div><script>document.addEventListener(\"DOMContentLoaded\", function() {  $(\"#help\").on(\"hidden.bs.modal\", function () {    var html = $( \"#help_body\" ).html();    $( \"#help_body\" ).empty();    $( \"#help_body\" ).append(html);  })});</script>"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@sticky)": {
+              ".navbar-dropdown": {
+                "position": "relative !important"
+              },
+              "& when (@transparent)": {
+                ".navbar-dropdown": {
+                  "position": "absolute !important"
+                }
+              }
+            },
+            "& when (@sticky)": {
+              "z-index": "1000",
+              "width": "100%",
+              "& when not (@transparent)": {
+                "position": "relative",
+                "min-height": "60px"
+              },
+              "nav.navbar": {
+                "position": "fixed"
+              }
+            },
+            ".dropdown-item:before": {
+              "font-family": "Moririse2 !important",
+              "content": "\"\\e966\"",
+              "display": "inline-block",
+              "width": "0",
+              "position": "absolute",
+              "left": "1rem",
+              "top": "0.5rem",
+              "margin-right": "0.5rem",
+              "line-height": "1",
+              "font-size": "inherit",
+              "vertical-align": "middle",
+              "text-align": "center",
+              "overflow": "hidden",
+              "transform": "scale(0, 1)",
+              "transition": "all 0.25s ease-in-out"
+            },
+            ".dropdown-menu": {
+              "padding": "0",
+              "border-radius": "4px",
+              "box-shadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1)"
+            },
+            ".dropdown-item": {
+              "border-bottom": "1px solid #e6e6e6",
+              "&:hover, &:focus": {
+                "background": "@primaryColor !important",
+                "color": "white !important"
+              },
+              "&:first-child": {
+                "border-top-left-radius": "4px",
+                "border-top-right-radius": "4px"
+              },
+              "&:last-child": {
+                "border-bottom": "none",
+                "border-bottom-left-radius": "4px",
+                "border-bottom-right-radius": "4px"
+              }
+            },
+            ".nav-dropdown .link": {
+              "padding": "0 0.3em !important",
+              "margin": "0.667em 1em !important"
+            },
+            ".nav-dropdown .link.dropdown-toggle::after": {
+              "margin-left": "0.5rem",
+              "margin-top": "0.2rem"
+            },
+            ".nav-link": {
+              "position": "relative"
+            },
+            ".container": {
+              "display": "flex",
+              "margin": "auto"
+            },
+            ".iconfont-wrapper": {
+              "color": "@iconsColor !important",
+              "font-size": "1.5rem",
+              "padding-right": "0.5rem"
+            },
+            ".navbar-caption": {},
+            ".navbar-nav": {},
+            ".dropdown-menu, .navbar.opened": {
+              "background": "@menuBgColor !important"
+            },
+            ".nav-item:focus, .nav-link:focus": {
+              "outline": "none"
+            },
+            ".dropdown .dropdown-menu .dropdown-item": {
+              "width": "auto",
+              "transition": "all 0.25s ease-in-out",
+              "&::after": {
+                "right": "0.5rem"
+              },
+              ".mbr-iconfont": {
+                "margin-right": "0.5rem",
+                "vertical-align": "sub",
+                "&:before": {
+                  "display": "inline-block",
+                  "transform": "scale(1, 1)",
+                  "transition": "all 0.25s ease-in-out"
+                }
+              }
+            },
+            ".collapsed": {
+              ".dropdown-menu .dropdown-item:before": {
+                "display": "none"
+              },
+              ".dropdown .dropdown-menu .dropdown-item": {
+                "padding": "0.235em 1.5em 0.235em 1.5em !important",
+                "transition": "none",
+                "margin": "0 !important"
+              }
+            },
+            ".navbar": {
+              "min-height": "70px",
+              "transition": "all 0.3s",
+              "border-bottom": "1px solid transparent",
+              "&:not(.navbar-short)": {},
+              "& when not (@transparent)": {
+                "box-shadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1)",
+                "background": "@menuBgColor"
+              },
+              "& when (@transparent)": {
+                "position": "absolute",
+                "background": "rgba(red(@menuBgColor), green(@menuBgColor), blue(@menuBgColor), @opacity)"
+              },
+              "&.opened": {
+                "transition": "all 0.3s"
+              },
+              ".dropdown-item": {
+                "padding": "0.5rem 1.8rem"
+              },
+              ".navbar-logo img": {
+                "width": "auto"
+              },
+              ".navbar-collapse": {
+                "justify-content": "flex-end",
+                "z-index": "1"
+              },
+              "&.collapsed": {
+                "justify-content": "center",
+                ".nav-item .nav-link::before": {
+                  "display": "none"
+                },
+                "&.opened": {
+                  ".dropdown-menu": {
+                    "top": "0"
+                  },
+                  "@media (min-width: 992px)": {
+                    "&:not(.navbar-short) .navbar-collapse when (@showLogo)": {
+                      "max-height": "~\"calc(98.5vh - @{logoSize}rem)\""
+                    }
+                  }
+                },
+                ".dropdown-menu": {
+                  ".dropdown-submenu": {
+                    "left": "0 !important"
+                  },
+                  ".dropdown-item:after": {
+                    "right": "auto"
+                  },
+                  ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]:after": {
+                    "margin-left": "0.5rem",
+                    "margin-top": "0.2rem",
+                    "border-top": "0.35em solid",
+                    "border-right": "0.35em solid transparent",
+                    "border-left": "0.35em solid transparent",
+                    "border-bottom": "0",
+                    "top": "41%"
+                  }
+                },
+                "ul.navbar-nav": {
+                  "li": {
+                    "margin": "auto"
+                  }
+                },
+                ".dropdown-menu .dropdown-item": {
+                  "padding": "0.25rem 1.5rem",
+                  "text-align": "center"
+                },
+                ".icons-menu": {
+                  "padding-left": "0",
+                  "padding-right": "0",
+                  "padding-top": "0.5rem",
+                  "padding-bottom": "0.5rem"
+                }
+              },
+              "@media (max-width: 991px)": {
+                ".nav-item .nav-link::before": {
+                  "display": "none"
+                },
+                "&.opened": {
+                  ".dropdown-menu": {
+                    "top": "0"
+                  }
+                },
+                ".dropdown-menu": {
+                  ".dropdown-submenu": {
+                    "left": "0 !important"
+                  },
+                  ".dropdown-item:after": {
+                    "right": "auto"
+                  },
+                  ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]:after": {
+                    "margin-left": "0.5rem",
+                    "margin-top": "0.2rem",
+                    "border-top": "0.35em solid",
+                    "border-right": "0.35em solid transparent",
+                    "border-left": "0.35em solid transparent",
+                    "border-bottom": "0",
+                    "top": "40%"
+                  }
+                },
+                ".navbar-logo": {
+                  "img": {
+                    "height": "3rem !important"
+                  }
+                },
+                "ul.navbar-nav": {
+                  "li": {
+                    "margin": "auto"
+                  }
+                },
+                ".dropdown-menu .dropdown-item": {
+                  "padding": "0.25rem 1.5rem !important",
+                  "text-align": "center"
+                },
+                ".navbar-brand": {
+                  "flex-shrink": "initial",
+                  "flex-basis": "auto",
+                  "word-break": "break-word",
+                  "padding-right": "2rem"
+                },
+                ".navbar-toggler": {
+                  "flex-basis": "auto"
+                },
+                ".icons-menu": {
+                  "padding-left": "0",
+                  "padding-top": "0.5rem",
+                  "padding-bottom": "0.5rem"
+                }
+              },
+              "&.navbar-short": {
+                "min-height": "60px",
+                ".navbar-logo": {
+                  "img": {
+                    "height": "2.5rem !important"
+                  }
+                },
+                ".navbar-brand": {
+                  "min-height": "60px",
+                  "padding": "0"
+                }
+              }
+            },
+            ".navbar-brand": {
+              "min-height": "70px",
+              "flex-shrink": "0",
+              "align-items": "center",
+              "margin-right": "0",
+              "padding": "10px 0",
+              "transition": "all 0.3s",
+              "word-break": "break-word",
+              "z-index": "1",
+              ".navbar-caption": {
+                "line-height": "inherit !important"
+              },
+              ".navbar-logo a": {
+                "outline": "none"
+              }
+            },
+            ".dropdown-item.active, .dropdown-item:active": {
+              "background-color": "transparent"
+            },
+            ".navbar-expand-lg .navbar-nav .nav-link": {
+              "padding": "0"
+            },
+            ".nav-dropdown .link.dropdown-toggle": {
+              "margin-right": "1.667em",
+              "&[aria-expanded=\"true\"]": {
+                "margin-right": "0",
+                "padding": "0.667em 1.667em"
+              }
+            },
+            ".navbar.navbar-expand-lg .dropdown": {
+              ".dropdown-menu": {
+                "background": "@menuBgColor",
+                ".dropdown-submenu": {
+                  "margin": "0",
+                  "left": "100%"
+                }
+              }
+            },
+            ".navbar .dropdown.open > .dropdown-menu": {
+              "display": "block"
+            },
+            "ul.navbar-nav": {
+              "flex-wrap": "wrap"
+            },
+            ".navbar-buttons": {
+              "text-align": "center",
+              "min-width": "170px"
+            },
+            "button.navbar-toggler": {
+              "outline": "none",
+              "width": "31px",
+              "height": "20px",
+              "cursor": "pointer",
+              "transition": "all 0.2s",
+              "position": "relative",
+              "align-self": "center",
+              ".hamburger span": {
+                "position": "absolute",
+                "right": "0",
+                "width": "30px",
+                "height": "2px",
+                "border-right": "5px",
+                "background-color": "@hamburgerColor",
+                "&:nth-child(1)": {
+                  "top": "0",
+                  "transition": "all 0.2s"
+                },
+                "&:nth-child(2)": {
+                  "top": "8px",
+                  "transition": "all 0.15s"
+                },
+                "&:nth-child(3)": {
+                  "top": "8px",
+                  "transition": "all 0.15s"
+                },
+                "&:nth-child(4)": {
+                  "top": "16px",
+                  "transition": "all 0.2s"
+                }
+              }
+            },
+            "nav.opened .hamburger span": {
+              "&:nth-child(1)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all 0.2s"
+              },
+              "&:nth-child(2)": {
+                "transform": "rotate(45deg)",
+                "transition": "all 0.25s"
+              },
+              "&:nth-child(3)": {
+                "transform": "rotate(-45deg)",
+                "transition": "all 0.25s"
+              },
+              "&:nth-child(4)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all 0.2s"
+              }
+            },
+            ".navbar-dropdown": {
+              "padding": "0 1rem",
+              "& when (@sticky)": {
+                "position": "fixed"
+              }
+            },
+            "a.nav-link": {
+              "display": "flex",
+              "align-items": "center",
+              "justify-content": "center"
+            },
+            ".icons-menu": {
+              "flex-wrap": "nowrap",
+              "display": "flex",
+              "justify-content": "center",
+              "padding-left": "1rem",
+              "padding-right": "1rem",
+              "padding-top": "0.3rem",
+              "text-align": "center"
+            },
+            "@media screen and (~'-ms-high-contrast: active'), (~'-ms-high-contrast: none')": {
+              ".navbar": {
+                "height": "70px",
+                "&.opened": {
+                  "height": "auto"
+                }
+              },
+              ".nav-item .nav-link:hover::before": {
+                "width": "175%",
+                "max-width": "calc(100% ~\"+\" 2rem)",
+                "left": "-1rem"
+              }
+            }
+          },
+          "_name": "menu2-sBXbYzaqyq",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section class=\"menu menu2\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3\" max=\"8\" step=\"0.1\" value=\"4.7\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Menu Items\" name=\"showItems\" checked>\n        <input type=\"checkbox\" title=\"Icons\" name=\"showIcons\">\n        <select title=\"Amount\" name=\"iconsAmount\" condition=\"showIcons\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n            <option value=\"4\">4</option>\n        </select>\n        <input type=\"color\" title=\"Icons Color\" name=\"iconsColor\" value=\"#000000\" condition=\"showIcons\">\n        <input type=\"checkbox\" title=\"Button\" name=\"showButtons\">\n        <header>Styles</header>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\" checked>\n        <input type=\"range\" title=\"Opacity\" name=\"opacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0\" condition=\"transparent\">\n        <input type=\"color\" title=\"Color\" name=\"menuBgColor\" value=\"#000000\">\n        <input type=\"color\" title=\"Hamburger\" name=\"hamburgerColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                    'navbar-expand-lg':!collapsed,\n                    'collapsed':collapsed}\">\n        <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"index.html\">\n                        <img src=\"@PROJECT_PATH@/assets/images/nota-2-1076x498.png\" alt mbr-style=\"{'height': logoSize + 'rem'}\">\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-5\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,-iconFont\"><a class=\"navbar-caption text-white text-primary\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Text\">Paul Kelleher<br></a></span>\n            </div>\n            <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems || showIcons || showButtons\">\n                <div class=\"hamburger\">\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                </div>\n            </button>\n            <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\" mbr-if=\"showItems || showIcons || showButtons\">\n                <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-if=\"showItems\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\"><a class=\"nav-link link text-warning\" href=\"index.html#about\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                            About</a></li>\n                    <li class=\"nav-item\"><a class=\"nav-link link text-warning text-primary\" href=\"https://app.plex.tv/desktop\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" target=\"_blank\">Watch</a></li>\n                    <li class=\"nav-item\"><a class=\"nav-link link text-warning text-primary\" href=\"https://requests.pknw1.co.uk\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" target=\"_blank\">Request</a>\n                    </li><li class=\"nav-item\"><a class=\"nav-link link text-warning text-primary\" href=\"https://download.pknw1.co.uk\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Download</a></li><li class=\"nav-item dropdown\"><a class=\"nav-link link text-warning dropdown-toggle\" href=\"#\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Clients</a><div class=\"dropdown-menu\"><a class=\"text-warning dropdown-item text-primary\" href=\"https://github.com/croneter/PlexKodiConnect\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" target=\"_blank\">Kodi</a><a class=\"text-warning dropdown-item text-primary\" href=\"https://www.youtube.com/watch?v=yJdvEViuIAc\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" target=\"_blank\">Smart TV</a><a class=\"text-warning dropdown-item text-primary\" href=\"https://support.plex.tv/articles/categories/player-apps-platforms/\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" target=\"_blank\">Others</a></div></li><li class=\"nav-item\"><a class=\"nav-link link text-warning text-primary\" href=\"index.html#help\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" onclick=\"$('.contactwindow').fadeToggle(); return false;\">Help</a></li></ul>\n                <div class=\"icons-menu\" mbr-if=\"showIcons\">\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-facebook socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 1\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-twitter socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 2\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-instagram socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 3\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-linkedin socicon\"></span>\n                    </a>\n                </div>\n                <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-primary\" href=\"https://cv2021.pknw1.co.uk\" data-app-placeholder=\"Type Text\" target=\"_blank\">\n                        Download CV</a></div>\n            </div>\n        </div>\n    </nav>\n</section>",
+          "_cid": "sBXbYzaqyq",
+          "_anchor": "menu2-u",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "menu",
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "background-color": "#ffffff",
+            ".container": {
+              "padding-top": "25px",
+              "padding-bottom": "25px",
+              "text-align": "right"
+            },
+            ".container-nopadding": {
+              "padding": "0px"
+            },
+            "@newbtnColor": "rgba(red(@btnColor), green(@btnColor), blue(@btnColor), @btnBgOpacity)",
+            "@newbtnBorderColor": "rgba(red(@btnBorderColor), green(@btnBorderColor), blue(@btnBorderColor), @btnBorderOpacity)",
+            "@newbtnHoverColor": "rgba(red(@btnHoverColor), green(@btnHoverColor), blue(@btnHoverColor), @btnHoverOpacity)",
+            ".contactBtn": {
+              "position": "absolute",
+              "right": "(@FloatingEnvelopeXpos * 1px)",
+              "bottom": "(@FloatingEnvelopeYpos * 1px)",
+              "z-index": "5000"
+            },
+            ".contactBtnFixed": {
+              "position": "fixed"
+            },
+            ".btn-circle": {
+              "background-color": "@newbtnColor",
+              "width": "(@btnSize * 1px)",
+              "height": "(@btnSize * 1px)",
+              "line-height": "(@btnSize * 1px)",
+              "text-align": "center",
+              "padding": "0",
+              "-webkit-border-radius": "(@btnRadius * 1px) !important",
+              "-moz-border-radius": "(@btnRadius * 1px) !important",
+              "border-radius": "(@btnRadius * 1px) !important",
+              "margin": ".25rem !important",
+              "border-style": "solid",
+              "border-color": "@newbtnBorderColor",
+              "border-width": "(@btnBorderColorThickness * 1px)",
+              "& when (@showFloatingEnvelopeShadow)": {
+                "box-shadow": "0 0 15px 0 rgba(0, 0, 0, 0.5) !important"
+              }
+            },
+            ".btnIconcol": {
+              "color": "@btnIconColor"
+            },
+            ".btn-circle:hover": {
+              "background-color": "@newbtnHoverColor"
+            },
+            ".btn-iconsize": {
+              "line-height": "revert !important",
+              "margin-left": "0 !important",
+              "margin-right": "0 !important",
+              "padding-left": "10px !important",
+              "padding-right": "10px !important",
+              "font-size": "(@btnIconSize * 1rem) !important",
+              "@media (max-width: 767px)": {
+                ".btn": {
+                  "font-size": "(@btnIconSize * 1rem) !important"
+                },
+                ".btn .mbr-iconfont": {
+                  "font-size": "(@btnIconSize * 1rem) !important"
+                }
+              }
+            },
+            ".contactwindow": {
+              "display": "inline-block",
+              "text-align": "left",
+              "width": "(@FloatingFormWidth * 1px)",
+              "background-color": "@floatingWindowBgColor",
+              "border-color": "black !important",
+              "border-width": "0 !important",
+              "border-style": "solid !important",
+              "border-radius": "(@floatingFormBorderRadius * 1px) !important",
+              "& when (@floatingWindowBorderBoxShadow)": {
+                "box-shadow": "0 12px 20px 0 rgba(0, 0, 0, 0.4) !important"
+              },
+              "z-index": "5000"
+            },
+            ".windowFixed": {
+              "display": "none",
+              "position": "fixed",
+              "right": "(@FloatingFormXpos * 1px)",
+              "bottom": "(@FloatingFormYpos * 1px)",
+              "overflow": "auto"
+            },
+            ".windowBar": {
+              "width": "100%",
+              "background-color": "@windowBarColor",
+              "color": "#fff",
+              "padding": "5px",
+              "border-top-left-radius": "(@floatingFormBorderRadius * 1px) !important",
+              "border-top-right-radius": "(@floatingFormBorderRadius * 1px) !important",
+              "border-bottom-left-radius": "0px !important",
+              "border-bottom-right-radius": "0px !important"
+            },
+            ".close": {
+              "color": "@barCloseXcolor",
+              "text-shadow": "none",
+              "opacity": "1",
+              "padding-right": "3px",
+              "outline": "none !important"
+            },
+            "@media (max-width: (@breakWidth * 1px))": {
+              ".windowFixed": {
+                "right": "0",
+                "bottom": "0",
+                "width": "100%",
+                "height": "100%"
+              },
+              ".windowBar, .contentwindow, .contactwindow": {
+                "border-radius": "0"
+              }
+            },
+            ".windowContent": {
+              "width": "100%",
+              "padding": "10px"
+            },
+            ".windowBarText": {
+              "display": "inline",
+              "color": "#ffc107",
+              "text-align": "left"
+            },
+            ".btn-form": {
+              "display": "revert !important"
+            },
+            ".recaptcha-div": {
+              "margin-bottom": "0",
+              "padding-bottom": "5px",
+              "p": {
+                "padding-top": "0",
+                "padding-bottom": "0",
+                "margin-bottom": "0",
+                "margin-left": "0",
+                "margin-right": "0",
+                "font-size": "(@rctTextSize * 0.1rem) !important",
+                "font-weight": "@rctTextWeight !important"
+              }
+            },
+            ".gdpr-div": {
+              "margin-bottom": "0",
+              "padding-bottom": "5px",
+              "p": {
+                "padding-top": "0",
+                "padding-bottom": "0",
+                "margin-bottom": "0px",
+                "margin-left": "0px",
+                "margin-right": "0px",
+                "font-size": "(@gdprTextSize * 0.1rem) !important",
+                "font-weight": "@gdprTextWeight !important"
+              }
+            },
+            ".alert-div": {
+              "margin-top": "0",
+              "margin-bottom": "0",
+              "padding-top": "0",
+              "padding-bottom": "0"
+            },
+            ".send-copy-div": {
+              "margin-bottom": "0",
+              "padding-bottom": "5px",
+              "p": {
+                "padding-top": "0",
+                "padding-bottom": "0",
+                "margin-bottom": "0",
+                "margin-left": "0px",
+                "margin-right": "0px",
+                "font-size": "(@userdecicsionTextSize * 0.1rem) !important",
+                "font-weight": "@userdecicsionTextWeight !important"
+              }
+            },
+            ".alert-success": {
+              "background-color": "@bgColorSuccess",
+              "padding-top": "(@alertTopBottonPadREM * 1rem) !important",
+              "padding-bottom": "(@alertTopBottonPadREM * 1rem) !important"
+            },
+            ".alert-danger": {
+              "background-color": "@bgColorError",
+              "padding-top": "(@alertTopBottonPadREM * 1rem) !important",
+              "padding-bottom": "(@alertTopBottonPadREM * 1rem) !important"
+            },
+            ".mbr-alert-success": {
+              "text-align": "center"
+            },
+            ".mbr-alert-danger": {
+              "text-align": "center"
+            },
+            ".message-div": {
+              "margin-bottom": "5px"
+            },
+            ".form-control": {
+              "padding-top": "(@fieldTextPaddingTop * 1px) !important",
+              "padding-left": "10px !important",
+              "padding-right": "10px !important"
+            },
+            "& when (@showFieldBorder)": {
+              ".form-control": {
+                "border": "1px solid @floatingWindowFbColor !important"
+              }
+            },
+            "& when (@showFieldSelect)": {
+              ".form-control:focus": {
+                "outline": "3px dotted #f00 !important"
+              },
+              "input:checked": {
+                "outline": "3px dotted #f00 !important"
+              }
+            },
+            ".showAlerts": {
+              "display": "block !important"
+            },
+            ".sendBtnCornerRadius": {
+              "border-radius": "(@sendBtnCornerRadiusPX * 1px)"
+            },
+            ".hidden": {
+              "display": "none"
+            },
+            ".mbr-section-terms": {
+              "color": "#232323",
+              "text-align": "left"
+            },
+            ".mbr-section-autorespond": {
+              "color": "#232323",
+              "text-align": "left"
+            },
+            ".mbr-section-gdpr": {
+              "color": "#232323",
+              "text-align": "left"
+            },
+            ".mbr-section-alertsuccess": {
+              "text-align": "left",
+              "span": {
+                "vertical-align": "middle"
+              }
+            },
+            ".mbr-section-alerterror": {
+              "text-align": "left",
+              "span": {
+                "vertical-align": "middle"
+              }
+            },
+            ".mbr-section-labels": {
+              "color": "#232323"
+            },
+            ".sub-btn-config": {
+              "margin-top": "(@marginBtnTop * 1px) !important",
+              "margin-bottom": "(@marginBtnBtm * 1px) !important"
+            },
+            "H5": {
+              "color": "#ffc107"
+            }
+          },
+          "_name": "design-block-8kos7dWctz-8kos7dWctz-8kos7dWctz-8kos7dWctz-8kos7dWctz-8kos7dWctz-8kos7dWctz-8kos7dWctz-8kos7dWctz-8kos7dWctz-8kos7dWctz-8kos7dWctz-8kos7dWctz-8kos7dWctz-8kos7dWctz-8kos7dWctz-8kos7dWctz",
+          "_customHTML": "<section class=\"witsec-mailform mbr-section mbr-section--no-padding\" global once=\"mobigaryfloatform1\" plugins=\"witsec-mailform\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class>\n\n   \n<mbr-parameters>\n    <!-- Block version 1.1 -->\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n    <header>BLOCK HELP</header>gdp\n    <input type=\"checkbox\" title=\"Show Block HELP\" name=\"showHELP\" checked>    \n\n    <header>Show/Hide</header>\n    <input type=\"checkbox\" title=\"Show Field Labels\" name=\"showFieldLabels\">\n    <input type=\"checkbox\" title=\"Field Select Red Dots\" name=\"showFieldSelect\">\n    <input type=\"checkbox\" title=\"Field Border\" name=\"showFieldBorder\" checked>\n    <input type=\"checkbox\" title=\"Show Phone\" name=\"showPhone\">\n    <input type=\"checkbox\" title=\"Show Message\" name=\"showMessage\" checked>\n    <input type=\"checkbox\" title=\"Show GDPR\" name=\"showGDPR\">\n    <input type=\"range\" inline title=\"GDPR Text Size\" name=\"gdprTextSize\" min=\"5\" max=\"20\" step=\"0.5\" value=\"9\" condition=\"showGDPR\">\n    <input type=\"range\" inline title=\"GDPR Text Weight\" name=\"gdprTextWeight\" min=\"100\" max=\"900\" step=\"100\" value=\"400\" condition=\"showGDPR\">\n    <input type=\"checkbox\" title=\"Show reCAPTCHA Terms\" name=\"showTerms\">\n    <input type=\"range\" inline title=\"reCAPTCHA Terms Text Size\" name=\"rctTextSize\" min=\"5\" max=\"20\" step=\"0.5\" value=\"9\" condition=\"showTerms\">\n    <input type=\"range\" inline title=\"reCAPTCHA Terms Text Weight\" name=\"rctTextWeight\" min=\"100\" max=\"900\" step=\"100\" value=\"400\" condition=\"showTerms\">\n    <input type=\"checkbox\" title=\"Show Floating Button [See Block HELP]\" name=\"showFloatingEnvelope\" checked>\n    <input type=\"checkbox\" title=\"Show Floating Button Shadow\" name=\"showFloatingEnvelopeShadow\" checked>\n    \n    <header>Floating Button Configuration</header>\n    <input type=\"range\" inline title=\"Button X-Pos\" name=\"FloatingEnvelopeXpos\" min=\"10\" max=\"150\" step=\"5\" value=\"60\" condition=\"showFloatingEnvelope\">\n    <input type=\"range\" inline title=\"Button Y-Pos\" name=\"FloatingEnvelopeYpos\" min=\"10\" max=\"150\" step=\"5\" value=\"65\" condition=\"showFloatingEnvelope\">\n    <input type=\"color\" title=\"Button Icon Color\" name=\"btnIconColor\" value=\"#ffffff\" condition=\"showFloatingEnvelope\">\n    <input type=\"color\" title=\"Button Bg Color\" name=\"btnColor\" value=\"#000000\" condition=\"showFloatingEnvelope\">\n    <input type=\"range\" inline title=\"Button Bg Opacity\" name=\"btnBgOpacity\" min=\"0.5\" max=\"1\" step=\"0.05\" value=\"0.7\" condition=\"showFloatingEnvelope\">\n    <input type=\"color\" title=\"Button Hover Color\" name=\"btnHoverColor\" value=\"#000000\" condition=\"showFloatingEnvelope\">\n    <input type=\"range\" inline title=\"Button Hover Opacity\" name=\"btnHoverOpacity\" min=\"0.5\" max=\"1\" step=\"0.05\" value=\"1\" condition=\"showFloatingEnvelope\">\n    <input type=\"color\" title=\"Button Border Color\" name=\"btnBorderColor\" value=\"#000000\" condition=\"showFloatingEnvelope\">\n    <input type=\"range\" inline title=\"Button Border Opacity\" name=\"btnBorderOpacity\" min=\"0.5\" max=\"1\" step=\"0.05\" value=\"0.7\" condition=\"showFloatingEnvelope\">\n    <input type=\"range\" inline title=\"Button Border Thickness\" name=\"btnBorderColorThickness\" min=\"0\" max=\"5\" step=\".25\" value=\"1\" condition=\"showFloatingEnvelope\">\n    <input type=\"range\" inline title=\"Button Size\" name=\"btnSize\" min=\"40\" max=\"60\" step=\"1\" value=\"50\" condition=\"showFloatingEnvelope\">\n    <input type=\"range\" inline title=\"Button Icon Size\" name=\"btnIconSize\" min=\"1\" max=\"2\" step=\".05\" value=\"1.7\" condition=\"showFloatingEnvelope\">\n    <input type=\"range\" inline title=\"Button Round\" name=\"btnRadius\" min=\"0\" max=\"40\" step=\"1\" value=\"30\" condition=\"showFloatingEnvelope\">\n\n    <header>Floating Contact Form</header>\n    <input type=\"range\" inline title=\"X-Pos [See Block HELP]\" name=\"FloatingFormXpos\" min=\"10\" max=\"150\" step=\"5\" value=\"100\">\n    <input type=\"range\" inline title=\"Y-Pos [See Block HELP]\" name=\"FloatingFormYpos\" min=\"10\" max=\"200\" step=\"5\" value=\"30\">\n    <input type=\"range\" inline title=\"Width\" name=\"FloatingFormWidth\" min=\"400\" max=\"600\" step=\"10\" value=\"400\">\n    <input type=\"color\" title=\"Bar Color\" name=\"windowBarColor\" value=\"#000000\">\n    <input type=\"color\" title=\"Bar Close X Color\" name=\"barCloseXcolor\" value=\"#ffffff\">\n    <input type=\"color\" title=\"Background Color\" name=\"floatingWindowBgColor\" value=\"#000000\">\n    <input type=\"color\" title=\"Field Border Color\" name=\"floatingWindowFbColor\" value=\"#ffffff\">\n    <input type=\"range\" inline title=\"Form Border Radius\" name=\"floatingFormBorderRadius\" min=\"0\" max=\"10\" step=\"0.5\" value=\"5\">\n    <input type=\"checkbox\" title=\"Border box-shadow\" name=\"floatingWindowBorderBoxShadow\" checked>\n    <input type=\"range\" inline title=\"Breakpoint full width\" name=\"breakWidth\" min=\"500\" max=\"960\" step=\"10\" value=\"550\">\n    <input type=\"range\" inline title=\"Field Text Padding Top Top\" name=\"fieldTextPaddingTop\" min=\"5\" max=\"25\" step=\"1\" value=\"15\">\n    <input type=\"range\" inline title=\"Margin Button Top\" name=\"marginBtnTop\" min=\"0\" max=\"25\" step=\"1\" value=\"10\">\n    <input type=\"range\" inline title=\"Margin Button Bottom\" name=\"marginBtnBtm\" min=\"0\" max=\"25\" step=\"1\" value=\"10\">\n    <select title=\"Submit Button Align\" name=\"alignSubmit\">\n      <option value selected>Left</option>\n      <option value=\"align-center\">Center</option>\n      <option value=\"align-right\">Right</option>\n    </select>\n    <select title=\"On Success\" name=\"onsuccess\">\n      <option value=\"0\" selected>Stay</option>\n      <option value=\"1\">Redirect</option>\n    </select>\n    <input type=\"text\" title=\"Redirect to\" name=\"redirectURL\" value=\"thanks.html\" condition=\"onsuccess == 1\">\n    <input type=\"range\" inline title=\"SEND btn Corner Radius px [See Block HELP]\" name=\"sendBtnCornerRadiusPX\" min=\"0\" max=\"15\" step=\"1\" value=\"5\">\n    <input type=\"text\" title=\"Subject\" name=\"txtSubject\" value=\"Floating contact form message.\">\n    <select title=\"Autorespond\" name=\"autorespond\">\n      <option value=\"0\">Off</option>\n      <option value=\"1\">On</option>\n      <option value=\"2\" selected>User Decision</option>\n    </select>\n    <input type=\"range\" inline title=\"Autorespond Text Size\" name=\"userdecicsionTextSize\" min=\"5\" max=\"20\" step=\"0.5\" value=\"9\" condition=\"autorespond==2\">\n    <input type=\"range\" inline title=\"Autorespond Text Weight\" name=\"userdecicsionTextWeight\" min=\"100\" max=\"900\" step=\"100\" value=\"400\" condition=\"autorespond==2\">\n    \n    <header>Form Field Placeholders</header>\n  <!--  <input type=\"text\" title=\"Name\" name=\"phName\" value=\"Name\">\n    <input type=\"text\" title=\"Email\" name=\"phEmail\" value=\"Email/Plex  ID\">\n    <input type=\"text\" title=\"Phone\" name=\"phPhone\" value=\"Phone\" condition=\"showPhone\">\n    --><input type=\"text\" title=\"Message\" name=\"phMessage\" value=\"Describe your issue/query here\" condition=\"showMessage\">\n    \n    <header>Alerts</header>\n    <input type=\"checkbox\" title=\"Show Alerts in Mobirise Builder\" name=\"showAlerts\" checked>\n    <input type=\"range\" inline title=\"Alert Top/Btm Padding\" name=\"alertTopBottonPadREM\" min=\"0.1\" max=\"1\" step=\".1\" value=\"0.3\">\n    <input type=\"color\" title=\"Success BG Color\" name=\"bgColorSuccess\" value=\"#94a16f\" condition=\"onsuccess == 0\">\n    <input type=\"color\" title=\"Error BG Color\" name=\"bgColorError\" value=\"#fd000b\">\n    <!-- End block parameters -->\n</mbr-parameters>\n\n<div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n</div>\n    \n<div mbr-if=\"showFloatingEnvelope\">    \n    <a href=\"#\" onclick=\"$('.contactwindow').fadeToggle(); return false;\" class=\"contactBtn\" mbr-class=\"{'contactBtnFixed':isPublish}\">\n      <span class=\"btn btn-circle btn-circle-lg btnIconcol\">\n        <span mbr-icon class=\"btn-iconsize mbr-iconfont mobi-mbri-help mobi-mbri\" style=\"color: rgb(0, 0, 0); fill: rgb(0, 0, 0);\"></span></span></a>\n</div>\n\n<div mbr-if=\"showHELP\" mbr-class=\"{'hidden': isPublish}\" class=\"pt-2 pl-15 pr-15 align-center\">\n<h5><b>v1.1 - MobiGary Floating Contact Form for Witsec Mailform v11 extension - BLOCK HELP</b></h5>\n<br>\n<p class=\"pl-5 pr-5 align-left\" style=\"font-size:16px\">- This help block will be invisible on preview or publish.<br>- By default this is a global block and it only needs to be added and configured on one page and the settings will apply to all pages. If you want to load the floating from from your menu for example it will be avaiable on every page automatically.<br>\nHowever, if you do not wish it to be a global block and only apply to one page, say CANCEL when asked \"This block is global. Do you want to add it to all pages?\", then edit the added block with a code editor and remove the <b>global=\"\"</b> from within the first line of HTML.<br>- \"SEND btn Corner Radius px\" in \"Floating Contact Form\" section of gear icon only takes effect on buttons id \"Rounded Buttons\" is set to OFF in site styles.\"<br>- \"X-Pos\" adn Y-Pos\" in \"Floating Contact Form\" section of gear icon does not show in Mobirise builder. Perform a Preview or Publis to see the result of positioning changes.<br>- If you do not enable \"Show Floating Button\" in the \"Show/Hide\" section iof the gear icon (enabling it adds a floating icon that launches the floting contact form when clicked), instead you can load the floating contact using a code editor and creating a link. In the example below it creates an iconfont link with the image of an envelope and when clicked it than opens up the floating contact form.<br>\n<b>\n&lt;a href=\"#\" onclick=\"$('.contactwindow').fadeToggle(); return false;\"&gt;<br>\n  &lt;span class=\"mdi-content-mail mbr-iconfont text-black\"&gt; &lt;/span&gt;\n&lt;/a&gt;\n</b>    \n</p>\n</div>\n    \n<div class=\"container\" mbr-class=\"{'container-nopadding':isPublish}\">\n\n  <div class=\"contactwindow\" mbr-class=\"{'windowFixed':isPublish}\">\n    <div class=\"windowBar\">\n      <p class=\"windowBarText mbr-fonts-style mbr-light\" mbr-theme-style=\"display-7\" data-app-selector=\".windowBarText\"><b>Request Help</b></p>\n      <button type=\"button\" class=\"close\" onclick=\"$('.contactwindow').fadeToggle(); return false;\">\n        <span aria-hidden=\"true\">×</span>\n      </button>\n    </div>\n    <div class=\"windowContent\">\n\n      <form class=\"mbr-form\" onsubmit=\"witsecSendMail(this)\">\n        \n  <!--      <input type=\"hidden\" name=\"subject\" value=\"{{txtSubject}}\">\n        <input type=\"hidden\" name=\"redirectURL\" value=\"{{redirectURL}}\" mbr-if=\"onsuccess=='1'\">\n      \n        <div class=\"pb-2\">\n            <p mbr-text mbr-theme-style=\"display-7\" class=\"mbr-section-labels mbr-fonts-style mb-0\" data-app-edit=\"content\" data-app-selector=\".mbr-section-labels\" mbr-if=\"showFieldLabels\">Name</p>\n            <input type=\"text\" name=\"name\" placeholder=\"{{phName}}\" mbr-theme-style=\"display-7\" required=\"required\" class=\"form-control mbr-light\">\n        </div>\n\n        <div class=\"pb-2\">\n            <p mbr-text mbr-theme-style=\"display-7\" class=\"mbr-section-labels mbr-fonts-style mb-0\" data-app-edit=\"content\" data-app-selector=\".mbr-section-labels\" mbr-if=\"showFieldLabels\">Email\n            </p>\n            <input type=\"email\" name=\"email\" placeholder=\"{{phEmail}}\" mbr-theme-style=\"display-7\" required=\"required\" class=\"form-control mbr-light\">\n        </div>\n\n        <div mbr-if=\"showPhone\" class=\"pb-2\">\n            <p mbr-text mbr-theme-style=\"display-7\" class=\"mbr-section-labels mbr-fonts-style mb-0\" data-app-edit=\"content\" data-app-selector=\".mbr-section-labels\" mbr-if=\"showFieldLabels\">Phone\n            </p>\n            <input type=\"tel\" name=\"phone\" placeholder=\"{{phPhone}}\" mbr-theme-style=\"display-7\" class=\"form-control mbr-light\">\n        </div>-->\n\n        <div mbr-if=\"showMessage\" class=\"message-div\">\n        <!--    <p mbr-text mbr-theme-style=\"display-7\" class=\"mbr-section-labels mbr-fonts-style mb-0\" data-app-edit=\"content\" data-app-selector=\".mbr-section-labels\" mbr-if=\"showFieldLabels\">\n            Info\n            </p>\n           <textarea name=\"message\" placeholder=\"{{phMessage}}\" required=\"required\" mbr-theme-style=\"display-7\" class=\"form-control mbr-light\" rows=\"3\"></textarea>\n        -->\n        <h5>Drop me a WhatsApp message if you have any issues with <p>\n        </p><ul>\n        <li>accessing plex</li>\n        <li>installing plex</li>\n        <li>requesting movies/shows</li>\n        <li>direct downloads</li>\n        </ul><p></p>\n        </h5>\n        </div>\n          \n  <!--      <div class=\"alert-div\">\n          <div hidden=\"hidden\" mbr-text class=\"mbr-section-alertsuccess mbr-fonts-style alert alert-success col-12 mbr-light mb-0 p-3\" mbr-class=\"{showAlerts: !isPublish && showAlerts}\" mbr-theme-style=\"display-7\" data-app-edit=\"content\" data-app-selector=\".mbr-section-alertsuccess\"><span class=\"mbri-success mbr-iconfont\"></span> Thanks, we'll be in touch soon.</div>\n          <div hidden=\"hidden\" mbr-text class=\"mbr-section-alerterror mbr-fonts-style alert alert-danger col-12 mbr-light mb-0 p-3\" mbr-class=\"{showAlerts: !isPublish && showAlerts}\" mbr-theme-style=\"display-7\" data-app-edit=\"content\" data-app-selector=\".mbr-section-alerterror\"><span class=\"mbri-error mbr-iconfont\"></span> An error occurred: {errorcode} {errormsg}.</div>\n        </div>\n\n        <div mbr-if=\"showTerms\" class=\"recaptcha-div\">\n                  <p class=\"mbr-section-terms mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-edit=\"content\" data-app-selector=\".mbr-section-terms\">\n                  This form uses Google's reCAPTCHA.</p>\n        </div>\n            \n        <div mbr-if=\"autorespond=='2'\" class=\"send-copy-div\">\n          <p class=\"mbr-section-autorespond mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-edit=\"content\" data-app-selector=\".mbr-section-autorespond\" mbr-if=\"autorespond=='2'\">\n          <input type=\"checkbox\" name=\"autorespond\" value=\"1\">\n          Send me a copy of this message.</p>\n        </div>\n                \n        <div mbr-if=\"showGDPR\" class=\"gdpr-div\">    \n          <p class=\"mbr-section-gdpr mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-edit=\"content\" data-app-selector=\".mbr-section-gdpr\" mbr-if=\"showGDPR\">\n          <input type=\"checkbox\" name=\"GDPR\" value=\"1\" required>&nbsp;Select to agree to our <a href=\"terms.html\" target=\"_blank\">Terms</a>&nbsp;and <a href=\"policy.html\" target=\"_blank\">Privacy Policy</a>.</p>\n        </div>-->\n          <!--\n        <div class=\"sub-btn-config input-group-btn {{alignSubmit}}\" mbr-buttons=\"true\" mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove,-mbrBtnLink,-mbrBtnAdd\"><a type=\"submit\" class=\"sendBtnCornerRadius btn btn-sm btn-form {{alignSubmit}} btn-black\" data-app-placeholder=\"Type Text\">SEND MESSAGE</a></div>\n         --> \n      </form>\n\n    </div>\n  </div>\n</div>\n   \n</section>",
+          "_cid": "8kos7dWctz",
+          "_anchor": "design-block-8kos7dWctz",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "mobigaryfloatform1",
+          "_params": {}
+        }
+      ]
+    }
+  }
+}

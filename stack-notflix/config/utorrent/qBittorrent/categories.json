@@ -1,0 +1,29 @@
+{
+    "IPTSoftware": {
+        "save_path": "/download/ipt/software"
+    },
+    "education": {
+        "save_path": ""
+    },
+    "ipt": {
+        "save_path": ""
+    },
+    "ipt movies": {
+        "save_path": "/download/ipt/movies"
+    },
+    "ipt tv": {
+        "save_path": "/download/ipt/tv"
+    },
+    "lidarr": {
+        "save_path": ""
+    },
+    "movies": {
+        "save_path": ""
+    },
+    "software": {
+        "save_path": ""
+    },
+    "tv": {
+        "save_path": ""
+    }
+}

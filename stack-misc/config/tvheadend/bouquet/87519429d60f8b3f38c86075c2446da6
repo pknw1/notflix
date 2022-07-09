@@ -1,0 +1,22 @@
+{
+	"enabled": true,
+	"maptoch": true,
+	"mapopt": [
+		"mapradio",
+		"encrypted"
+	],
+	"chtag": [
+		"bouquet_tag"
+	],
+	"chtag_ref": "",
+	"name": "iptv",
+	"ext_url": "https://cdn.iptv.memorial/EPG.xml",
+	"ssl_peer_verify": false,
+	"ext_url_period": 60,
+	"source": "exturl://87519429d60f8b3f38c86075c2446da6",
+	"services": {
+	},
+	"services_seen": 0,
+	"comment": "https://cdn.iptv.memorial/EPG.xml",
+	"lcn_off": 0
+}
